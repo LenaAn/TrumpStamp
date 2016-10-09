@@ -10,6 +10,7 @@ from card import CardFactory
 from kivy.animation import Animation
 from player import Player
 import end_screen
+import menu
 from kivy.uix.screenmanager import ScreenManager, Screen, FadeTransition
 from bots import *
 
@@ -34,6 +35,12 @@ class ElectionsGame(Screen):
         super(ElectionsGame, self).__init__(**kwargs)
         self.card_factory = CardFactory(self, cards_csv)
         self.sm = sm
+        self.menu_icon = self.ids['Menu']
+        self.menu_icon.show()
+        self.menu_icon.pos_hint= {'x': .93,
+                                  'y': 0.95}
+        # menu_image = {'image': 'assets/buttons/btn_menu_active.png'}
+        # self.menu_icon.late_init(**menu_image)
 
     def set_bot(self, bot_name):
         """Set bot player."""

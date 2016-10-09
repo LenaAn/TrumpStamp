@@ -64,6 +64,7 @@ class StartScreen(Screen):
         self.credit = CreditScreen(sm, name='credit', menu=self)
         self.sm = sm
 
+
         for i in range(0,4):
             self.icons[i].late_init(**datas[i])
             self.icons[i].show()

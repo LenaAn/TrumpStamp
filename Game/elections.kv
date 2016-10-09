@@ -104,6 +104,15 @@
     border: [0,0,0,0]
     size_hint: 0.125, 0.23
 
+<MenuButton>:
+    canvas:
+        Ellipse:
+            pos: self.pos
+            size: self.size
+
+            source: 'assets/buttons/btn_menu_active.png'
+#            on_press: self.
+
 <ElectionsGame>:
     rotation: 90
     canvas:
@@ -112,6 +121,12 @@
         Rectangle:
             source: 'assets/main_field.png'
             size: self.size
+    MenuButton:
+        id: Menu
+        size_hint: 0.04, 0.05
+        pos_hint: {'x':0.94, 'y':0.93}
+        background_normal: 'assets/buttons/btn_menu_inactive.png'
+        #background_down: 'assets/buttons/btn_menu_active.png'
     Player:
         id: trump_player
         pos_hint: {'x':.2, 'y':0.03}
