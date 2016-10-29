@@ -7,6 +7,12 @@ from credits_screen import CreditScreen
 from rounds_screen import RoundsScreen
 import tracker
 
+def restore_state(func):
+    def decorated(*args, **kwargs):
+        args[1].background_color = (1, 1, 1, 1)
+        return func(*args, **kwargs)
+    return decorated
+
 class Icon(Button):
     """Icon class."""
 
@@ -29,6 +35,9 @@ class Icon(Button):
     def show(self):
         """Set background image."""
         pass
+
+    def on_press(self):
+        self.background_color = (0.5, 0.5, 0.5, 1)
 
 
 class StartScreen(BaseScreen):
@@ -75,12 +84,12 @@ class StartScreen(BaseScreen):
             self.icons[i].size_hint = self.SIZES[0]
             self.icons[i].render()
 
-        self.icons[0].bind(on_press=self.pressed_trump)
-        self.icons[1].bind(on_press=self.pressed_hillary)
-        self.icons[2].bind(on_press=self.pressed_setting)
-        self.icons[3].bind(on_press=self.pressed_credit)
+        self.icons[0].bind(on_release=self.pressed_trump)
+        self.icons[1].bind(on_release=self.pressed_hillary)
+        self.icons[2].bind(on_release=self.pressed_setting)
+        self.icons[3].bind(on_release=self.pressed_credit)
 
-
+    @restore_state
     def pressed_trump(self, *args):
         """Trump choice callback."""
         #self.game.set_bot('hillary')
@@ -90,7 +99,7 @@ class StartScreen(BaseScreen):
         self.rounds.set_bot('hillary')
         self.pressed_round()
 
-
+    @restore_state
     def pressed_hillary(self, *args):
         """Hillary choice callback."""
         #self.game.set_bot('trump')
@@ -100,6 +109,7 @@ class StartScreen(BaseScreen):
         self.rounds.set_bot('trump')
         self.pressed_round()
 
+    @restore_state
     def pressed_setting(self, *args):
 
         if not self.sm.has_screen('settings'):
@@ -107,6 +117,7 @@ class StartScreen(BaseScreen):
 
         self.sm.current = 'settings'
 
+    @restore_state
     def pressed_credit(self, *args):
 
         if not self.sm.has_screen('credit'):

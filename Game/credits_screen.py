@@ -2,6 +2,14 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.button import Button
 from base_screen import BaseScreen
 
+
+def restore_state(func):
+    def decorated(*args, **kwargs):
+        args[1].background_color = (1, 1, 1, 1)
+        return func(*args, **kwargs)
+    return decorated
+
+
 class CreditIcon(Button):
     """Icon class."""
 
@@ -24,8 +32,11 @@ class CreditIcon(Button):
         """Set background image."""
         pass
 
-class CreditScreen(BaseScreen):
+    def on_press(self):
+        self.background_color = (0.5, 0.5, 0.5, 1)
 
+
+class CreditScreen(BaseScreen):
     POSITIONS_X = {0: 700 / 2048.0}
     POSITIONS_Y = {0: (1536. - 1400) / 1536.0}
     SIZES = {0: (730 / 2048.0, (1536 - 1340) / 1536.0)}
@@ -41,11 +52,12 @@ class CreditScreen(BaseScreen):
 
         self.back_button.late_init(**{'name': 'Back', 'image':'assets/credits/btn_back_active.png'})
         self.back_button.show()
-        self.back_button.bind(on_press=self.pressed_back)
+        self.back_button.bind(on_release=self.pressed_back)
         self.back_button.pos_hint = {'x': self.POSITIONS_X[0],
                                      'y': self.POSITIONS_Y[0]}
         self.back_button.size_hint = self.SIZES[0]
         self.back_button.render()
 
+    @restore_state
     def pressed_back(self, *args):
         self.sm.current = 'startscreen'

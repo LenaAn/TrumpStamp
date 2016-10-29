@@ -24,6 +24,13 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 states_csv = os.path.join(SCRIPT_DIR, 'db_states.csv')
 
 
+def restore_state(func):
+    def decorated(*args, **kwargs):
+        args[1].background_color = (1, 1, 1, 1)
+        return func(*args, **kwargs)
+    return decorated
+
+
 class RoundsIcon(Button):
     """Icon class."""
 
@@ -44,6 +51,10 @@ class RoundsIcon(Button):
     def show(self):
         """Set background image."""
         pass
+
+    def on_press(self):
+        self.background_color = (0.5, 0.5, 0.5, 1)
+
 
 class RoundsStats(Label):
     won_states = BoundedNumericProperty(0, min=0)
@@ -196,6 +207,9 @@ class DescriptionScroll(ScrollView):
         self.update_widgets((self.states_db[0]['district'], 0))
 
 
+def darken(instance):
+    print(instance, "juinstance")
+
 
 class RoundsScreen(BaseScreen):
 
@@ -215,7 +229,8 @@ class RoundsScreen(BaseScreen):
         self.back_button = self.ids['Back']
 
         self.back_button.late_init(**{'name': 'Back', 'image': 'assets/settings/btn_back_active.png'})
-        self.back_button.bind(on_press=self.pressed_back)
+        self.back_button.bind(on_release=self.pressed_back)
+        # self.back_button.bind(on_press=darken)
         self.back_button.pos_hint = {'x': self.POSITIONS_X[0],
                                      'y': self.POSITIONS_Y[0]}
         self.back_button.size_hint = self.SIZES[0]
@@ -224,7 +239,8 @@ class RoundsScreen(BaseScreen):
 
         self.play_button = self.ids['Play']
         self.play_button.late_init(**{'name': 'Play'})
-        self.play_button.bind(on_press=self.pressed_play)
+        self.play_button.bind(on_release=self.pressed_play)
+        # self.play_button.bind(on_press=darken)
         self.play_button.pos_hint = {'x': self.POSITIONS_X[1],
                                      'y': self.POSITIONS_Y[0]}
         self.play_button.size_hint = self.SIZES[0]
@@ -277,7 +293,7 @@ class RoundsScreen(BaseScreen):
 
         self.set_new_game()
 
-
+    @restore_state
     def pressed_back(self, *args):
         self.sm.current = 'startscreen'
 
@@ -291,6 +307,7 @@ class RoundsScreen(BaseScreen):
         # if self.game:
         #     self.game.set_bot(self.bot_name)
 
+    @restore_state
     def pressed_play(self, *args):
         state = self.states_scroll.state_selected
         area = self.dist_scroll.area_selected

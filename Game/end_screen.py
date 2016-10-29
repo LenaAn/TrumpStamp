@@ -3,6 +3,14 @@ from kivy.uix.button import Button
 from base_screen import BaseScreen
 import start_screen, rounds_screen, elections_game
 
+
+def restore_state(func):
+    def decorated(*args, **kwargs):
+        args[1].background_color = (1, 1, 1, 1)
+        return func(*args, **kwargs)
+    return decorated
+
+
 class EndGameIcon(Button):
     def __init__(self, **kwargs):
         self.image = None
@@ -18,6 +26,9 @@ class EndGameIcon(Button):
     def show(self):
         self.background_normal = self.image
         self.background_down = self.image
+
+    def on_press(self):
+        self.background_color = (0.5, 0.5, 0.5, 1)
 
 
 class EndScreen(BaseScreen):
@@ -59,7 +70,7 @@ class EndScreen(BaseScreen):
         self.new_game_icon.size_hint = self.SIZES[0]
         self.new_game_icon.render()
 
-        self.new_game_icon.bind(on_press=self.pressed_new_game)
+        self.new_game_icon.bind(on_release=self.pressed_new_game)
 
         self.winner_icon.late_init(**winner_image)
         self.winner_icon.show()
@@ -72,14 +83,15 @@ class EndScreen(BaseScreen):
                                         'y': 0.18}
         self.next_game_icon.size_hint = (0.45, 0.08)
         self.next_game_icon.background_color = (0, 0, 0, 0)
-        self.next_game_icon.bind(on_press=self.pressed_new_game)
+        self.next_game_icon.bind(on_release=self.pressed_new_game)
 
         self.restart_game_icon.pos_hint = {'x': 0.28,
                                            'y': 0.28}
         self.restart_game_icon.size_hint = (0.45, 0.08)
         self.restart_game_icon.background_color = (0, 0, 0, 0)
-        self.restart_game_icon.bind(on_press=self.pressed_restart_game)
+        self.restart_game_icon.bind(on_release=self.pressed_restart_game)
 
+    @restore_state
     def pressed_restart_game(self, *args):
         self.game = elections_game.ElectionsGame(self.sm, name="electionsgame")
         self.game.set_bot(self.bot_name)
@@ -88,6 +100,7 @@ class EndScreen(BaseScreen):
         self.game.set_round(self.round_id, self.state, self.area)
         self.sm.switch_to(self.game)
 
+    @restore_state
     def pressed_new_game(self, *args):
         if not self.bot_name == self.winner_name.lower():
             self.store.put(str(self.round_id), won=True)
