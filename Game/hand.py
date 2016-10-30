@@ -17,6 +17,7 @@ class Hand():
         self.deck = deck
         self.player = deck.get_owner()
         self.cards = [None] * 6
+        self.is_new_card = [False] * 6
 
     def pop_card(self, popped_card):
         """Remove card from hand."""
@@ -43,7 +44,11 @@ class Hand():
             else:
                 pos_hint['y'] = self.POSITIONS_Y[0]
             card.pos_hint = pos_hint
-            card.render()
+            if self.is_new_card[i]:
+                card.render(is_new_card=True)
+                self.is_new_card[i] = False
+            else:
+                card.render()
 
     def refill(self):
         """Refill hand.
@@ -54,6 +59,7 @@ class Hand():
             if not self.cards[i]:
                 new_card = self.deck.pop_card()
                 self.cards[i] = new_card
+                self.is_new_card[i] = True
 
     def update_available_cards(self):
         """Update color of cards.

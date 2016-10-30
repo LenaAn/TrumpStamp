@@ -64,9 +64,15 @@ class Card(Button):
         return (isinstance(other, Card) and other.card_id == self.card_id and
                 other.owner_id == self.owner_id)
 
-    def render(self):
+    def render(self, is_new_card=False):
         """Render card."""
-        self.opacity = 1
+        # self.opacity =
+        if is_new_card:
+            self.opacity = 0
+            (Animation(opacity=0, duration=1) +
+             Animation(opacity=1, duration=1)).start(self)
+        else:
+            self.opacity = 1
         self.disabled = False
         if not self.parent:
             self.game.add_widget(self)
