@@ -59,6 +59,11 @@ class CreditScreen(BaseScreen):
         self.back_button.size_hint = self.SIZES[0]
         self.back_button.render()
 
+        self.credit_text =  self.ids['credit_text']
+        with open('assets/credits/credits_text.txt', 'r') as f:
+            self.credit_text.text = f.read()
+
+
 
     @restore_state
     def pressed_back(self, *args):
