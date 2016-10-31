@@ -16,6 +16,7 @@ from functools import partial
 from kivy.uix.label import Label
 from kivy.storage.jsonstore import JsonStore
 from os.path import join
+from kivy.core.text import Label as CoreLabel
 
 STORE_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -198,10 +199,10 @@ class DescriptionScroll(ScrollView):
         self.pos_hint = kwargs['pos_hint']
         self.size_hint = kwargs['size_hint']
 
-        self.layouts = {i: GridLayout(cols=1, spacing=10, size_hint_y=None) for i in range(len(self.states_db))}
+        self.layouts = {i: GridLayout(cols=1, spacing=0, size_hint_y=None) for i in range(len(self.states_db))}
 
         for i, layout in self.layouts.items():
-            label = Label(text=str(self.states_db[i]['descr']), text_size=(self.width, None), size_hint_y=None, background_color=[1,1,1,0.])
+            label = Label(text=str(self.states_db[i]['descr']), font_size='18 sp', text_size=(self.width, None), size_hint_y=None, background_color=[1,1,1,0.])
             layout.add_widget(label)
 
         self.update_widgets((self.states_db[0]['district'], 0))
@@ -219,7 +220,7 @@ class RoundsScreen(BaseScreen):
     SIZES = {0: (730 / 2048.0, (1536 - 1340) / 1536.0)}
 
 
-    def __init__(self, sm, **kwargs):
+    def __init__(self, sm, **kwargs): 
         """Init start screen."""
         super(RoundsScreen, self).__init__(**kwargs)
         self.sm = sm
@@ -281,8 +282,8 @@ class RoundsScreen(BaseScreen):
         self.descr_scroll = self.ids['DescriptionScroll']
 
         self.descr_scroll.late_init(size_hint=(((2048.0 - 340) / 3) / 2048.0, 880 / 2048.0),
-                                    pos_hint={'x': (138 + 2 * ((2048.0 - 400) / 3) + 120) / 2048.0,
-                                              'y': 400.0 / 1536.0},
+                                    pos_hint={'x': (138 + 2 * ((2048.0 - 550) / 3) + 120) / 2048.0,
+                                              'y': 360.0 / 1536.0},
                                     states_db=states_db)
         self.dist_scroll.late_init(self.descr_scroll, self.store, size_hint=(((2048.0 - 440) / 3) / 2048.0, 880 / 2048.0),
                                    pos_hint={'x': (138 + ((2048.0 - 340) / 3) + 60) / 2048.0, 'y': 400.0 / 1536.0},

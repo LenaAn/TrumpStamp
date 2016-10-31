@@ -1,7 +1,8 @@
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.button import Button
 from base_screen import BaseScreen
-
+from kivy.core.text import Label as CoreLabel
+from kivy.uix.gridlayout import GridLayout
 
 def restore_state(func):
     def decorated(*args, **kwargs):
@@ -57,6 +58,7 @@ class CreditScreen(BaseScreen):
                                      'y': self.POSITIONS_Y[0]}
         self.back_button.size_hint = self.SIZES[0]
         self.back_button.render()
+
 
     @restore_state
     def pressed_back(self, *args):
