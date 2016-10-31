@@ -63,9 +63,9 @@ class StartScreen(BaseScreen):
         """Init start screen."""
         super(StartScreen, self).__init__(**kwargs)
 
-        self.sound = SoundLoader.load(self.sound_start)
-        self.sound.play()
-        self.sound.loop = True
+        #self.sound = SoundLoader.load(self.sound_start)
+        #self.sound.play()
+        #self.sound.loop = True
 
         trump_data = {'name': 'Trump'}
         hillary_data = {'name': 'Hillary'}
@@ -103,7 +103,7 @@ class StartScreen(BaseScreen):
     @restore_state
     def pressed_trump(self, *args):
         """Trump choice callback."""
-        self.sound.stop()
+        #self.sound.stop()
         #self.game.set_bot('hillary')
         #self.sm.switch_to(self.game)
         tracker.tracker.send(tracker.EventBuilder().set(ec="user action",
@@ -114,7 +114,7 @@ class StartScreen(BaseScreen):
     @restore_state
     def pressed_hillary(self, *args):
         """Hillary choice callback."""
-        self.sound.stop()
+        #self.sound.stop()
         #self.game.set_bot('trump')
         #self.sm.switch_to(self.game)
         tracker.tracker.send(tracker.EventBuilder().set(ec="user action",
