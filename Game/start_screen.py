@@ -63,9 +63,9 @@ class StartScreen(BaseScreen):
         """Init start screen."""
         super(StartScreen, self).__init__(**kwargs)
 
-        #self.sound = SoundLoader.load(self.sound_start)
-        #self.sound.play()
-        #self.sound.loop = True
+        self.sound = SoundLoader.load(self.sound_start)
+        self.sound.play()
+        self.sound.loop = True
 
         trump_data = {'name': 'Trump'}
         hillary_data = {'name': 'Hillary'}

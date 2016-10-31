@@ -59,13 +59,13 @@ class EndScreen(BaseScreen):
 
         if self.winner_name == 'Trump':
             self.sound = SoundLoader.load(self.sound_tramp_path)
-            #self.sound.play()
-            #self.sound.loop = True
+            self.sound.play()
+            self.sound.loop = True
             winner_image['image'] = 'assets/T_win.png'
         elif self.winner_name == 'Hillary':
             self.sound = SoundLoader.load(self.sound_hillary_path)
-            #self.sound.play()
-            #self.sound.loop = True
+            self.sound.play()
+            self.sound.loop = True
             winner_image['image'] = 'assets/H_win.png'
 
         self.new_game_icon = self.ids['NewGame']
@@ -109,7 +109,7 @@ class EndScreen(BaseScreen):
 
 
     def pressed_restart_game(self, *args):
-        #self.sound.stop()
+        self.sound.stop()
         self.game = elections_game.ElectionsGame(self.sm, name="electionsgame")
         self.game.set_bot(self.bot_name)
         print('pressed_restart_game')
@@ -119,7 +119,7 @@ class EndScreen(BaseScreen):
 
 
     def pressed_new_game(self, *args):
-        #self.sound.stop()
+        self.sound.stop()
         if not self.bot_name == self.winner_name.lower():
             self.store.put(str(self.round_id), won=True)
         print('pressed_new_game')
