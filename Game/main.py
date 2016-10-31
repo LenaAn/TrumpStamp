@@ -10,6 +10,7 @@ import end_screen
 import tracker
 #from plyer.facades.uniqueid import UniqueID
 from kivy.storage.jsonstore import JsonStore
+# from kivy.core.audio import SoundLoader
 
 APP_VERSION = "1.0.0"
 
@@ -22,6 +23,7 @@ class ElectionsApp(App):
     start_screen_name = "startscreen"
     end_screen_name = "endscreen"
     game_screen_name = "electionsgame"
+
 
     def build(self):
         """Init screen manager."""
@@ -42,4 +44,10 @@ if __name__ == '__main__':
     tracker.ScreenViewBuilder.set_defaults(an="TrumpStamp",
                                            av=APP_VERSION,
                                            aid="com.trumpstamp.trumpstamp")
+    # sound
+    # sound = SoundLoader.load('music/The_Low_Seas.mp3')
+    # if sound:
+    #     print("Sound found at %s" % sound.source)
+    #     print("Sound is %.3f seconds" % sound.length)
+    #     sound.play()
     ElectionsApp().run()
