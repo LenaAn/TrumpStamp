@@ -30,6 +30,9 @@ class Player(Widget):
         self.player_name = None
         self.stats = None
 
+    def __str__(self):
+        return str(type(self))
+
     def late_init(self, **kwargs):
         """Init player resources."""
         self.player_id = kwargs.pop('player_id')
@@ -41,7 +44,7 @@ class Player(Widget):
         self.stats = kwargs
         for prop_name, value in self.stats.items():
             self.property(prop_name).set(self, value)
-        
+
         self.RESOURSES = {1: 'news', 2: 'cash', 3: 'hype'}
         self.ACTIONS = {1: ['swing'], 2: ['partisans'], 3: ['news'], 4: ['hype'], 5: ['cash'],
                         6: ['media'], 7: ['mojo'], 8: ['money'], 9:  ['news', 'hype', 'cash'],

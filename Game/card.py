@@ -54,6 +54,8 @@ class Card(Button):
         self.zoomed_in = False
         self.is_bot = self.game.PLAYERS[self.owner_id].is_bot()
         self.free_turn = False
+        self.i = 0
+        self.j = 0
 
     def __repr__(self):
         """String representation of the card."""
@@ -66,9 +68,15 @@ class Card(Button):
         return (isinstance(other, Card) and other.card_id == self.card_id and
                 other.owner_id == self.owner_id)
 
-    def render(self):
+    def render(self, is_new_card=False):
         """Render card."""
-        self.opacity = 1
+        print("Render called on {}, is_new_card={}".format(self, is_new_card))
+        if is_new_card:
+            self.opacity = 0
+            (Animation(duration=0.3) +
+             Animation(opacity=1, duration=0.3)).start(self)
+        else:
+            self.opacity = 1
         self.disabled = False
         if not self.parent:
             self.game.add_widget(self)
@@ -92,17 +100,20 @@ class Card(Button):
 
     def set_free_turn(self, is_free_turn):
         self.free_turn = is_free_turn
-    
+
     def use(self):
         """Perform usage animation."""
         # print('this card was selected to USE on this turn')
         # print(self)
-        if self.game.card_clicked(self):
+        print("Select use")
+        used, counter = self.game.card_clicked(self)
+        if used:
+            print("self.game.card_clicked returned True")
             self.bring_to_front()
             if self.is_bot:
-                anim = (Animation(d=DELAY_TIME) + self._build_use_anim())
+                anim = (Animation(d=DELAY_TIME) + self._build_use_anim(counter))
             else:
-                anim = self._build_use_anim()
+                anim = self._build_use_anim(counter)
             if Card.current_zoomed_in_card is not None:
                 Card.current_zoomed_in_card.zoom_out()
             anim.start(self)
@@ -115,6 +126,8 @@ class Card(Button):
         # print('this card was selected to DROP on this turn')
         # print(self)
         if self.game.card_dropped(self):
+
+            print("Doing drop on {}".format(self))
             if Card.current_zoomed_in_card is not None:
                 Card.current_zoomed_in_card.zoom_out()
             if self.is_bot:
@@ -164,7 +177,7 @@ class Card(Button):
         return (Animation(size_hint=self.normal_size,
                           duration=0.25))
 
-    def _build_use_anim(self):
+    def _build_use_anim(self, counter):
         """Build usage animation object."""
         x_key, x_val = self.get_x_key_val()
         y_key, y_val = self.get_y_key_val()
@@ -197,14 +210,11 @@ class Card(Button):
         #                       duration=0.5) + Animation(duration=5)
         if self.owner_id:
             x_pos = 848.0
-            i += 1
-            rotate_angle = angle[i % 5]
         else:
             x_pos = 1194.0
-            j += 1
-            rotate_angle = angle[j % 5]
+        rotate_angle = ROTATE_ANGLE[counter % 5]
         anim += Animation(pos_hint={'center_x': x_pos / 2048.0,
-                                   'center_y':  y_pos / 1536.0},
+                                    'center_y': y_pos / 1536.0},
                           angle=rotate_angle,
                           duration=0.5)
         return anim

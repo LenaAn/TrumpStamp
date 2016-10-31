@@ -30,8 +30,9 @@ class Hand():
         """Check if card is in hand."""
         return card in self.cards
 
-    def render_cards(self):
+    def render_cards(self, just_turn=False):
         """Render hand cards."""
+        print("Render called on {}".format(self.player))
         self.update_available_cards()
         for i, card in enumerate(self.cards):
             if self.player.active and not self.player.is_bot():
@@ -44,17 +45,19 @@ class Hand():
             else:
                 pos_hint['y'] = self.POSITIONS_Y[0]
             card.pos_hint = pos_hint
-            if self.is_new_card[i]:
-                card.render(is_new_card=True)
-                self.is_new_card[i] = False
-            else:
-                card.render()
+            if not just_turn:
+                if self.is_new_card[i]:
+                    card.render(is_new_card=True)
+                    self.is_new_card[i] = False
+                else:
+                    card.render()
 
     def refill(self):
         """Refill hand.
 
         Draw missing cards from deck.
         """
+        print("Refill called on {}".format(self.player))
         for i in xrange(len(self.cards)):
             if not self.cards[i]:
                 new_card = self.deck.pop_card()

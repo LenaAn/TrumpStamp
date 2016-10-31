@@ -183,14 +183,16 @@ class ElectionsGame(BaseScreen):
         else:
             print 'No victory condition set!'
 
-    def card_clicked(self, card):
-        """Card click callback."""
+    def get_updated_counter(self, card):
         if card.get_owner():
             self.card_counter_trump += 1
-            rotate_counter = self.card_counter_trump
+            return self.card_counter_trump
         else:
             self.card_counter_hillary += 1
-            rotate_counter = self.card_counter_hillary
+            return self.card_counter_hillary
+
+    def card_clicked(self, card):
+        """Card click callback."""
         player = self.PLAYERS[card.get_owner()]
         opponent = self.PLAYERS[abs(card.get_owner() - 1)]
         free_turn = False
@@ -200,7 +202,7 @@ class ElectionsGame(BaseScreen):
                 tracker.tracker.send(tracker.EventBuilder().set(ec="user action",
                                                                 ea="clicked card {}".format(repr(card))).build())
             if not player.pay_for_card(*card.get_cost()):
-                return False, rotate_counter
+                return False, None
             player.get_hand().pop_card(card)
             if player.is_bot():
                 card.show()
@@ -221,7 +223,7 @@ class ElectionsGame(BaseScreen):
                 tracker.tracker.send(tracker.EventBuilder().set(ec="victory",
                                                                 ea="{} ({}) won".format(winner, bot_str)).build())
                 self.end_game(winner)
-                return True, rotate_counter
+                return True, self.get_updated_counter(card)
 
             if free_turn:
                 card.set_free_turn(True)
@@ -239,12 +241,12 @@ class ElectionsGame(BaseScreen):
                 player.get_hand().render_cards()
                 opponent.set_active(True)
                 if not opponent.is_bot():
-                    opponent.get_hand().render_cards()
+                    opponent.get_hand().render_cards(just_turn=True)
 
-            return True, rotate_counter
+            return True, self.get_updated_counter(card)
         else:
             #print 'IT IS NOT YOUR TURN!!!!'
-            return False, rotate_counter
+            return False, None
 
     def card_dropped(self, card):
         """Card drop callback."""
@@ -261,7 +263,7 @@ class ElectionsGame(BaseScreen):
             player.get_hand().render_cards()
             opponent.set_active(True)
             if not opponent.is_bot():
-                opponent.get_hand().render_cards()
+                opponent.get_hand().render_cards(just_turn=True)
             is_victory, winner = self.declare_victory()
             if is_victory:
                 self.end_game(winner)
