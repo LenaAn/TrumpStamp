@@ -6,7 +6,7 @@ from kivy.core.audio import SoundLoader
 
 def restore_state(func):
     def decorated(*args, **kwargs):
-        args[1].background_color = (1, 1, 1, 1)
+        args[1].background_color = (0.5, 0.5, 0.5, 0.5)
         return func(*args, **kwargs)
     return decorated
 
@@ -61,12 +61,12 @@ class EndScreen(BaseScreen):
             self.sound = SoundLoader.load(self.sound_tramp_path)
             self.sound.play()
             self.sound.loop = True
-            winner_image['image'] = 'assets/win_trump.png'
+            winner_image['image'] = 'assets/T_win.png'
         elif self.winner_name == 'Hillary':
             self.sound = SoundLoader.load(self.sound_hillary_path)
             self.sound.play()
             self.sound.loop = True
-            winner_image['image'] = 'assets/win_hillary.png'
+            winner_image['image'] = 'assets/H_win.png'
 
         self.new_game_icon = self.ids['NewGame']
         self.winner_icon = self.ids['Winner']
@@ -94,16 +94,20 @@ class EndScreen(BaseScreen):
         self.next_game_icon.pos_hint = {'x': 0.28,
                                         'y': 0.18}
         self.next_game_icon.size_hint = (0.45, 0.08)
-        self.next_game_icon.background_color = (0, 0, 0, 0)
+        self.next_game_icon.background_normal = 'assets/buttons/{}_A_next.png'.format(self.winner_name[0])
+        self.next_game_icon.background_down = 'assets/buttons/{}_P_next.png'.format(self.winner_name[0])
         self.next_game_icon.bind(on_release=self.pressed_new_game)
 
         self.restart_game_icon.pos_hint = {'x': 0.28,
                                            'y': 0.28}
         self.restart_game_icon.size_hint = (0.45, 0.08)
-        self.restart_game_icon.background_color = (0, 0, 0, 0)
+        self.restart_game_icon.background_normal = 'assets/buttons/{}_A_rest.png'.format(self.winner_name[0])
+        self.restart_game_icon.background_down = 'assets/buttons/{}_P_rest.png'.format(self.winner_name[0])
+
+        self.next_game_icon.bind(on_release=self.pressed_new_game)
         self.restart_game_icon.bind(on_release=self.pressed_restart_game)
 
-    @restore_state
+
     def pressed_restart_game(self, *args):
         self.sound.stop()
         self.game = elections_game.ElectionsGame(self.sm, name="electionsgame")
@@ -113,13 +117,13 @@ class EndScreen(BaseScreen):
         self.game.set_round(self.round_id, self.state, self.area)
         self.sm.switch_to(self.game)
 
-    @restore_state
+
     def pressed_new_game(self, *args):
         self.sound.stop()
         if not self.bot_name == self.winner_name.lower():
             self.store.put(str(self.round_id), won=True)
         print('pressed_new_game')
-        #start_screen_ = start_screen.StartScreen(self.sm, name="startscreen")
+        self.menu_screen = start_screen.StartScreen(self.sm, name="startscreen")
         self.menu_screen.rounds = rounds_screen.RoundsScreen(self.sm, name='rounds', menu=self.menu_screen)
         self.menu_screen.rounds.set_bot(self.bot_name)
         self.sm.switch_to(self.menu_screen.rounds)
