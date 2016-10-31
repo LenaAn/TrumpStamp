@@ -58,6 +58,25 @@
         background_normal: 'assets/settings/btn_back_active.png'
         background_down: 'assets/settings/btn_back_active.png'
 
+    Label:
+        pos_hint: {"x": 0.15, "y": 0.55}
+        size_hint: 0.65, 0.15
+        # size_hint: (0.2, 0.2)
+        text: "[ ] Quite mode\nNo music of sound effects if checked"
+        font_size: '25 dp'
+        id: check_box_1
+        font_hinting: "mono"
+
+
+    Label:
+        pos_hint: {"x": 0.15, "y": 0.35}
+        size_hint: 0.65, 0.15
+        # size_hint: (0.2, 0.2)
+        text: "[ ] Open Play\nOpponent's cards are visible if checked"
+        font_size: '25 dp'
+        id: check_box_2
+        font_hinting: "mono"
+
 
 <RoundsIcon>
     border: [0,0,0,0]
@@ -329,4 +348,3 @@
         font_size: '22 sp'
         bold: False
         text: str(trump_player.state_area)
-
