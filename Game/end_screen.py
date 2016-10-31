@@ -33,8 +33,8 @@ class EndGameIcon(Button):
 
 class EndScreen(BaseScreen):
 
-    sound_tramp_path = 'assets/sounds/tramp_sound.mp3'
-    sound_hillary_path = 'assets/sounds/hillary_sound.mp3'
+    sound_tramp_path = 'assets/sounds/tramp_sound.wav'
+    sound_hillary_path = 'assets/sounds/hillary_sound.wav'
 
     POSITIONS_X = {0: 653 / 2048.0,
                    1: 668 / 2048.0}
