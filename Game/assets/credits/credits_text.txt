@@ -1,14 +1,10 @@
 your text goes here - assets/credits/credits_text.txt
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+your text goes here - assets/credits/credits_text.txt
+your text goes here - assets/credits/credits_text.txt
+your text goes here - assets/credits/credits_text.txt
+your text goes here - assets/credits/credits_text.txt
+your text goes here - assets/credits/credits_text.txt
+your text goes here - assets/credits/credits_text.txt your text goes here
+your text goes here - assets/credits/credits_text.txt
+your text goes here - assets/credits/credits_text.txt
+your text goes here - assets/credits/credits_text.txt
