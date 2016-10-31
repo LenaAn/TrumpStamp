@@ -49,6 +49,8 @@ class ElectionsGame(BaseScreen):
         self.round_id = None
         self.state = None
         self.area = None
+        self.card_counter_hillary = 0
+        self.card_counter_trump = 0
 
     def set_store(self, store):
         self.store = store
@@ -183,6 +185,12 @@ class ElectionsGame(BaseScreen):
 
     def card_clicked(self, card):
         """Card click callback."""
+        if card.get_owner():
+            self.card_counter_trump += 1
+            rotate_counter = self.card_counter_trump
+        else:
+            self.card_counter_hillary += 1
+            rotate_counter = self.card_counter_hillary
         player = self.PLAYERS[card.get_owner()]
         opponent = self.PLAYERS[abs(card.get_owner() - 1)]
         free_turn = False
@@ -192,7 +200,7 @@ class ElectionsGame(BaseScreen):
                 tracker.tracker.send(tracker.EventBuilder().set(ec="user action",
                                                                 ea="clicked card {}".format(repr(card))).build())
             if not player.pay_for_card(*card.get_cost()):
-                return False
+                return False, rotate_counter
             player.get_hand().pop_card(card)
             if player.is_bot():
                 card.show()
@@ -213,7 +221,7 @@ class ElectionsGame(BaseScreen):
                 tracker.tracker.send(tracker.EventBuilder().set(ec="victory",
                                                                 ea="{} ({}) won".format(winner, bot_str)).build())
                 self.end_game(winner)
-                return True
+                return True, rotate_counter
 
             if free_turn:
                 card.set_free_turn(True)
@@ -233,10 +241,10 @@ class ElectionsGame(BaseScreen):
                 if not opponent.is_bot():
                     opponent.get_hand().render_cards()
 
-            return True
+            return True, rotate_counter
         else:
             #print 'IT IS NOT YOUR TURN!!!!'
-            return False
+            return False, rotate_counter
 
     def card_dropped(self, card):
         """Card drop callback."""

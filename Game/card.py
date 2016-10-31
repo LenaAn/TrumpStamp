@@ -9,8 +9,7 @@ import os
 
 ZOOM_SCALE_FACTOR = 1.5
 DELAY_TIME = 0.5
-ROTATE_ANGEL = 10
-
+ROTATE_ANGLE = [-20, 0, 20, 0]
 
 class Card(Button):
     """Card class.
@@ -21,6 +20,7 @@ class Card(Button):
     # Workaround, need to use Deck instead
     current_zoomed_in_card = None
     angle = NumericProperty(0)
+
 
     def __init__(self, **kwargs):
         """Set card attributes."""
@@ -35,6 +35,8 @@ class Card(Button):
         self.image = kwargs.pop('image_path')
         self.background = kwargs.pop('background')
         self.sound_path = kwargs.pop('sound')
+        self.rotate_angle_trump = 0
+        self.rotate_angle_hillary = 0
         super(Card, self).__init__(**kwargs)
 
         self.background_normal = self.background
@@ -68,6 +70,7 @@ class Card(Button):
         """Render card."""
         self.opacity = 1
         self.disabled = False
+        self.angle = 0
         if not self.parent:
             self.game.add_widget(self)
 
@@ -90,16 +93,18 @@ class Card(Button):
 
     def set_free_turn(self, is_free_turn):
         self.free_turn = is_free_turn
+    
     def use(self):
         """Perform usage animation."""
         # print('this card was selected to USE on this turn')
         # print(self)
-        if self.game.card_clicked(self):
+        played, rotate_counter = self.game.card_clicked(self)
+        if played:
             self.bring_to_front()
             if self.is_bot:
-                anim = (Animation(d=DELAY_TIME) + self._build_use_anim())
+                anim = (Animation(d=DELAY_TIME) + self._build_use_anim(rotate_counter))
             else:
-                anim = self._build_use_anim()
+                anim = self._build_use_anim(rotate_counter)
             if Card.current_zoomed_in_card is not None:
                 Card.current_zoomed_in_card.zoom_out()
             anim.start(self)
@@ -161,7 +166,7 @@ class Card(Button):
         return (Animation(size_hint=self.normal_size,
                           duration=0.25))
 
-    def _build_use_anim(self):
+    def _build_use_anim(self, rotate_counter):
         """Build usage animation object."""
         x_key, x_val = self.get_x_key_val()
         y_key, y_val = self.get_y_key_val()
@@ -179,26 +184,28 @@ class Card(Button):
         }
         y_pos = 728.0
         anim = Animation(d=0.1)
-        if self.free_turn:
-            if self.owner_id:
-                x_first_pos = 718.0
-                rotate_angle = ROTATE_ANGEL
+        # if self.free_turn:
+        #     if self.owner_id:
+        #         x_first_pos = 718.0
+        #         rotate_angle = ROTATE_ANGEL
 
-            else:
-                x_first_pos = 1328.0
-                rotate_angle = -ROTATE_ANGEL
+        #     else:
+        #         x_first_pos = 1328.0
+        #         rotate_angle = -ROTATE_ANGEL
 
-            anim += Animation(pos_hint={'center_x': x_first_pos / 2048.0,
-                                   'center_y':  y_pos / 1536.0},
-                              angle=rotate_angle,
-                              duration=0.5) + Animation(duration=5)
+        #     anim += Animation(pos_hint={'center_x': x_first_pos / 2048.0,
+        #                            'center_y':  y_pos / 1536.0},
+        #                       angle=rotate_angle,
+        #                       duration=0.5) + Animation(duration=5)
         if self.owner_id:
             x_pos = 848.0
+            rotate_angle = ROTATE_ANGLE[rotate_counter % 4]
         else:
             x_pos = 1194.0
+            rotate_angle = ROTATE_ANGLE[rotate_counter % 4]
         anim += Animation(pos_hint={'center_x': x_pos / 2048.0,
                                    'center_y':  y_pos / 1536.0},
-                          angle=0,
+                          angle=rotate_angle,
                           duration=0.5)
         return anim
 
