@@ -2,6 +2,11 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from base_screen import BaseScreen
 from kivy.uix.button import Button
 from kivy.uix.checkbox import CheckBox
+from kivy.storage.jsonstore import JsonStore
+from sound_manager import SoundManager
+import os
+
+STORE_DIR = os.path.dirname(os.path.realpath(__file__))
 
 
 def restore_state(func):
@@ -16,13 +21,13 @@ class SettingIcon(Button):
 
     def __init__(self, **kwargs):
         """Init icon."""
-        self.name = None# kwargs['name']
+        self.name = None  # kwargs['name']
         super(SettingIcon, self).__init__()
 
     def late_init(self, **kwargs):
         """Populate icon."""
         self.name = kwargs['name']
-        #self.image = kwargs['image']
+        # self.image = kwargs['image']
 
     def render(self):
         if not self.parent:
@@ -35,6 +40,7 @@ class SettingIcon(Button):
     def on_press(self):
         self.background_color = (0.5, 0.5, 0.5, 1)
 
+
 class SettingsScreen(BaseScreen):
 
     POSITIONS_X = {0: 728 / 2048.0}
@@ -42,7 +48,7 @@ class SettingsScreen(BaseScreen):
     SIZES = {0: (730 / 2048.0, (1536 - 1340) / 1536.0)}
 
     def __init__(self, sm, **kwargs):
-        """Init start screen."""
+        """Init settings screen."""
         super(SettingsScreen, self).__init__(**kwargs)
         self.sm = sm
         self.name = kwargs['name']
@@ -58,9 +64,22 @@ class SettingsScreen(BaseScreen):
         self.back_button.render()
         self.back_button.show()
 
+        self.settings_store = JsonStore(os.path.join(STORE_DIR, 'settings.json'))
         self.check_box_1 = self.ids['check_box_1']
+        if self.settings_store.exists('quiet'):
+            checked = self.settings_store.get('quiet')
+            box = "[x]" if checked else "[ ]"
+            if checked:
+                SoundManager.set_volume(0)
+            else:
+                SoundManager.set_volume(1)
+            self.check_box_1.text = box + self.check_box_1.text[3:]
         self.check_box_1.show_area()
         self.check_box_2 = self.ids['check_box_2']
+        if self.settings_store.exists('open_play'):
+            checked = self.settings_store.get('open_play')
+            box = "[x]" if checked else "[ ]"
+            self.check_box_2.text = box + self.check_box_2.text[3:]
         self.check_box_2.show_area()
 
 
@@ -70,9 +89,12 @@ class SettingsScreen(BaseScreen):
             base_text = self.check_box_1.text[3:]
             if self.check_box_1.text[:3] == "[ ]":
                 self.check_box_1.text = "[x]" + base_text
+                self.settings_store.put('quiet', checked=True)
+                SoundManager.set_volume(0)
             else:
                 self.check_box_1.text = "[ ]" + base_text
-
+                self.settings_store.put('quiet', checked=False)
+                SoundManager.set_volume(1)
             return True
 
         if self.check_box_2.collide_point(*touch.pos):
@@ -80,20 +102,20 @@ class SettingsScreen(BaseScreen):
             base_text = self.check_box_2.text[3:]
             if self.check_box_2.text[:3] == "[ ]":
                 self.check_box_2.text = "[x]" + base_text
+                self.settings_store.put('open_play', checked=True)
             else:
                 self.check_box_2.text = "[ ]" + base_text
+                self.settings_store.put('open_play', checked=False)
             return True
-
-
         return super(SettingsScreen, self).on_touch_down(touch)
 
 
     @restore_state
     def pressed_back(self, *args):
-        #self.sm.add_widget(self.menu_screen)
+        # self.sm.add_widget(self.menu_screen)
         self.sm.current = 'startscreen'
-        #print "pressed back"
-        #self.sm.switch_to(self.menu_screen)
+        # print "pressed back"
+        # self.sm.switch_to(self.menu_screen)
 
     def test_check_box_press(self, *args):
         print "Pressed"

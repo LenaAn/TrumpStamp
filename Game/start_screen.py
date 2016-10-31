@@ -6,8 +6,7 @@ from settings_screen import SettingsScreen
 from credits_screen import CreditScreen
 from rounds_screen import RoundsScreen
 import tracker
-from kivy.core.audio import SoundLoader
-
+from sound_manager import SoundManager
 
 
 def restore_state(func):
@@ -63,9 +62,7 @@ class StartScreen(BaseScreen):
         """Init start screen."""
         super(StartScreen, self).__init__(**kwargs)
 
-        self.sound = SoundLoader.load(self.sound_start)
-        self.sound.play()
-        self.sound.loop = True
+        SoundManager.play_audio(self.sound_start, loop=True)
 
         trump_data = {'name': 'Trump'}
         hillary_data = {'name': 'Hillary'}
@@ -103,9 +100,9 @@ class StartScreen(BaseScreen):
     @restore_state
     def pressed_trump(self, *args):
         """Trump choice callback."""
-        self.sound.stop()
-        #self.game.set_bot('hillary')
-        #self.sm.switch_to(self.game)
+        SoundManager.stop_audio(self.sound_start)
+        # self.game.set_bot('hillary')
+        # self.sm.switch_to(self.game)
         tracker.tracker.send(tracker.EventBuilder().set(ec="user action",
                                                         ea="selected trump").build())
         self.rounds.set_bot('hillary')
@@ -114,7 +111,7 @@ class StartScreen(BaseScreen):
     @restore_state
     def pressed_hillary(self, *args):
         """Hillary choice callback."""
-        self.sound.stop()
+        SoundManager.stop_audio(self.sound_start)
         #self.game.set_bot('trump')
         #self.sm.switch_to(self.game)
         tracker.tracker.send(tracker.EventBuilder().set(ec="user action",

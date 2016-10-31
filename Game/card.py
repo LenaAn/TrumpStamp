@@ -1,7 +1,6 @@
 """Card module."""
 from kivy.animation import Animation
 from kivy.properties import NumericProperty
-from kivy.core.window import Window
 from kivy.uix.button import Button
 from sound_manager import SoundManager
 import csv
@@ -10,6 +9,7 @@ import os
 ZOOM_SCALE_FACTOR = 1.5
 DELAY_TIME = 0.5
 ROTATE_ANGLE = [-20, -20, 0, 10, 20]
+
 
 class Card(Button):
     """Card class.
@@ -70,6 +70,7 @@ class Card(Button):
 
     def render(self, is_new_card=False):
         """Render card."""
+        self.angle = 0
         print("Render called on {}, is_new_card={}".format(self, is_new_card))
         if is_new_card:
             self.opacity = 0
@@ -134,6 +135,7 @@ class Card(Button):
                 anim = Animation(d=DELAY_TIME) + self._build_drop_anim()
             else:
                 anim = self._build_drop_anim()
+
             def on_complete(*args, **kwargs):
                 self.disabled = True
             anim.bind(on_complete=on_complete)
