@@ -41,7 +41,11 @@ class Card(Button):
 
         self.background_normal = self.background
         self.background_down = self.background
-        self.background_disabled_normal = self.background
+
+        if self.owner_id == 0:
+            self.background_disabled_normal = 'assets/cards/trump/0000.png'
+        else:
+            self.background_disabled_normal = 'assets/cards/hillary/1000.png'
         self.counter_for_expand = 0
         self.touch_moving = False
         self.touch_moving = False

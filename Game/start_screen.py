@@ -45,7 +45,7 @@ class Icon(Button):
 class StartScreen(BaseScreen):
     """Start screen class."""
 
-    sound_start = 'assets/sounds/cnn_election.mp3'
+    sound_start = 'assets/sounds/cnn_election.wav'
 
     POSITIONS_X = {0: 1128 / 2048.0,
                    1: 190 / 2048.0,

@@ -10,6 +10,7 @@ echo "==================== BUILDING APK FOR armeabi-v7a ======================="
 
 p4a apk --private $PWD/Game --orientation landscape --icon $PWD/Game/assets/icon.png \
         --permission android.permission.INTERNET \
+	--presplash Game/assets/start/start_3_0.png \
         --package=org.trumpstamp.trumpstamp --name "TrumpStamp" \
 	--dist-name trumpstamp-armeabi-v7a \
         --version $1 --bootstrap=sdl2 --requirements=python2,kivy,pyjnius --arch=armeabi-v7a
@@ -21,6 +22,7 @@ echo "==================== BUILDING APK FOR x86 ======================="
 p4a apk --private $PWD/Game --orientation landscape --icon $PWD/Game/assets/icon.png \
 	--package=org.trumpstamp.trumpstamp --name "TrumpStamp" \
         --permission android.permission.INTERNET \
+	--presplash Game/assets/start/start_3_0.png \
 	--dist-name trumpstamp-x86 \
 	--version $1 --bootstrap=sdl2 --requirements=python2,kivy,pyjnius --arch=x86
 

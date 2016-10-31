@@ -12,6 +12,10 @@
     size: self.size
 
 <StartScreen>:
+    #width: 4.0/3*self.height
+    # size_hint_y: None
+    #size_hint_x: None
+    #anchor_x: "center"
     rotation: 90
     canvas:
         Color:
@@ -163,7 +167,9 @@
 <EndGameIcon>:
     border: [0,0,0,0]
     size_hint: 1., 1.
-    on_press: pass
+    background_normal: self.background_normal
+    background_down: self.background_down
+
 
 <EndScreen>
     rotation: 90
@@ -171,7 +177,7 @@
         Color:
             rgb: 1, 1, 1
         Rectangle:
-            source: 'assets/settings/mockup_end_screen_3_0.png'
+            source: 'assets/green.png'
             size: self.size
 
     EndGameIcon:
