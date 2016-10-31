@@ -9,7 +9,8 @@ import os
 ZOOM_SCALE_FACTOR = 1.5
 DELAY_TIME = 0.5
 ROTATE_ANGLE = [-20, -20, 0, 10, 20]
-
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+cards = None
 
 class Card(Button):
     """Card class.
@@ -20,6 +21,7 @@ class Card(Button):
     # Workaround, need to use Deck instead
     current_zoomed_in_card = None
     angle = NumericProperty(0)
+    open_mode = False
 
 
     def __init__(self, **kwargs):
@@ -38,10 +40,12 @@ class Card(Button):
         self.rotate_angel_trump = 0
         self.rotate_angel_hillary = 0
         super(Card, self).__init__(**kwargs)
-
-        self.background_normal = self.background
-        self.background_down = self.background
-
+        if not Card.open_mode:
+            self.background_normal = self.background
+            self.background_down = self.background
+        else:
+            self.background_normal = self.image
+            self.background_down = self.image
         if self.owner_id == 0:
             self.background_disabled_normal = 'assets/cards/trump/0000.png'
         else:
@@ -100,8 +104,10 @@ class Card(Button):
         self.background_down = self.image
 
     def hide(self):
-        self.background_normal = self.background
-        self.background_down = self.background
+        print(Card.open_mode)
+        if not Card.open_mode:
+            self.background_normal = self.background
+            self.background_down = self.background
 
     def set_free_turn(self, is_free_turn):
         self.free_turn = is_free_turn
@@ -402,7 +408,9 @@ class CardFactory(object):
         card = Card(game=self.game, **card_data)
         return card
 
+def recreate_cards():
+    global cards
+    cards = CardFactory(None, os.path.join(SCRIPT_DIR, 'cards.csv'))
 
 if __name__ == '__main__':
-    SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-    cards = CardFactory(None, os.path.join(SCRIPT_DIR, 'cards.csv'))
+    recreate_cards()

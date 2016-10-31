@@ -4,6 +4,7 @@ from kivy.uix.button import Button
 from kivy.uix.checkbox import CheckBox
 from kivy.storage.jsonstore import JsonStore
 from sound_manager import SoundManager
+from card import Card
 import os
 
 STORE_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -67,9 +68,9 @@ class SettingsScreen(BaseScreen):
         self.settings_store = JsonStore(os.path.join(STORE_DIR, 'settings.json'))
         self.check_box_1 = self.ids['check_box_1']
         if self.settings_store.exists('quiet'):
-            checked = self.settings_store.get('quiet')
-            box = "[x]" if checked else "[ ]"
-            if checked:
+            quiet = self.settings_store.get('quiet')
+            box = "[x]" if quiet['checked'] else "[ ]"
+            if quiet['checked']:
                 SoundManager.set_volume(0)
             else:
                 SoundManager.set_volume(1)
@@ -77,8 +78,12 @@ class SettingsScreen(BaseScreen):
         self.check_box_1.show_area()
         self.check_box_2 = self.ids['check_box_2']
         if self.settings_store.exists('open_play'):
-            checked = self.settings_store.get('open_play')
-            box = "[x]" if checked else "[ ]"
+            open_play = self.settings_store.get('open_play')
+            if open_play['checked']:
+                Card.open_mode = True
+            else:
+                Card.open_mode = False
+            box = "[x]" if open_play['checked'] else "[ ]"
             self.check_box_2.text = box + self.check_box_2.text[3:]
         self.check_box_2.show_area()
 
@@ -102,9 +107,11 @@ class SettingsScreen(BaseScreen):
             base_text = self.check_box_2.text[3:]
             if self.check_box_2.text[:3] == "[ ]":
                 self.check_box_2.text = "[x]" + base_text
+                Card.open_mode = True
                 self.settings_store.put('open_play', checked=True)
             else:
                 self.check_box_2.text = "[ ]" + base_text
+                Card.open_mode = False
                 self.settings_store.put('open_play', checked=False)
             return True
         return super(SettingsScreen, self).on_touch_down(touch)
