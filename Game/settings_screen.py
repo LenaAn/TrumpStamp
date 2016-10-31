@@ -72,6 +72,7 @@ class SettingsScreen(BaseScreen):
                 self.check_box_1.text = "[x]" + base_text
             else:
                 self.check_box_1.text = "[ ]" + base_text
+
             return True
 
         if self.check_box_2.collide_point(*touch.pos):
