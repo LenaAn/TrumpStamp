@@ -75,7 +75,7 @@ class SettingsScreen(BaseScreen):
             else:
                 SoundManager.set_volume(1)
             self.check_box_1.text = box + self.check_box_1.text[3:]
-        self.check_box_1.show_area()
+        # self.check_box_1.show_area()
         self.check_box_2 = self.ids['check_box_2']
         if self.settings_store.exists('open_play'):
             open_play = self.settings_store.get('open_play')
@@ -85,7 +85,7 @@ class SettingsScreen(BaseScreen):
                 Card.open_mode = False
             box = "[x]" if open_play['checked'] else "[ ]"
             self.check_box_2.text = box + self.check_box_2.text[3:]
-        self.check_box_2.show_area()
+        # self.check_box_2.show_area()
 
 
     def on_touch_down(self, touch):
