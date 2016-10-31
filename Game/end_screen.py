@@ -123,7 +123,7 @@ class EndScreen(BaseScreen):
         if not self.bot_name == self.winner_name.lower():
             self.store.put(str(self.round_id), won=True)
         print('pressed_new_game')
-        #start_screen_ = start_screen.StartScreen(self.sm, name="startscreen")
+        self.menu_screen = start_screen.StartScreen(self.sm, name="startscreen")
         self.menu_screen.rounds = rounds_screen.RoundsScreen(self.sm, name='rounds', menu=self.menu_screen)
         self.menu_screen.rounds.set_bot(self.bot_name)
         self.sm.switch_to(self.menu_screen.rounds)
