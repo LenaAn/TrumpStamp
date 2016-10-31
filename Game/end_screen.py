@@ -2,7 +2,7 @@ from kivy.uix.screenmanager import ScreenManager, Screen, FadeTransition
 from kivy.uix.button import Button
 from base_screen import BaseScreen
 import start_screen, rounds_screen, elections_game
-
+from kivy.core.audio import SoundLoader
 
 def restore_state(func):
     def decorated(*args, **kwargs):
@@ -32,6 +32,10 @@ class EndGameIcon(Button):
 
 
 class EndScreen(BaseScreen):
+
+    sound_tramp_path = 'assets/sounds/tramp_sound.mp3'
+    sound_hillary_path = 'assets/sounds/hillary_sound.mp3'
+
     POSITIONS_X = {0: 653 / 2048.0,
                    1: 668 / 2048.0}
     POSITIONS_Y = {0: 643 / 1536.0,
@@ -52,10 +56,18 @@ class EndScreen(BaseScreen):
         self.menu_screen = kwargs['menu_screen']
         new_game_image = {'image': 'assets/out.png'}
         winner_image = dict()
+
         if self.winner_name == 'Trump':
+            self.sound = SoundLoader.load(self.sound_tramp_path)
+            self.sound.play()
+            self.sound.loop = True
             winner_image['image'] = 'assets/win_trump.png'
         elif self.winner_name == 'Hillary':
+            self.sound = SoundLoader.load(self.sound_hillary_path)
+            self.sound.play()
+            self.sound.loop = True
             winner_image['image'] = 'assets/win_hillary.png'
+
         self.new_game_icon = self.ids['NewGame']
         self.winner_icon = self.ids['Winner']
         self.next_game_icon = self.ids['NextGame']
@@ -93,6 +105,7 @@ class EndScreen(BaseScreen):
 
     @restore_state
     def pressed_restart_game(self, *args):
+        self.sound.stop()
         self.game = elections_game.ElectionsGame(self.sm, name="electionsgame")
         self.game.set_bot(self.bot_name)
         print('pressed_restart_game')
@@ -102,6 +115,7 @@ class EndScreen(BaseScreen):
 
     @restore_state
     def pressed_new_game(self, *args):
+        self.sound.stop()
         if not self.bot_name == self.winner_name.lower():
             self.store.put(str(self.round_id), won=True)
         print('pressed_new_game')
