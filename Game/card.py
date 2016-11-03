@@ -348,7 +348,7 @@ about y in pos_hint, possible key_value pairs: {}".format(key_values))
     def set_disabled(self):
         """Make card to look disabled."""
         # self.opacity = 0.5
-        self.background_color = (0.5, 0.5, 0.5, 1)
+        self.background_color = (0.75, 0.75, 0.75, 1)
 
     def set_enabled(self):
         """Reenable card."""
