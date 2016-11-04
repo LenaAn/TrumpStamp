@@ -376,12 +376,16 @@ class CardFactory(object):
             for row in reader:
                 row_ = {k: (int(v) if k not in str_keys else v) for k, v in row.iteritems()}
                 self.db.append(row_)
-        self.images_path = images_path or {'trump': 'assets/cards/trump',
-                                           'hillary': 'assets/cards/hillary'}
+        self.images_path = images_path or {'trump': 'assets/cards',
+                                           'hillary': 'assets/cards'}
         self.sound_path = sound_path or 'assets/stubs/Sounds/card.wav'
         #self.background_path = background_path or 'assets/card00.png'
         self.background_path = background_path or 'assets/' + str(game.get_bot()) + '000.png'
         self.game = game
+
+    def get_image_path_by_img_id(self, prefix, img_t_or_img_h):
+        normalized_image_id = str(int(img_t_or_img_h) - 100).zfill(4)
+        return os.path.join(prefix, normalized_image_id + ".png")
 
     def get_card(self, card_id, owner_id):
         """Create card."""
@@ -390,12 +394,14 @@ class CardFactory(object):
         card_data['description'] = card_data['description'].replace('*', '; ')
         if owner_id == 0:
             card_data['title'] = card_data['t_title'].replace('*', ' ')
-            card_data['image_path'] = (os.path.join(self.images_path['trump'], (card_data['img_t'][0] + '0' +
-                                                                                card_data['img_t'][1:])) + '.png')
+            card_data['image_path'] = self.get_image_path_by_img_id(self.images_path['trump'],
+                                                                    card_data['img_t'])
+            print(card_data['image_path'])
         elif owner_id == 1:
             card_data['title'] = card_data['h_title'].replace('*', ' ')
-            card_data['image_path'] = (os.path.join(self.images_path['hillary'],
-                                       card_data['img_h'][0] + '0' + card_data['img_t'][1:]) + '.png')
+            card_data['image_path'] = self.get_image_path_by_img_id(self.images_path['hillary'],
+                                                                    card_data['img_h'])
+            print(card_data['image_path'])
         else:
             raise ValueError('Wrong owner_id')
         actions = [[card_data['act1_value'], card_data['act1_type'], card_data['act1_side']],

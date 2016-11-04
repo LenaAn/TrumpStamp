@@ -1,534 +1,534 @@
-id,state,district,descr
-1,Alabama,District 1,Description\nAlabama District 1\nLine 1\nLine2
-2,Alabama,District 2,Description\nAlabama District 2\nLine 1\nLine2
-3,Alabama,District 3,Description\nAlabama District 3\nLine 1\nLine2
-4,Alabama,District 4,Description\nAlabama District 4\nLine 1\nLine2
-5,Alabama,District 5,Description\nAlabama District 5\nLine 1\nLine2
-6,Alabama,District 6,Description\nAlabama District 6\nLine 1\nLine2
-7,Alabama,District 7,Description\nAlabama District 7\nLine 1\nLine2
-8,Alabama,District 8,Description\nAlabama District 8\nLine 1\nLine2
-9,Alaska,District 1,Description\nAlaska District 1\nLine 1\nLine2
-10,Alaska,District 2,Description\nAlaska District 2\nLine 1\nLine2
-11,Alaska,District 3,Description\nAlaska District 3\nLine 1\nLine2
-12,Arizona,District 1,Description\nArizona District 1\nLine 1\nLine2
-13,Arizona,District 2,Description\nArizona District 2\nLine 1\nLine2
-14,Arizona,District 3,Description\nArizona District 3\nLine 1\nLine2
-15,Arizona,District 4,Description\nArizona District 4\nLine 1\nLine2
-16,Arizona,District 5,Description\nArizona District 5\nLine 1\nLine2
-17,Arizona,District 6,Description\nArizona District 6\nLine 1\nLine2
-18,Arizona,District 7,Description\nArizona District 7\nLine 1\nLine2
-19,Arizona,District 8,Description\nArizona District 8\nLine 1\nLine2
-20,Arizona,District 9,Description\nArizona District 9\nLine 1\nLine2
-21,Arizona,District 10,Description\nArizona District 10\nLine 1\nLine2
-22,Arizona,District 11,Description\nArizona District 11\nLine 1\nLine2
-23,Arkansas,District 1,Description\nArkansas District 1\nLine 1\nLine2
-24,Arkansas,District 2,Description\nArkansas District 2\nLine 1\nLine2
-25,Arkansas,District 3,Description\nArkansas District 3\nLine 1\nLine2
-26,Arkansas,District 4,Description\nArkansas District 4\nLine 1\nLine2
-27,Arkansas,District 5,Description\nArkansas District 5\nLine 1\nLine2
-28,Arkansas,District 6,Description\nArkansas District 6\nLine 1\nLine2
-29,California,District 1,Description\nCalifornia District 1\nLine 1\nLine2
-30,California,District 2,Description\nCalifornia District 2\nLine 1\nLine2
-31,California,District 3,Description\nCalifornia District 3\nLine 1\nLine2
-32,California,District 4,Description\nCalifornia District 4\nLine 1\nLine2
-33,California,District 5,Description\nCalifornia District 5\nLine 1\nLine2
-34,California,District 6,Description\nCalifornia District 6\nLine 1\nLine2
-35,California,District 7,Description\nCalifornia District 7\nLine 1\nLine2
-36,California,District 8,Description\nCalifornia District 8\nLine 1\nLine2
-37,California,District 9,Description\nCalifornia District 9\nLine 1\nLine2
-38,California,District 10,Description\nCalifornia District 10\nLine 1\nLine2
-39,California,District 11,Description\nCalifornia District 11\nLine 1\nLine2
-40,California,District 12,Description\nCalifornia District 12\nLine 1\nLine2
-41,California,District 13,Description\nCalifornia District 13\nLine 1\nLine2
-42,California,District 14,Description\nCalifornia District 14\nLine 1\nLine2
-43,California,District 15,Description\nCalifornia District 15\nLine 1\nLine2
-44,California,District 16,Description\nCalifornia District 16\nLine 1\nLine2
-45,California,District 17,Description\nCalifornia District 17\nLine 1\nLine2
-46,California,District 18,Description\nCalifornia District 18\nLine 1\nLine2
-47,California,District 19,Description\nCalifornia District 19\nLine 1\nLine2
-48,California,District 20,Description\nCalifornia District 20\nLine 1\nLine2
-49,California,District 21,Description\nCalifornia District 21\nLine 1\nLine2
-50,California,District 22,Description\nCalifornia District 22\nLine 1\nLine2
-51,California,District 23,Description\nCalifornia District 23\nLine 1\nLine2
-52,California,District 24,Description\nCalifornia District 24\nLine 1\nLine2
-53,California,District 25,Description\nCalifornia District 25\nLine 1\nLine2
-54,California,District 26,Description\nCalifornia District 26\nLine 1\nLine2
-55,California,District 27,Description\nCalifornia District 27\nLine 1\nLine2
-56,California,District 28,Description\nCalifornia District 28\nLine 1\nLine2
-57,California,District 29,Description\nCalifornia District 29\nLine 1\nLine2
-58,California,District 30,Description\nCalifornia District 30\nLine 1\nLine2
-59,California,District 31,Description\nCalifornia District 31\nLine 1\nLine2
-60,California,District 32,Description\nCalifornia District 32\nLine 1\nLine2
-61,California,District 33,Description\nCalifornia District 33\nLine 1\nLine2
-62,California,District 34,Description\nCalifornia District 34\nLine 1\nLine2
-63,California,District 35,Description\nCalifornia District 35\nLine 1\nLine2
-64,California,District 36,Description\nCalifornia District 36\nLine 1\nLine2
-65,California,District 37,Description\nCalifornia District 37\nLine 1\nLine2
-66,California,District 38,Description\nCalifornia District 38\nLine 1\nLine2
-67,California,District 39,Description\nCalifornia District 39\nLine 1\nLine2
-68,California,District 40,Description\nCalifornia District 40\nLine 1\nLine2
-69,California,District 41,Description\nCalifornia District 41\nLine 1\nLine2
-70,California,District 42,Description\nCalifornia District 42\nLine 1\nLine2
-71,California,District 43,Description\nCalifornia District 43\nLine 1\nLine2
-72,California,District 44,Description\nCalifornia District 44\nLine 1\nLine2
-73,California,District 45,Description\nCalifornia District 45\nLine 1\nLine2
-74,California,District 46,Description\nCalifornia District 46\nLine 1\nLine2
-75,California,District 47,Description\nCalifornia District 47\nLine 1\nLine2
-76,California,District 48,Description\nCalifornia District 48\nLine 1\nLine2
-77,California,District 49,Description\nCalifornia District 49\nLine 1\nLine2
-78,California,District 50,Description\nCalifornia District 50\nLine 1\nLine2
-79,California,District 51,Description\nCalifornia District 51\nLine 1\nLine2
-80,California,District 52,Description\nCalifornia District 52\nLine 1\nLine2
-81,California,District 53,Description\nCalifornia District 53\nLine 1\nLine2
-82,California,District 54,Description\nCalifornia District 54\nLine 1\nLine2
-83,California,District 55,Description\nCalifornia District 55\nLine 1\nLine2
-84,Colorado,District 1,Description\nColorado District 1\nLine 1\nLine2
-85,Colorado,District 2,Description\nColorado District 2\nLine 1\nLine2
-86,Colorado,District 3,Description\nColorado District 3\nLine 1\nLine2
-87,Colorado,District 4,Description\nColorado District 4\nLine 1\nLine2
-88,Colorado,District 5,Description\nColorado District 5\nLine 1\nLine2
-89,Colorado,District 6,Description\nColorado District 6\nLine 1\nLine2
-90,Colorado,District 7,Description\nColorado District 7\nLine 1\nLine2
-91,Colorado,District 8,Description\nColorado District 8\nLine 1\nLine2
-92,Connecticut,District 1,Description\nConnecticut District 1\nLine 1\nLine2
-93,Connecticut,District 2,Description\nConnecticut District 2\nLine 1\nLine2
-94,Connecticut,District 3,Description\nConnecticut District 3\nLine 1\nLine2
-95,Connecticut,District 4,Description\nConnecticut District 4\nLine 1\nLine2
-96,Connecticut,District 5,Description\nConnecticut District 5\nLine 1\nLine2
-97,Connecticut,District 6,Description\nConnecticut District 6\nLine 1\nLine2
-98,Connecticut,District 7,Description\nConnecticut District 7\nLine 1\nLine2
-99,Delaware,District 1,Description\nDelaware District 1\nLine 1\nLine2
-100,Delaware,District 2,Description\nDelaware District 2\nLine 1\nLine2
-101,Delaware,District 3,Description\nDelaware District 3\nLine 1\nLine2
-102,District of Columbia,District 1,Description\nDistrict of Columbia District 1\nLine 1\nLine2
-103,District of Columbia,District 2,Description\nDistrict of Columbia District 2\nLine 1\nLine2
-104,District of Columbia,District 3,Description\nDistrict of Columbia District 3\nLine 1\nLine2
-105,Florida,District 1,Description\nFlorida District 1\nLine 1\nLine2
-106,Florida,District 2,Description\nFlorida District 2\nLine 1\nLine2
-107,Florida,District 3,Description\nFlorida District 3\nLine 1\nLine2
-108,Florida,District 4,Description\nFlorida District 4\nLine 1\nLine2
-109,Florida,District 5,Description\nFlorida District 5\nLine 1\nLine2
-110,Florida,District 6,Description\nFlorida District 6\nLine 1\nLine2
-111,Florida,District 7,Description\nFlorida District 7\nLine 1\nLine2
-112,Florida,District 8,Description\nFlorida District 8\nLine 1\nLine2
-113,Florida,District 9,Description\nFlorida District 9\nLine 1\nLine2
-114,Florida,District 10,Description\nFlorida District 10\nLine 1\nLine2
-115,Florida,District 11,Description\nFlorida District 11\nLine 1\nLine2
-116,Florida,District 12,Description\nFlorida District 12\nLine 1\nLine2
-117,Florida,District 13,Description\nFlorida District 13\nLine 1\nLine2
-118,Florida,District 14,Description\nFlorida District 14\nLine 1\nLine2
-119,Florida,District 15,Description\nFlorida District 15\nLine 1\nLine2
-120,Florida,District 16,Description\nFlorida District 16\nLine 1\nLine2
-121,Florida,District 17,Description\nFlorida District 17\nLine 1\nLine2
-122,Florida,District 18,Description\nFlorida District 18\nLine 1\nLine2
-123,Florida,District 19,Description\nFlorida District 19\nLine 1\nLine2
-124,Florida,District 20,Description\nFlorida District 20\nLine 1\nLine2
-125,Florida,District 21,Description\nFlorida District 21\nLine 1\nLine2
-126,Florida,District 22,Description\nFlorida District 22\nLine 1\nLine2
-127,Florida,District 23,Description\nFlorida District 23\nLine 1\nLine2
-128,Florida,District 24,Description\nFlorida District 24\nLine 1\nLine2
-129,Florida,District 25,Description\nFlorida District 25\nLine 1\nLine2
-130,Florida,District 26,Description\nFlorida District 26\nLine 1\nLine2
-131,Florida,District 27,Description\nFlorida District 27\nLine 1\nLine2
-132,Florida,District 28,Description\nFlorida District 28\nLine 1\nLine2
-133,Florida,District 29,Description\nFlorida District 29\nLine 1\nLine2
-134,Georgia,District 1,Description\nGeorgia District 1\nLine 1\nLine2
-135,Georgia,District 2,Description\nGeorgia District 2\nLine 1\nLine2
-136,Georgia,District 3,Description\nGeorgia District 3\nLine 1\nLine2
-137,Georgia,District 4,Description\nGeorgia District 4\nLine 1\nLine2
-138,Georgia,District 5,Description\nGeorgia District 5\nLine 1\nLine2
-139,Georgia,District 6,Description\nGeorgia District 6\nLine 1\nLine2
-140,Georgia,District 7,Description\nGeorgia District 7\nLine 1\nLine2
-141,Georgia,District 8,Description\nGeorgia District 8\nLine 1\nLine2
-142,Georgia,District 9,Description\nGeorgia District 9\nLine 1\nLine2
-143,Georgia,District 10,Description\nGeorgia District 10\nLine 1\nLine2
-144,Georgia,District 11,Description\nGeorgia District 11\nLine 1\nLine2
-145,Georgia,District 12,Description\nGeorgia District 12\nLine 1\nLine2
-146,Georgia,District 13,Description\nGeorgia District 13\nLine 1\nLine2
-147,Georgia,District 14,Description\nGeorgia District 14\nLine 1\nLine2
-148,Georgia,District 15,Description\nGeorgia District 15\nLine 1\nLine2
-149,Georgia,District 16,Description\nGeorgia District 16\nLine 1\nLine2
-150,Hawaii,District 1,Description\nHawaii District 1\nLine 1\nLine2
-151,Hawaii,District 2,Description\nHawaii District 2\nLine 1\nLine2
-152,Hawaii,District 3,Description\nHawaii District 3\nLine 1\nLine2
-153,Hawaii,District 4,Description\nHawaii District 4\nLine 1\nLine2
-154,Idaho,District 1,Description\nIdaho District 1\nLine 1\nLine2
-155,Idaho,District 2,Description\nIdaho District 2\nLine 1\nLine2
-156,Idaho,District 3,Description\nIdaho District 3\nLine 1\nLine2
-157,Idaho,District 4,Description\nIdaho District 4\nLine 1\nLine2
-158,Illinois,District 1,Description\nIllinois District 1\nLine 1\nLine2
-159,Illinois,District 2,Description\nIllinois District 2\nLine 1\nLine2
-160,Illinois,District 3,Description\nIllinois District 3\nLine 1\nLine2
-161,Illinois,District 4,Description\nIllinois District 4\nLine 1\nLine2
-162,Illinois,District 5,Description\nIllinois District 5\nLine 1\nLine2
-163,Illinois,District 6,Description\nIllinois District 6\nLine 1\nLine2
-164,Illinois,District 7,Description\nIllinois District 7\nLine 1\nLine2
-165,Illinois,District 8,Description\nIllinois District 8\nLine 1\nLine2
-166,Illinois,District 9,Description\nIllinois District 9\nLine 1\nLine2
-167,Illinois,District 10,Description\nIllinois District 10\nLine 1\nLine2
-168,Illinois,District 11,Description\nIllinois District 11\nLine 1\nLine2
-169,Illinois,District 12,Description\nIllinois District 12\nLine 1\nLine2
-170,Illinois,District 13,Description\nIllinois District 13\nLine 1\nLine2
-171,Illinois,District 14,Description\nIllinois District 14\nLine 1\nLine2
-172,Illinois,District 15,Description\nIllinois District 15\nLine 1\nLine2
-173,Illinois,District 16,Description\nIllinois District 16\nLine 1\nLine2
-174,Illinois,District 17,Description\nIllinois District 17\nLine 1\nLine2
-175,Illinois,District 18,Description\nIllinois District 18\nLine 1\nLine2
-176,Illinois,District 19,Description\nIllinois District 19\nLine 1\nLine2
-177,Illinois,District 20,Description\nIllinois District 20\nLine 1\nLine2
-178,Indiana,District 1,Description\nIndiana District 1\nLine 1\nLine2
-179,Indiana,District 2,Description\nIndiana District 2\nLine 1\nLine2
-180,Indiana,District 3,Description\nIndiana District 3\nLine 1\nLine2
-181,Indiana,District 4,Description\nIndiana District 4\nLine 1\nLine2
-182,Indiana,District 5,Description\nIndiana District 5\nLine 1\nLine2
-183,Indiana,District 6,Description\nIndiana District 6\nLine 1\nLine2
-184,Indiana,District 7,Description\nIndiana District 7\nLine 1\nLine2
-185,Indiana,District 8,Description\nIndiana District 8\nLine 1\nLine2
-186,Indiana,District 9,Description\nIndiana District 9\nLine 1\nLine2
-187,Indiana,District 10,Description\nIndiana District 10\nLine 1\nLine2
-188,Indiana,District 11,Description\nIndiana District 11\nLine 1\nLine2
-189,Iowa,District 1,Description\nIowa District 1\nLine 1\nLine2
-190,Iowa,District 2,Description\nIowa District 2\nLine 1\nLine2
-191,Iowa,District 3,Description\nIowa District 3\nLine 1\nLine2
-192,Iowa,District 4,Description\nIowa District 4\nLine 1\nLine2
-193,Iowa,District 5,Description\nIowa District 5\nLine 1\nLine2
-194,Iowa,District 6,Description\nIowa District 6\nLine 1\nLine2
-195,Kansas,District 1,Description\nKansas District 1\nLine 1\nLine2
-196,Kansas,District 2,Description\nKansas District 2\nLine 1\nLine2
-197,Kansas,District 3,Description\nKansas District 3\nLine 1\nLine2
-198,Kansas,District 4,Description\nKansas District 4\nLine 1\nLine2
-199,Kansas,District 5,Description\nKansas District 5\nLine 1\nLine2
-200,Kansas,District 6,Description\nKansas District 6\nLine 1\nLine2
-201,Kentucky,District 1,Description\nKentucky District 1\nLine 1\nLine2
-202,Kentucky,District 2,Description\nKentucky District 2\nLine 1\nLine2
-203,Kentucky,District 3,Description\nKentucky District 3\nLine 1\nLine2
-204,Kentucky,District 4,Description\nKentucky District 4\nLine 1\nLine2
-205,Kentucky,District 5,Description\nKentucky District 5\nLine 1\nLine2
-206,Kentucky,District 6,Description\nKentucky District 6\nLine 1\nLine2
-207,Kentucky,District 7,Description\nKentucky District 7\nLine 1\nLine2
-208,Louisiana,District 1,Description\nLouisiana District 1\nLine 1\nLine2
-209,Louisiana,District 2,Description\nLouisiana District 2\nLine 1\nLine2
-210,Louisiana,District 3,Description\nLouisiana District 3\nLine 1\nLine2
-211,Louisiana,District 4,Description\nLouisiana District 4\nLine 1\nLine2
-212,Louisiana,District 5,Description\nLouisiana District 5\nLine 1\nLine2
-213,Louisiana,District 6,Description\nLouisiana District 6\nLine 1\nLine2
-214,Louisiana,District 7,Description\nLouisiana District 7\nLine 1\nLine2
-215,Maine,District 1,Description\nMaine District 1\nLine 1\nLine2
-216,Maine,District 2,Description\nMaine District 2\nLine 1\nLine2
-217,Maine,District 3,Description\nMaine District 3\nLine 1\nLine2
-218,Maine,District 4,Description\nMaine District 4\nLine 1\nLine2
-219,Maryland,District 1,Description\nMaryland District 1\nLine 1\nLine2
-220,Maryland,District 2,Description\nMaryland District 2\nLine 1\nLine2
-221,Maryland,District 3,Description\nMaryland District 3\nLine 1\nLine2
-222,Maryland,District 4,Description\nMaryland District 4\nLine 1\nLine2
-223,Maryland,District 5,Description\nMaryland District 5\nLine 1\nLine2
-224,Maryland,District 6,Description\nMaryland District 6\nLine 1\nLine2
-225,Maryland,District 7,Description\nMaryland District 7\nLine 1\nLine2
-226,Maryland,District 8,Description\nMaryland District 8\nLine 1\nLine2
-227,Maryland,District 9,Description\nMaryland District 9\nLine 1\nLine2
-228,Maryland,District 10,Description\nMaryland District 10\nLine 1\nLine2
-229,Massachusetts,District 1,Description\nMassachusetts District 1\nLine 1\nLine2
-230,Massachusetts,District 2,Description\nMassachusetts District 2\nLine 1\nLine2
-231,Massachusetts,District 3,Description\nMassachusetts District 3\nLine 1\nLine2
-232,Massachusetts,District 4,Description\nMassachusetts District 4\nLine 1\nLine2
-233,Massachusetts,District 5,Description\nMassachusetts District 5\nLine 1\nLine2
-234,Massachusetts,District 6,Description\nMassachusetts District 6\nLine 1\nLine2
-235,Massachusetts,District 7,Description\nMassachusetts District 7\nLine 1\nLine2
-236,Massachusetts,District 8,Description\nMassachusetts District 8\nLine 1\nLine2
-237,Massachusetts,District 9,Description\nMassachusetts District 9\nLine 1\nLine2
-238,Massachusetts,District 10,Description\nMassachusetts District 10\nLine 1\nLine2
-239,Massachusetts,District 11,Description\nMassachusetts District 11\nLine 1\nLine2
-240,Michigan,District 1,Description\nMichigan District 1\nLine 1\nLine2
-241,Michigan,District 2,Description\nMichigan District 2\nLine 1\nLine2
-242,Michigan,District 3,Description\nMichigan District 3\nLine 1\nLine2
-243,Michigan,District 4,Description\nMichigan District 4\nLine 1\nLine2
-244,Michigan,District 5,Description\nMichigan District 5\nLine 1\nLine2
-245,Michigan,District 6,Description\nMichigan District 6\nLine 1\nLine2
-246,Michigan,District 7,Description\nMichigan District 7\nLine 1\nLine2
-247,Michigan,District 8,Description\nMichigan District 8\nLine 1\nLine2
-248,Michigan,District 9,Description\nMichigan District 9\nLine 1\nLine2
-249,Michigan,District 10,Description\nMichigan District 10\nLine 1\nLine2
-250,Michigan,District 11,Description\nMichigan District 11\nLine 1\nLine2
-251,Michigan,District 12,Description\nMichigan District 12\nLine 1\nLine2
-252,Michigan,District 13,Description\nMichigan District 13\nLine 1\nLine2
-253,Michigan,District 14,Description\nMichigan District 14\nLine 1\nLine2
-254,Michigan,District 15,Description\nMichigan District 15\nLine 1\nLine2
-255,Michigan,District 16,Description\nMichigan District 16\nLine 1\nLine2
-256,Minnesota,District 1,Description\nMinnesota District 1\nLine 1\nLine2
-257,Minnesota,District 2,Description\nMinnesota District 2\nLine 1\nLine2
-258,Minnesota,District 3,Description\nMinnesota District 3\nLine 1\nLine2
-259,Minnesota,District 4,Description\nMinnesota District 4\nLine 1\nLine2
-260,Minnesota,District 5,Description\nMinnesota District 5\nLine 1\nLine2
-261,Minnesota,District 6,Description\nMinnesota District 6\nLine 1\nLine2
-262,Minnesota,District 7,Description\nMinnesota District 7\nLine 1\nLine2
-263,Minnesota,District 8,Description\nMinnesota District 8\nLine 1\nLine2
-264,Minnesota,District 9,Description\nMinnesota District 9\nLine 1\nLine2
-265,Minnesota,District 10,Description\nMinnesota District 10\nLine 1\nLine2
-266,Mississippi,District 1,Description\nMississippi District 1\nLine 1\nLine2
-267,Mississippi,District 2,Description\nMississippi District 2\nLine 1\nLine2
-268,Mississippi,District 3,Description\nMississippi District 3\nLine 1\nLine2
-269,Mississippi,District 4,Description\nMississippi District 4\nLine 1\nLine2
-270,Mississippi,District 5,Description\nMississippi District 5\nLine 1\nLine2
-271,Mississippi,District 6,Description\nMississippi District 6\nLine 1\nLine2
-272,Missouri,District 1,Description\nMissouri District 1\nLine 1\nLine2
-273,Missouri,District 2,Description\nMissouri District 2\nLine 1\nLine2
-274,Missouri,District 3,Description\nMissouri District 3\nLine 1\nLine2
-275,Missouri,District 4,Description\nMissouri District 4\nLine 1\nLine2
-276,Missouri,District 5,Description\nMissouri District 5\nLine 1\nLine2
-277,Missouri,District 6,Description\nMissouri District 6\nLine 1\nLine2
-278,Missouri,District 7,Description\nMissouri District 7\nLine 1\nLine2
-279,Missouri,District 8,Description\nMissouri District 8\nLine 1\nLine2
-280,Missouri,District 9,Description\nMissouri District 9\nLine 1\nLine2
-281,Missouri,District 10,Description\nMissouri District 10\nLine 1\nLine2
-282,Montana,District 1,Description\nMontana District 1\nLine 1\nLine2
-283,Montana,District 2,Description\nMontana District 2\nLine 1\nLine2
-284,Montana,District 3,Description\nMontana District 3\nLine 1\nLine2
-285,Nebraska,District 1,Description\nNebraska District 1\nLine 1\nLine2
-286,Nebraska,District 2,Description\nNebraska District 2\nLine 1\nLine2
-287,Nebraska,District 3,Description\nNebraska District 3\nLine 1\nLine2
-288,Nebraska,District 4,Description\nNebraska District 4\nLine 1\nLine2
-289,Nebraska,District 5,Description\nNebraska District 5\nLine 1\nLine2
-290,Nevada,District 1,Description\nNevada District 1\nLine 1\nLine2
-291,Nevada,District 2,Description\nNevada District 2\nLine 1\nLine2
-292,Nevada,District 3,Description\nNevada District 3\nLine 1\nLine2
-293,Nevada,District 4,Description\nNevada District 4\nLine 1\nLine2
-294,Nevada,District 5,Description\nNevada District 5\nLine 1\nLine2
-295,Nevada,District 6,Description\nNevada District 6\nLine 1\nLine2
-296,New Hampshire,District 1,Description\nNew Hampshire District 1\nLine 1\nLine2
-297,New Hampshire,District 2,Description\nNew Hampshire District 2\nLine 1\nLine2
-298,New Hampshire,District 3,Description\nNew Hampshire District 3\nLine 1\nLine2
-299,New Hampshire,District 4,Description\nNew Hampshire District 4\nLine 1\nLine2
-300,New Jersey,District 1,Description\nNew Jersey District 1\nLine 1\nLine2
-301,New Jersey,District 2,Description\nNew Jersey District 2\nLine 1\nLine2
-302,New Jersey,District 3,Description\nNew Jersey District 3\nLine 1\nLine2
-303,New Jersey,District 4,Description\nNew Jersey District 4\nLine 1\nLine2
-304,New Jersey,District 5,Description\nNew Jersey District 5\nLine 1\nLine2
-305,New Jersey,District 6,Description\nNew Jersey District 6\nLine 1\nLine2
-306,New Jersey,District 7,Description\nNew Jersey District 7\nLine 1\nLine2
-307,New Jersey,District 8,Description\nNew Jersey District 8\nLine 1\nLine2
-308,New Jersey,District 9,Description\nNew Jersey District 9\nLine 1\nLine2
-309,New Jersey,District 10,Description\nNew Jersey District 10\nLine 1\nLine2
-310,New Jersey,District 11,Description\nNew Jersey District 11\nLine 1\nLine2
-311,New Jersey,District 12,Description\nNew Jersey District 12\nLine 1\nLine2
-312,New Jersey,District 13,Description\nNew Jersey District 13\nLine 1\nLine2
-313,New Jersey,District 14,Description\nNew Jersey District 14\nLine 1\nLine2
-314,New Mexico,District 1,Description\nNew Mexico District 1\nLine 1\nLine2
-315,New Mexico,District 2,Description\nNew Mexico District 2\nLine 1\nLine2
-316,New Mexico,District 3,Description\nNew Mexico District 3\nLine 1\nLine2
-317,New Mexico,District 4,Description\nNew Mexico District 4\nLine 1\nLine2
-318,New Mexico,District 5,Description\nNew Mexico District 5\nLine 1\nLine2
-319,New York,District 1,Description\nNew York District 1\nLine 1\nLine2
-320,New York,District 2,Description\nNew York District 2\nLine 1\nLine2
-321,New York,District 3,Description\nNew York District 3\nLine 1\nLine2
-322,New York,District 4,Description\nNew York District 4\nLine 1\nLine2
-323,New York,District 5,Description\nNew York District 5\nLine 1\nLine2
-324,New York,District 6,Description\nNew York District 6\nLine 1\nLine2
-325,New York,District 7,Description\nNew York District 7\nLine 1\nLine2
-326,New York,District 8,Description\nNew York District 8\nLine 1\nLine2
-327,New York,District 9,Description\nNew York District 9\nLine 1\nLine2
-328,New York,District 10,Description\nNew York District 10\nLine 1\nLine2
-329,New York,District 11,Description\nNew York District 11\nLine 1\nLine2
-330,New York,District 12,Description\nNew York District 12\nLine 1\nLine2
-331,New York,District 13,Description\nNew York District 13\nLine 1\nLine2
-332,New York,District 14,Description\nNew York District 14\nLine 1\nLine2
-333,New York,District 15,Description\nNew York District 15\nLine 1\nLine2
-334,New York,District 16,Description\nNew York District 16\nLine 1\nLine2
-335,New York,District 17,Description\nNew York District 17\nLine 1\nLine2
-336,New York,District 18,Description\nNew York District 18\nLine 1\nLine2
-337,New York,District 19,Description\nNew York District 19\nLine 1\nLine2
-338,New York,District 20,Description\nNew York District 20\nLine 1\nLine2
-339,New York,District 21,Description\nNew York District 21\nLine 1\nLine2
-340,New York,District 22,Description\nNew York District 22\nLine 1\nLine2
-341,New York,District 23,Description\nNew York District 23\nLine 1\nLine2
-342,New York,District 24,Description\nNew York District 24\nLine 1\nLine2
-343,New York,District 25,Description\nNew York District 25\nLine 1\nLine2
-344,New York,District 26,Description\nNew York District 26\nLine 1\nLine2
-345,New York,District 27,Description\nNew York District 27\nLine 1\nLine2
-346,New York,District 28,Description\nNew York District 28\nLine 1\nLine2
-347,New York,District 29,Description\nNew York District 29\nLine 1\nLine2
-348,North Carolina,District 1,Description\nNorth Carolina District 1\nLine 1\nLine2
-349,North Carolina,District 2,Description\nNorth Carolina District 2\nLine 1\nLine2
-350,North Carolina,District 3,Description\nNorth Carolina District 3\nLine 1\nLine2
-351,North Carolina,District 4,Description\nNorth Carolina District 4\nLine 1\nLine2
-352,North Carolina,District 5,Description\nNorth Carolina District 5\nLine 1\nLine2
-353,North Carolina,District 6,Description\nNorth Carolina District 6\nLine 1\nLine2
-354,North Carolina,District 7,Description\nNorth Carolina District 7\nLine 1\nLine2
-355,North Carolina,District 8,Description\nNorth Carolina District 8\nLine 1\nLine2
-356,North Carolina,District 9,Description\nNorth Carolina District 9\nLine 1\nLine2
-357,North Carolina,District 10,Description\nNorth Carolina District 10\nLine 1\nLine2
-358,North Carolina,District 11,Description\nNorth Carolina District 11\nLine 1\nLine2
-359,North Carolina,District 12,Description\nNorth Carolina District 12\nLine 1\nLine2
-360,North Carolina,District 13,Description\nNorth Carolina District 13\nLine 1\nLine2
-361,North Carolina,District 14,Description\nNorth Carolina District 14\nLine 1\nLine2
-362,North Carolina,District 15,Description\nNorth Carolina District 15\nLine 1\nLine2
-363,North Dakota,District 1,Description\nNorth Dakota District 1\nLine 1\nLine2
-364,North Dakota,District 2,Description\nNorth Dakota District 2\nLine 1\nLine2
-365,North Dakota,District 3,Description\nNorth Dakota District 3\nLine 1\nLine2
-366,Ohio,District 1,Description\nOhio District 1\nLine 1\nLine2
-367,Ohio,District 2,Description\nOhio District 2\nLine 1\nLine2
-368,Ohio,District 3,Description\nOhio District 3\nLine 1\nLine2
-369,Ohio,District 4,Description\nOhio District 4\nLine 1\nLine2
-370,Ohio,District 5,Description\nOhio District 5\nLine 1\nLine2
-371,Ohio,District 6,Description\nOhio District 6\nLine 1\nLine2
-372,Ohio,District 7,Description\nOhio District 7\nLine 1\nLine2
-373,Ohio,District 8,Description\nOhio District 8\nLine 1\nLine2
-374,Ohio,District 9,Description\nOhio District 9\nLine 1\nLine2
-375,Ohio,District 10,Description\nOhio District 10\nLine 1\nLine2
-376,Ohio,District 11,Description\nOhio District 11\nLine 1\nLine2
-377,Ohio,District 12,Description\nOhio District 12\nLine 1\nLine2
-378,Ohio,District 13,Description\nOhio District 13\nLine 1\nLine2
-379,Ohio,District 14,Description\nOhio District 14\nLine 1\nLine2
-380,Ohio,District 15,Description\nOhio District 15\nLine 1\nLine2
-381,Ohio,District 16,Description\nOhio District 16\nLine 1\nLine2
-382,Ohio,District 17,Description\nOhio District 17\nLine 1\nLine2
-383,Ohio,District 18,Description\nOhio District 18\nLine 1\nLine2
-384,Oklahoma,District 1,Description\nOklahoma District 1\nLine 1\nLine2
-385,Oklahoma,District 2,Description\nOklahoma District 2\nLine 1\nLine2
-386,Oklahoma,District 3,Description\nOklahoma District 3\nLine 1\nLine2
-387,Oklahoma,District 4,Description\nOklahoma District 4\nLine 1\nLine2
-388,Oklahoma,District 5,Description\nOklahoma District 5\nLine 1\nLine2
-389,Oklahoma,District 6,Description\nOklahoma District 6\nLine 1\nLine2
-390,Oklahoma,District 7,Description\nOklahoma District 7\nLine 1\nLine2
-391,Oregon,District 1,Description\nOregon District 1\nLine 1\nLine2
-392,Oregon,District 2,Description\nOregon District 2\nLine 1\nLine2
-393,Oregon,District 3,Description\nOregon District 3\nLine 1\nLine2
-394,Oregon,District 4,Description\nOregon District 4\nLine 1\nLine2
-395,Oregon,District 5,Description\nOregon District 5\nLine 1\nLine2
-396,Oregon,District 6,Description\nOregon District 6\nLine 1\nLine2
-397,Oregon,District 7,Description\nOregon District 7\nLine 1\nLine2
-398,Pennsylvania,District 1,Description\nPennsylvania District 1\nLine 1\nLine2
-399,Pennsylvania,District 2,Description\nPennsylvania District 2\nLine 1\nLine2
-400,Pennsylvania,District 3,Description\nPennsylvania District 3\nLine 1\nLine2
-401,Pennsylvania,District 4,Description\nPennsylvania District 4\nLine 1\nLine2
-402,Pennsylvania,District 5,Description\nPennsylvania District 5\nLine 1\nLine2
-403,Pennsylvania,District 6,Description\nPennsylvania District 6\nLine 1\nLine2
-404,Pennsylvania,District 7,Description\nPennsylvania District 7\nLine 1\nLine2
-405,Pennsylvania,District 8,Description\nPennsylvania District 8\nLine 1\nLine2
-406,Pennsylvania,District 9,Description\nPennsylvania District 9\nLine 1\nLine2
-407,Pennsylvania,District 10,Description\nPennsylvania District 10\nLine 1\nLine2
-408,Pennsylvania,District 11,Description\nPennsylvania District 11\nLine 1\nLine2
-409,Pennsylvania,District 12,Description\nPennsylvania District 12\nLine 1\nLine2
-410,Pennsylvania,District 13,Description\nPennsylvania District 13\nLine 1\nLine2
-411,Pennsylvania,District 14,Description\nPennsylvania District 14\nLine 1\nLine2
-412,Pennsylvania,District 15,Description\nPennsylvania District 15\nLine 1\nLine2
-413,Pennsylvania,District 16,Description\nPennsylvania District 16\nLine 1\nLine2
-414,Pennsylvania,District 17,Description\nPennsylvania District 17\nLine 1\nLine2
-415,Pennsylvania,District 18,Description\nPennsylvania District 18\nLine 1\nLine2
-416,Pennsylvania,District 19,Description\nPennsylvania District 19\nLine 1\nLine2
-417,Pennsylvania,District 20,Description\nPennsylvania District 20\nLine 1\nLine2
-418,Rhode Island,District 1,Description\nRhode Island District 1\nLine 1\nLine2
-419,Rhode Island,District 2,Description\nRhode Island District 2\nLine 1\nLine2
-420,Rhode Island,District 3,Description\nRhode Island District 3\nLine 1\nLine2
-421,Rhode Island,District 4,Description\nRhode Island District 4\nLine 1\nLine2
-422,South Carolina,District 1,Description\nSouth Carolina District 1\nLine 1\nLine2
-423,South Carolina,District 2,Description\nSouth Carolina District 2\nLine 1\nLine2
-424,South Carolina,District 3,Description\nSouth Carolina District 3\nLine 1\nLine2
-425,South Carolina,District 4,Description\nSouth Carolina District 4\nLine 1\nLine2
-426,South Carolina,District 5,Description\nSouth Carolina District 5\nLine 1\nLine2
-427,South Carolina,District 6,Description\nSouth Carolina District 6\nLine 1\nLine2
-428,South Carolina,District 7,Description\nSouth Carolina District 7\nLine 1\nLine2
-429,South Carolina,District 8,Description\nSouth Carolina District 8\nLine 1\nLine2
-430,South Dakota,District 1,Description\nSouth Dakota District 1\nLine 1\nLine2
-431,South Dakota,District 2,Description\nSouth Dakota District 2\nLine 1\nLine2
-432,South Dakota,District 3,Description\nSouth Dakota District 3\nLine 1\nLine2
-433,Tennessee,District 1,Description\nTennessee District 1\nLine 1\nLine2
-434,Tennessee,District 2,Description\nTennessee District 2\nLine 1\nLine2
-435,Tennessee,District 3,Description\nTennessee District 3\nLine 1\nLine2
-436,Tennessee,District 4,Description\nTennessee District 4\nLine 1\nLine2
-437,Tennessee,District 5,Description\nTennessee District 5\nLine 1\nLine2
-438,Tennessee,District 6,Description\nTennessee District 6\nLine 1\nLine2
-439,Tennessee,District 7,Description\nTennessee District 7\nLine 1\nLine2
-440,Tennessee,District 8,Description\nTennessee District 8\nLine 1\nLine2
-441,Tennessee,District 9,Description\nTennessee District 9\nLine 1\nLine2
-442,Tennessee,District 10,Description\nTennessee District 10\nLine 1\nLine2
-443,Tennessee,District 11,Description\nTennessee District 11\nLine 1\nLine2
-444,Texas,District 1,Description\nTexas District 1\nLine 1\nLine2
-445,Texas,District 2,Description\nTexas District 2\nLine 1\nLine2
-446,Texas,District 3,Description\nTexas District 3\nLine 1\nLine2
-447,Texas,District 4,Description\nTexas District 4\nLine 1\nLine2
-448,Texas,District 5,Description\nTexas District 5\nLine 1\nLine2
-449,Texas,District 6,Description\nTexas District 6\nLine 1\nLine2
-450,Texas,District 7,Description\nTexas District 7\nLine 1\nLine2
-451,Texas,District 8,Description\nTexas District 8\nLine 1\nLine2
-452,Texas,District 9,Description\nTexas District 9\nLine 1\nLine2
-453,Texas,District 10,Description\nTexas District 10\nLine 1\nLine2
-454,Texas,District 11,Description\nTexas District 11\nLine 1\nLine2
-455,Texas,District 12,Description\nTexas District 12\nLine 1\nLine2
-456,Texas,District 13,Description\nTexas District 13\nLine 1\nLine2
-457,Texas,District 14,Description\nTexas District 14\nLine 1\nLine2
-458,Texas,District 15,Description\nTexas District 15\nLine 1\nLine2
-459,Texas,District 16,Description\nTexas District 16\nLine 1\nLine2
-460,Texas,District 17,Description\nTexas District 17\nLine 1\nLine2
-461,Texas,District 18,Description\nTexas District 18\nLine 1\nLine2
-462,Texas,District 19,Description\nTexas District 19\nLine 1\nLine2
-463,Texas,District 20,Description\nTexas District 20\nLine 1\nLine2
-464,Texas,District 21,Description\nTexas District 21\nLine 1\nLine2
-465,Texas,District 22,Description\nTexas District 22\nLine 1\nLine2
-466,Texas,District 23,Description\nTexas District 23\nLine 1\nLine2
-467,Texas,District 24,Description\nTexas District 24\nLine 1\nLine2
-468,Texas,District 25,Description\nTexas District 25\nLine 1\nLine2
-469,Texas,District 26,Description\nTexas District 26\nLine 1\nLine2
-470,Texas,District 27,Description\nTexas District 27\nLine 1\nLine2
-471,Texas,District 28,Description\nTexas District 28\nLine 1\nLine2
-472,Texas,District 29,Description\nTexas District 29\nLine 1\nLine2
-473,Texas,District 30,Description\nTexas District 30\nLine 1\nLine2
-474,Texas,District 31,Description\nTexas District 31\nLine 1\nLine2
-475,Texas,District 32,Description\nTexas District 32\nLine 1\nLine2
-476,Texas,District 33,Description\nTexas District 33\nLine 1\nLine2
-477,Texas,District 34,Description\nTexas District 34\nLine 1\nLine2
-478,Texas,District 35,Description\nTexas District 35\nLine 1\nLine2
-479,Texas,District 36,Description\nTexas District 36\nLine 1\nLine2
-480,Texas,District 37,Description\nTexas District 37\nLine 1\nLine2
-481,Texas,District 38,Description\nTexas District 38\nLine 1\nLine2
-482,Utah,District 1,Description\nUtah District 1\nLine 1\nLine2
-483,Utah,District 2,Description\nUtah District 2\nLine 1\nLine2
-484,Utah,District 3,Description\nUtah District 3\nLine 1\nLine2
-485,Utah,District 4,Description\nUtah District 4\nLine 1\nLine2
-486,Utah,District 5,Description\nUtah District 5\nLine 1\nLine2
-487,Utah,District 6,Description\nUtah District 6\nLine 1\nLine2
-488,Vermont,District 1,Description\nVermont District 1\nLine 1\nLine2
-489,Vermont,District 2,Description\nVermont District 2\nLine 1\nLine2
-490,Vermont,District 3,Description\nVermont District 3\nLine 1\nLine2
-491,Virginia,District 1,Description\nVirginia District 1\nLine 1\nLine2
-492,Virginia,District 2,Description\nVirginia District 2\nLine 1\nLine2
-493,Virginia,District 3,Description\nVirginia District 3\nLine 1\nLine2
-494,Virginia,District 4,Description\nVirginia District 4\nLine 1\nLine2
-495,Virginia,District 5,Description\nVirginia District 5\nLine 1\nLine2
-496,Virginia,District 6,Description\nVirginia District 6\nLine 1\nLine2
-497,Virginia,District 7,Description\nVirginia District 7\nLine 1\nLine2
-498,Virginia,District 8,Description\nVirginia District 8\nLine 1\nLine2
-499,Virginia,District 9,Description\nVirginia District 9\nLine 1\nLine2
-500,Virginia,District 10,Description\nVirginia District 10\nLine 1\nLine2
-501,Virginia,District 11,Description\nVirginia District 11\nLine 1\nLine2
-502,Virginia,District 12,Description\nVirginia District 12\nLine 1\nLine2
-503,Virginia,District 13,Description\nVirginia District 13\nLine 1\nLine2
-504,Washington,District 1,Description\nWashington District 1\nLine 1\nLine2
-505,Washington,District 2,Description\nWashington District 2\nLine 1\nLine2
-506,Washington,District 3,Description\nWashington District 3\nLine 1\nLine2
-507,Washington,District 4,Description\nWashington District 4\nLine 1\nLine2
-508,Washington,District 5,Description\nWashington District 5\nLine 1\nLine2
-509,Washington,District 6,Description\nWashington District 6\nLine 1\nLine2
-510,Washington,District 7,Description\nWashington District 7\nLine 1\nLine2
-511,Washington,District 8,Description\nWashington District 8\nLine 1\nLine2
-512,Washington,District 9,Description\nWashington District 9\nLine 1\nLine2
-513,Washington,District 10,Description\nWashington District 10\nLine 1\nLine2
-514,Washington,District 11,Description\nWashington District 11\nLine 1\nLine2
-515,Washington,District 12,Description\nWashington District 12\nLine 1\nLine2
-516,West Virginia,District 1,Description\nWest Virginia District 1\nLine 1\nLine2
-517,West Virginia,District 2,Description\nWest Virginia District 2\nLine 1\nLine2
-518,West Virginia,District 3,Description\nWest Virginia District 3\nLine 1\nLine2
-519,West Virginia,District 4,Description\nWest Virginia District 4\nLine 1\nLine2
-520,West Virginia,District 5,Description\nWest Virginia District 5\nLine 1\nLine2
-521,Wisconsin,District 1,Description\nWisconsin District 1\nLine 1\nLine2
-522,Wisconsin,District 2,Description\nWisconsin District 2\nLine 1\nLine2
-523,Wisconsin,District 3,Description\nWisconsin District 3\nLine 1\nLine2
-524,Wisconsin,District 4,Description\nWisconsin District 4\nLine 1\nLine2
-525,Wisconsin,District 5,Description\nWisconsin District 5\nLine 1\nLine2
-526,Wisconsin,District 6,Description\nWisconsin District 6\nLine 1\nLine2
-527,Wisconsin,District 7,Description\nWisconsin District 7\nLine 1\nLine2
-528,Wisconsin,District 8,Description\nWisconsin District 8\nLine 1\nLine2
-529,Wisconsin,District 9,Description\nWisconsin District 9\nLine 1\nLine2
-530,Wisconsin,District 10,Description\nWisconsin District 10\nLine 1\nLine2
-531,Wyoming,District 1,Description\nWyoming District 1\nLine 1\nLine2
-532,Wyoming,District 2,Description\nWyoming District 2\nLine 1\nLine2
-533,Wyoming,District 3,Description\nWyoming District 3\nLine 1\nLine2
+id,round_id,state,district,descr
+1,317,Alabama,Birmingham,"Alabama\nBirmingham\nLeave opponent with no voters\nor collect 300 news, hype or money"
+2,314,Alabama,Hoover,"Alabama\nHoover\nLeave opponent with no voters\nor collect 300 news, hype or money"
+3,311,Alabama,Huntsville,"Alabama\nHuntsville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+4,308,Alabama,Mobile,"Alabama\nMobile\nLeave opponent with no voters\nor collect 300 news, hype or money"
+5,305,Alabama,Montgomery,"Alabama\nMontgomery\nLeave opponent with no voters\nor collect 300 news, hype or money"
+6,302,Alabama,Tuscaloosa,"Alabama\nTuscaloosa\nLeave opponent with no voters\nor collect 300 news, hype or money"
+7,299,Alabama,Daphne,"Alabama\nDaphne\nLeave opponent with no voters\nor collect 300 news, hype or money"
+8,296,Alabama,Fairhope,"Alabama\nFairhope\nLeave opponent with no voters\nor collect 300 news, hype or money"
+9,293,Alabama,Foley,"Alabama\nFoley\nLeave opponent with no voters\nor collect 300 news, hype or money"
+10,182,Alaska,Anchorage,"Alaska\nAnchorage\nLeave opponent with no voters\nor collect 300 news, hype or money"
+11,174,Alaska,Fairbanks,"Alaska\nFairbanks\nLeave opponent with no voters\nor collect 300 news, hype or money"
+12,166,Alaska,Juneau,"Alaska\nJuneau\nLeave opponent with no voters\nor collect 300 news, hype or money"
+13,401,Arizona,Phoenix,"Arizona\nPhoenix\nLeave opponent with no voters\nor collect 300 news, hype or money"
+14,397,Arizona,Mesa,"Arizona\nMesa\nLeave opponent with no voters\nor collect 300 news, hype or money"
+15,393,Arizona,Scottsdale,"Arizona\nScottsdale\nLeave opponent with no voters\nor collect 300 news, hype or money"
+16,389,Arizona,Tucson,"Arizona\nTucson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+17,385,Arizona,Prescott,"Arizona\nPrescott\nLeave opponent with no voters\nor collect 300 news, hype or money"
+18,381,Arizona,Nogales,"Arizona\nNogales\nLeave opponent with no voters\nor collect 300 news, hype or money"
+19,377,Arizona,Kingman,"Arizona\nKingman\nLeave opponent with no voters\nor collect 300 news, hype or money"
+20,373,Arizona,Yuma,"Arizona\nYuma\nLeave opponent with no voters\nor collect 300 news, hype or money"
+21,369,Arizona,Flagstaff,"Arizona\nFlagstaff\nLeave opponent with no voters\nor collect 300 news, hype or money"
+22,365,Arizona,Sierra Vista,"Arizona\nSierra Vista\nLeave opponent with no voters\nor collect 300 news, hype or money"
+23,361,Arizona,Douglas,"Arizona\nDouglas\nLeave opponent with no voters\nor collect 300 news, hype or money"
+24,253,Arkansas,Little Rock,"Arkansas\nLittle Rock\nLeave opponent with no voters\nor collect 300 news, hype or money"
+25,247,Arkansas,Conway,"Arkansas\nConway\nLeave opponent with no voters\nor collect 300 news, hype or money"
+26,241,Arkansas,Fayetteville,"Arkansas\nFayetteville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+27,235,Arkansas,Fort Smith,"Arkansas\nFort Smith\nLeave opponent with no voters\nor collect 300 news, hype or money"
+28,229,Arkansas,Jonesboro,"Arkansas\nJonesboro\nLeave opponent with no voters\nor collect 300 news, hype or money"
+29,223,Arkansas,Pine Bluff,"Arkansas\nPine Bluff\nLeave opponent with no voters\nor collect 300 news, hype or money"
+30,538,California,Los Angeles,"California\nLos Angeles\nLeave opponent with no voters\nor collect 300 news, hype or money"
+31,158,California,Long Beach,"California\nLong Beach\nLeave opponent with no voters\nor collect 300 news, hype or money"
+32,151,California,Anaheim,"California\nAnaheim\nLeave opponent with no voters\nor collect 300 news, hype or money"
+33,144,California,San Francisco,"California\nSan Francisco\nLeave opponent with no voters\nor collect 300 news, hype or money"
+34,137,California,Oakland,"California\nOakland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+35,130,California,Hayward,"California\nHayward\nLeave opponent with no voters\nor collect 300 news, hype or money"
+36,123,California,Riverside,"California\nRiverside\nLeave opponent with no voters\nor collect 300 news, hype or money"
+37,116,California,San Bernardino,"California\nSan Bernardino\nLeave opponent with no voters\nor collect 300 news, hype or money"
+38,109,California,Ontario,"California\nOntario\nLeave opponent with no voters\nor collect 300 news, hype or money"
+39,102,California,San Diego,"California\nSan Diego\nLeave opponent with no voters\nor collect 300 news, hype or money"
+40,95,California,Carlsbad,"California\nCarlsbad\nLeave opponent with no voters\nor collect 100 news, hype or money"
+41,88,California,Sacramento-Roseville-Arden,"California\nSacramento-Roseville-Arden\nLeave opponent with no voters\nor collect 100 news, hype or money"
+42,81,California,Arcade,"California\nArcade\nLeave opponent with no voters\nor collect 100 news, hype or money"
+43,75,California,San Jose,"California\nSan Jose\nLeave opponent with no voters\nor collect 100 news, hype or money"
+44,70,California,Sunnyvale,"California\nSunnyvale\nLeave opponent with no voters\nor collect 100 news, hype or money"
+45,66,California,Santa Clara,"California\nSanta Clara\nLeave opponent with no voters\nor collect 100 news, hype or money"
+46,63,California,Fresno,"California\nFresno\nLeave opponent with no voters\nor collect 100 news, hype or money"
+47,60,California,Bakersfield,"California\nBakersfield\nLeave opponent with no voters\nor collect 100 news, hype or money"
+48,57,California,Oxnard,"California\nOxnard\nLeave opponent with no voters\nor collect 100 news, hype or money"
+49,55,California,Thousand Oaks,"California\nThousand Oaks\nLeave opponent with no voters\nor collect 100 news, hype or money"
+50,53,California,Ventura,"California\nVentura\nLeave opponent with no voters\nor collect 100 news, hype or money"
+51,51,California,Stockton,"California\nStockton\nLeave opponent with no voters\nor collect 100 news, hype or money"
+52,49,California,Lodi,"California\nLodi\nLeave opponent with no voters\nor collect 100 news, hype or money"
+53,47,California,Modesto,"California\nModesto\nLeave opponent with no voters\nor collect 100 news, hype or money"
+54,45,California,Santa Rosa,"California\nSanta Rosa\nLeave opponent with no voters\nor collect 100 news, hype or money"
+55,43,California,Visalia,"California\nVisalia\nLeave opponent with no voters\nor collect 100 news, hype or money"
+56,41,California,Porterville,"California\nPorterville\nLeave opponent with no voters\nor collect 100 news, hype or money"
+57,39,California,Santa Maria,"California\nSanta Maria\nLeave opponent with no voters\nor collect 100 news, hype or money"
+58,37,California,Santa Barbara,"California\nSanta Barbara\nLeave opponent with no voters\nor collect 100 news, hype or money"
+59,35,California,Salinas,"California\nSalinas\nLeave opponent with no voters\nor collect 100 news, hype or money"
+60,33,California,Vallejo,"California\nVallejo\nLeave opponent with no voters\nor collect 100 news, hype or money"
+61,31,California,Fairfield,"California\nFairfield\nLeave opponent with no voters\nor collect 100 news, hype or money"
+62,29,California,San Luis Obispo,"California\nSan Luis Obispo\nLeave opponent with no voters\nor collect 100 news, hype or money"
+63,27,California,Paso Robles,"California\nPaso Robles\nLeave opponent with no voters\nor collect 100 news, hype or money"
+64,25,California,Arroyo Grande,"California\nArroyo Grande\nLeave opponent with no voters\nor collect 100 news, hype or money"
+65,23,California,Santa Cruz,"California\nSanta Cruz\nLeave opponent with no voters\nor collect 100 news, hype or money"
+66,21,California,Watsonville,"California\nWatsonville\nLeave opponent with no voters\nor collect 100 news, hype or money"
+67,19,California,Merced,"California\nMerced\nLeave opponent with no voters\nor collect 100 news, hype or money"
+68,17,California,Chico,"California\nChico\nLeave opponent with no voters\nor collect 100 news, hype or money"
+69,16,California,Redding,"California\nRedding\nLeave opponent with no voters\nor collect 100 news, hype or money"
+70,15,California,El Centro,"California\nEl Centro\nLeave opponent with no voters\nor collect 100 news, hype or money"
+71,14,California,Yuba City,"California\nYuba City\nLeave opponent with no voters\nor collect 100 news, hype or money"
+72,13,California,Madera,"California\nMadera\nLeave opponent with no voters\nor collect 100 news, hype or money"
+73,12,California,Hanford,"California\nHanford\nLeave opponent with no voters\nor collect 100 news, hype or money"
+74,11,California,Corcoran,"California\nCorcoran\nLeave opponent with no voters\nor collect 100 news, hype or money"
+75,10,California,Napa,"California\nNapa\nLeave opponent with no voters\nor collect 100 news, hype or money"
+76,9,California,Eureka,"California\nEureka\nLeave opponent with no voters\nor collect 100 news, hype or money"
+77,8,California,Arcata,"California\nArcata\nLeave opponent with no voters\nor collect 100 news, hype or money"
+78,7,California,Fortuna,"California\nFortuna\nLeave opponent with no voters\nor collect 100 news, hype or money"
+79,6,California,Truckee,"California\nTruckee\nLeave opponent with no voters\nor collect 100 news, hype or money"
+80,5,California,Grass Valley,"California\nGrass Valley\nLeave opponent with no voters\nor collect 100 news, hype or money"
+81,4,California,Ukiah,"California\nUkiah\nLeave opponent with no voters\nor collect 100 news, hype or money"
+82,3,California,Clearlake,"California\nClearlake\nLeave opponent with no voters\nor collect 100 news, hype or money"
+83,2,California,Red Bluff,"California\nRed Bluff\nLeave opponent with no voters\nor collect 100 news, hype or money"
+84,1,California,Sonora,California\nSonora\nwin\n
+85,316,Colorado,Denver,"Colorado\nDenver\nLeave opponent with no voters\nor collect 300 news, hype or money"
+86,313,Colorado,Aurora,"Colorado\nAurora\nLeave opponent with no voters\nor collect 300 news, hype or money"
+87,310,Colorado,Lakewood,"Colorado\nLakewood\nLeave opponent with no voters\nor collect 300 news, hype or money"
+88,307,Colorado,Colorado Springs,"Colorado\nColorado Springs\nLeave opponent with no voters\nor collect 300 news, hype or money"
+89,304,Colorado,Fort Collins,"Colorado\nFort Collins\nLeave opponent with no voters\nor collect 300 news, hype or money"
+90,301,Colorado,Boulder,"Colorado\nBoulder\nLeave opponent with no voters\nor collect 300 news, hype or money"
+91,298,Colorado,Greeley,"Colorado\nGreeley\nLeave opponent with no voters\nor collect 300 news, hype or money"
+92,295,Colorado,Pueblo,"Colorado\nPueblo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+93,292,Colorado,Grand Junction,"Colorado\nGrand Junction\nLeave opponent with no voters\nor collect 300 news, hype or money"
+94,274,Connecticut,Hartford,"Connecticut\nHartford\nLeave opponent with no voters\nor collect 300 news, hype or money"
+95,271,Connecticut,Bridgeport,"Connecticut\nBridgeport\nLeave opponent with no voters\nor collect 300 news, hype or money"
+96,268,Connecticut,Stamford,"Connecticut\nStamford\nLeave opponent with no voters\nor collect 300 news, hype or money"
+97,265,Connecticut,Norwalk,"Connecticut\nNorwalk\nLeave opponent with no voters\nor collect 300 news, hype or money"
+98,262,Connecticut,New Haven,"Connecticut\nNew Haven\nLeave opponent with no voters\nor collect 300 news, hype or money"
+99,259,Connecticut,Milford,"Connecticut\nMilford\nLeave opponent with no voters\nor collect 300 news, hype or money"
+100,256,Connecticut,Norwich,"Connecticut\nNorwich\nLeave opponent with no voters\nor collect 300 news, hype or money"
+101,181,Delaware,Dover,"Delaware\nDover\nLeave opponent with no voters\nor collect 300 news, hype or money"
+102,173,Delaware,Sussex,"Delaware\nSussex\nLeave opponent with no voters\nor collect 300 news, hype or money"
+103,165,Delaware,Newcastle,"Delaware\nNewcastle\nLeave opponent with no voters\nor collect 300 news, hype or money"
+104,180,District of Columbia,Washington,"District of Columbia\nWashington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+105,172,District of Columbia,Arlington,"District of Columbia\nArlington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+106,164,District of Columbia,Bethesda,"District of Columbia\nBethesda\nLeave opponent with no voters\nor collect 300 news, hype or money"
+107,536,Florida,Miami,"Florida\nMiami\nLeave opponent with no voters\nor collect 300 news, hype or money"
+108,534,Florida,Fort Lauderdale,"Florida\nFort Lauderdale\nLeave opponent with no voters\nor collect 300 news, hype or money"
+109,532,Florida,Palm Beach,"Florida\nPalm Beach\nLeave opponent with no voters\nor collect 300 news, hype or money"
+110,530,Florida,Tampa,"Florida\nTampa\nLeave opponent with no voters\nor collect 300 news, hype or money"
+111,528,Florida,Saint Petersburg,"Florida\nSaint Petersburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+112,526,Florida,Clearwater,"Florida\nClearwater\nLeave opponent with no voters\nor collect 300 news, hype or money"
+113,524,Florida,Orlando,"Florida\nOrlando\nLeave opponent with no voters\nor collect 300 news, hype or money"
+114,522,Florida,Kissimmee,"Florida\nKissimmee\nLeave opponent with no voters\nor collect 300 news, hype or money"
+115,520,Florida,Sanford,"Florida\nSanford\nLeave opponent with no voters\nor collect 300 news, hype or money"
+116,518,Florida,Jacksonville,"Florida\nJacksonville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+117,516,Florida,North Port,"Florida\nNorth Port\nLeave opponent with no voters\nor collect 300 news, hype or money"
+118,514,Florida,Sarasota,"Florida\nSarasota\nLeave opponent with no voters\nor collect 300 news, hype or money"
+119,512,Florida,Bradenton,"Florida\nBradenton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+120,510,Florida,Cape Coral,"Florida\nCape Coral\nLeave opponent with no voters\nor collect 300 news, hype or money"
+121,508,Florida,Fort Myers,"Florida\nFort Myers\nLeave opponent with no voters\nor collect 300 news, hype or money"
+122,506,Florida,Lakeland,"Florida\nLakeland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+123,504,Florida,Winter Haven,"Florida\nWinter Haven\nLeave opponent with no voters\nor collect 300 news, hype or money"
+124,502,Florida,Deltona,"Florida\nDeltona\nLeave opponent with no voters\nor collect 300 news, hype or money"
+125,500,Florida,Daytona Beach,"Florida\nDaytona Beach\nLeave opponent with no voters\nor collect 300 news, hype or money"
+126,498,Florida,Ormond Beach,"Florida\nOrmond Beach\nLeave opponent with no voters\nor collect 300 news, hype or money"
+127,496,Florida,Palm Bay,"Florida\nPalm Bay\nLeave opponent with no voters\nor collect 300 news, hype or money"
+128,494,Florida,Melbourne,"Florida\nMelbourne\nLeave opponent with no voters\nor collect 300 news, hype or money"
+129,492,Florida,Titusville,"Florida\nTitusville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+130,490,Florida,Pensacola,"Florida\nPensacola\nLeave opponent with no voters\nor collect 300 news, hype or money"
+131,488,Florida,Ferry Pass,"Florida\nFerry Pass\nLeave opponent with no voters\nor collect 300 news, hype or money"
+132,486,Florida,Brent,"Florida\nBrent\nLeave opponent with no voters\nor collect 300 news, hype or money"
+133,484,Florida,Port St. Lucie,"Florida\nPort St. Lucie\nLeave opponent with no voters\nor collect 300 news, hype or money"
+134,482,Florida,Tallahassee,"Florida\nTallahassee\nLeave opponent with no voters\nor collect 300 news, hype or money"
+135,480,Florida,Ocala,"Florida\nOcala\nLeave opponent with no voters\nor collect 300 news, hype or money"
+136,437,Georgia,Atlanta,"Georgia\nAtlanta\nLeave opponent with no voters\nor collect 300 news, hype or money"
+137,435,Georgia,Sandy Springs,"Georgia\nSandy Springs\nLeave opponent with no voters\nor collect 300 news, hype or money"
+138,433,Georgia,Roswell,"Georgia\nRoswell\nLeave opponent with no voters\nor collect 300 news, hype or money"
+139,431,Georgia,Augusta,"Georgia\nAugusta\nLeave opponent with no voters\nor collect 300 news, hype or money"
+140,429,Georgia,Savannah,"Georgia\nSavannah\nLeave opponent with no voters\nor collect 300 news, hype or money"
+141,427,Georgia,Columbus,"Georgia\nColumbus\nLeave opponent with no voters\nor collect 300 news, hype or money"
+142,425,Georgia,Macon,"Georgia\nMacon\nLeave opponent with no voters\nor collect 300 news, hype or money"
+143,423,Georgia,Athens,"Georgia\nAthens\nLeave opponent with no voters\nor collect 300 news, hype or money"
+144,421,Georgia,Clarke,"Georgia\nClarke\nLeave opponent with no voters\nor collect 300 news, hype or money"
+145,419,Georgia,Warner Robins,"Georgia\nWarner Robins\nLeave opponent with no voters\nor collect 300 news, hype or money"
+146,417,Georgia,Gainesville,"Georgia\nGainesville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+147,415,Georgia,Albany,"Georgia\nAlbany\nLeave opponent with no voters\nor collect 300 news, hype or money"
+148,413,Georgia,Valdosta,"Georgia\nValdosta\nLeave opponent with no voters\nor collect 300 news, hype or money"
+149,411,Georgia,Dalton,"Georgia\nDalton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+150,409,Georgia,Brunswick,"Georgia\nBrunswick\nLeave opponent with no voters\nor collect 300 news, hype or money"
+151,407,Georgia,Rome,"Georgia\nRome\nLeave opponent with no voters\nor collect 300 news, hype or money"
+152,202,Hawaii,Honolulu,"Hawaii\nHonolulu\nLeave opponent with no voters\nor collect 300 news, hype or money"
+153,197,Hawaii,Hilo,"Hawaii\nHilo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+154,192,Hawaii,Kahului,"Hawaii\nKahului\nLeave opponent with no voters\nor collect 300 news, hype or money"
+155,187,Hawaii,Wailuku,"Hawaii\nWailuku\nLeave opponent with no voters\nor collect 300 news, hype or money"
+156,201,Idaho,Boise City,"Idaho\nBoise City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+157,196,Idaho,Coeur d'Alene,"Idaho\nCoeur d'Alene\nLeave opponent with no voters\nor collect 300 news, hype or money"
+158,191,Idaho,Pocatello,"Idaho\nPocatello\nLeave opponent with no voters\nor collect 300 news, hype or money"
+159,186,Idaho,Twin Falls,"Idaho\nTwin Falls\nLeave opponent with no voters\nor collect 300 news, hype or money"
+160,478,Illinois,Chicago,"Illinois\nChicago\nLeave opponent with no voters\nor collect 300 news, hype or money"
+161,476,Illinois,Moline,"Illinois\nMoline\nLeave opponent with no voters\nor collect 300 news, hype or money"
+162,474,Illinois,Rock Island,"Illinois\nRock Island\nLeave opponent with no voters\nor collect 300 news, hype or money"
+163,472,Illinois,Peoria,"Illinois\nPeoria\nLeave opponent with no voters\nor collect 300 news, hype or money"
+164,470,Illinois,Rockford,"Illinois\nRockford\nLeave opponent with no voters\nor collect 300 news, hype or money"
+165,468,Illinois,Champaign,"Illinois\nChampaign\nLeave opponent with no voters\nor collect 300 news, hype or money"
+166,466,Illinois,Urbana,"Illinois\nUrbana\nLeave opponent with no voters\nor collect 300 news, hype or money"
+167,464,Illinois,Springfield,"Illinois\nSpringfield\nLeave opponent with no voters\nor collect 300 news, hype or money"
+168,462,Illinois,Bloomington,"Illinois\nBloomington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+169,460,Illinois,Ottawa,"Illinois\nOttawa\nLeave opponent with no voters\nor collect 300 news, hype or money"
+170,458,Illinois,Peru,"Illinois\nPeru\nLeave opponent with no voters\nor collect 300 news, hype or money"
+171,456,Illinois,Carbondale,"Illinois\nCarbondale\nLeave opponent with no voters\nor collect 300 news, hype or money"
+172,454,Illinois,Marion,"Illinois\nMarion\nLeave opponent with no voters\nor collect 300 news, hype or money"
+173,452,Illinois,Kankakee,"Illinois\nKankakee\nLeave opponent with no voters\nor collect 300 news, hype or money"
+174,450,Illinois,Decatur,"Illinois\nDecatur\nLeave opponent with no voters\nor collect 300 news, hype or money"
+175,448,Illinois,Danville,"Illinois\nDanville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+176,446,Illinois,Quincy,"Illinois\nQuincy\nLeave opponent with no voters\nor collect 300 news, hype or money"
+177,444,Illinois,Charleston,"Illinois\nCharleston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+178,442,Illinois,Mattoon,"Illinois\nMattoon\nLeave opponent with no voters\nor collect 300 news, hype or money"
+179,440,Illinois,Keokuk,"Illinois\nKeokuk\nLeave opponent with no voters\nor collect 300 news, hype or money"
+180,400,Indiana,Naperville,"Indiana\nNaperville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+181,396,Indiana,Elgin,"Indiana\nElgin\nLeave opponent with no voters\nor collect 300 news, hype or money"
+182,392,Indiana,Indianapolis,"Indiana\nIndianapolis\nLeave opponent with no voters\nor collect 300 news, hype or money"
+183,388,Indiana,Carmel,"Indiana\nCarmel\nLeave opponent with no voters\nor collect 300 news, hype or money"
+184,384,Indiana,Anderson,"Indiana\nAnderson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+185,380,Indiana,Fort Wayne,"Indiana\nFort Wayne\nLeave opponent with no voters\nor collect 300 news, hype or money"
+186,376,Indiana,South Bend,"Indiana\nSouth Bend\nLeave opponent with no voters\nor collect 300 news, hype or money"
+187,372,Indiana,Evansville,"Indiana\nEvansville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+188,368,Indiana,Lafayette,"Indiana\nLafayette\nLeave opponent with no voters\nor collect 300 news, hype or money"
+189,364,Indiana,Elkhart,"Indiana\nElkhart\nLeave opponent with no voters\nor collect 300 news, hype or money"
+190,360,Indiana,Bloomington,"Indiana\nBloomington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+191,252,Iowa,Council Bluffs,"Iowa\nCouncil Bluffs\nLeave opponent with no voters\nor collect 300 news, hype or money"
+192,246,Iowa,Des Moines,"Iowa\nDes Moines\nLeave opponent with no voters\nor collect 300 news, hype or money"
+193,240,Iowa,Davenport,"Iowa\nDavenport\nLeave opponent with no voters\nor collect 300 news, hype or money"
+194,234,Iowa,Cedar Rapids,"Iowa\nCedar Rapids\nLeave opponent with no voters\nor collect 300 news, hype or money"
+195,228,Iowa,Sioux City,"Iowa\nSioux City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+196,222,Iowa,Waterloo,"Iowa\nWaterloo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+197,251,Kansas,Wichita,"Kansas\nWichita\nLeave opponent with no voters\nor collect 300 news, hype or money"
+198,245,Kansas,Topeka,"Kansas\nTopeka\nLeave opponent with no voters\nor collect 300 news, hype or money"
+199,239,Kansas,Lawrence,"Kansas\nLawrence\nLeave opponent with no voters\nor collect 300 news, hype or money"
+200,233,Kansas,Manhattan,"Kansas\nManhattan\nLeave opponent with no voters\nor collect 300 news, hype or money"
+201,227,Kansas,Hutchinson,"Kansas\nHutchinson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+202,221,Kansas,Salina,"Kansas\nSalina\nLeave opponent with no voters\nor collect 300 news, hype or money"
+203,290,Kentucky,Louisville,"Kentucky\nLouisville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+204,288,Kentucky,Lexington,"Kentucky\nLexington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+205,286,Kentucky,Fayette,"Kentucky\nFayette\nLeave opponent with no voters\nor collect 300 news, hype or money"
+206,284,Kentucky,Ashland,"Kentucky\nAshland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+207,282,Kentucky,Bowling Green,"Kentucky\nBowling Green\nLeave opponent with no voters\nor collect 300 news, hype or money"
+208,280,Kentucky,Elizabethtown,"Kentucky\nElizabethtown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+209,278,Kentucky,Fort Knox,"Kentucky\nFort Knox\nLeave opponent with no voters\nor collect 300 news, hype or money"
+210,276,Kentucky,London,"Kentucky\nLondon\nLeave opponent with no voters\nor collect 300 news, hype or money"
+211,289,Louisiana,New Orleans,"Louisiana\nNew Orleans\nLeave opponent with no voters\nor collect 300 news, hype or money"
+212,287,Louisiana,Metairie,"Louisiana\nMetairie\nLeave opponent with no voters\nor collect 300 news, hype or money"
+213,285,Louisiana,Baton Rouge,"Louisiana\nBaton Rouge\nLeave opponent with no voters\nor collect 300 news, hype or money"
+214,283,Louisiana,Lafayette,"Louisiana\nLafayette\nLeave opponent with no voters\nor collect 300 news, hype or money"
+215,281,Louisiana,Shreveport,"Louisiana\nShreveport\nLeave opponent with no voters\nor collect 300 news, hype or money"
+216,279,Louisiana,Bossier City,"Louisiana\nBossier City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+217,277,Louisiana,Houma,"Louisiana\nHouma\nLeave opponent with no voters\nor collect 300 news, hype or money"
+218,275,Louisiana,Thibodaux,"Louisiana\nThibodaux\nLeave opponent with no voters\nor collect 300 news, hype or money"
+219,200,Maine,Portland,"Maine\nPortland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+220,195,Maine,South Portland,"Maine\nSouth Portland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+221,190,Maine,Bangor,"Maine\nBangor\nLeave opponent with no voters\nor collect 300 news, hype or money"
+222,185,Maine,Augusta,"Maine\nAugusta\nLeave opponent with no voters\nor collect 300 news, hype or money"
+223,357,Maryland,Baltimore,"Maryland\nBaltimore\nLeave opponent with no voters\nor collect 300 news, hype or money"
+224,353,Maryland,Columbia,"Maryland\nColumbia\nLeave opponent with no voters\nor collect 300 news, hype or money"
+225,349,Maryland,Towson,"Maryland\nTowson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+226,345,Maryland,Salisbury,"Maryland\nSalisbury\nLeave opponent with no voters\nor collect 300 news, hype or money"
+227,341,Maryland,Hagerstown,"Maryland\nHagerstown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+228,337,Maryland,California,"Maryland\nCalifornia\nLeave opponent with no voters\nor collect 300 news, hype or money"
+229,333,Maryland,Lexington Park,"Maryland\nLexington Park\nLeave opponent with no voters\nor collect 300 news, hype or money"
+230,329,Maryland,Cumberland,"Maryland\nCumberland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+231,325,Maryland,Easton,"Maryland\nEaston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+232,321,Maryland,Cambridge,"Maryland\nCambridge\nLeave opponent with no voters\nor collect 300 news, hype or money"
+233,399,Massachusetts,Boston,"Massachusetts\nBoston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+234,395,Massachusetts,Cambridge,"Massachusetts\nCambridge\nLeave opponent with no voters\nor collect 300 news, hype or money"
+235,391,Massachusetts,Newton,"Massachusetts\nNewton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+236,387,Massachusetts,Warwick,"Massachusetts\nWarwick\nLeave opponent with no voters\nor collect 300 news, hype or money"
+237,383,Massachusetts,Worcester,"Massachusetts\nWorcester\nLeave opponent with no voters\nor collect 300 news, hype or money"
+238,379,Massachusetts,Springfield,"Massachusetts\nSpringfield\nLeave opponent with no voters\nor collect 300 news, hype or money"
+239,375,Massachusetts,Barnstable Town,"Massachusetts\nBarnstable Town\nLeave opponent with no voters\nor collect 300 news, hype or money"
+240,371,Massachusetts,Pittsfield,"Massachusetts\nPittsfield\nLeave opponent with no voters\nor collect 300 news, hype or money"
+241,367,Massachusetts,Greenfield Town,"Massachusetts\nGreenfield Town\nLeave opponent with no voters\nor collect 300 news, hype or money"
+242,363,Massachusetts,Vineyard Haven,"Massachusetts\nVineyard Haven\nLeave opponent with no voters\nor collect 300 news, hype or money"
+243,359,Massachusetts,Cape Cod,"Massachusetts\nCape Cod\nLeave opponent with no voters\nor collect 300 news, hype or money"
+244,436,Michigan,Detroit,"Michigan\nDetroit\nLeave opponent with no voters\nor collect 300 news, hype or money"
+245,434,Michigan,Warren,"Michigan\nWarren\nLeave opponent with no voters\nor collect 300 news, hype or money"
+246,432,Michigan,Dearborn,"Michigan\nDearborn\nLeave opponent with no voters\nor collect 300 news, hype or money"
+247,430,Michigan,Grand Rapids,"Michigan\nGrand Rapids\nLeave opponent with no voters\nor collect 300 news, hype or money"
+248,428,Michigan,Wyoming,"Michigan\nWyoming\nLeave opponent with no voters\nor collect 300 news, hype or money"
+249,426,Michigan,Lansing,"Michigan\nLansing\nLeave opponent with no voters\nor collect 300 news, hype or money"
+250,424,Michigan,East Lansing,"Michigan\nEast Lansing\nLeave opponent with no voters\nor collect 300 news, hype or money"
+251,422,Michigan,Flint,"Michigan\nFlint\nLeave opponent with no voters\nor collect 300 news, hype or money"
+252,420,Michigan,Ann Arbor,"Michigan\nAnn Arbor\nLeave opponent with no voters\nor collect 300 news, hype or money"
+253,418,Michigan,Kalamazoo,"Michigan\nKalamazoo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+254,416,Michigan,Portage,"Michigan\nPortage\nLeave opponent with no voters\nor collect 300 news, hype or money"
+255,414,Michigan,Mishawaka,"Michigan\nMishawaka\nLeave opponent with no voters\nor collect 300 news, hype or money"
+256,412,Michigan,Saginaw,"Michigan\nSaginaw\nLeave opponent with no voters\nor collect 300 news, hype or money"
+257,410,Michigan,Muskegon,"Michigan\nMuskegon\nLeave opponent with no voters\nor collect 300 news, hype or money"
+258,408,Michigan,Jackson,"Michigan\nJackson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+259,406,Michigan,Niles,"Michigan\nNiles\nLeave opponent with no voters\nor collect 300 news, hype or money"
+260,356,Minnesota,Minneapolis,"Minnesota\nMinneapolis\nLeave opponent with no voters\nor collect 300 news, hype or money"
+261,352,Minnesota,Duluth,"Minnesota\nDuluth\nLeave opponent with no voters\nor collect 300 news, hype or money"
+262,348,Minnesota,Rochester,"Minnesota\nRochester\nLeave opponent with no voters\nor collect 300 news, hype or money"
+263,344,Minnesota,St. Cloud,"Minnesota\nSt. Cloud\nLeave opponent with no voters\nor collect 300 news, hype or money"
+264,340,Minnesota,Onalaska,"Minnesota\nOnalaska\nLeave opponent with no voters\nor collect 300 news, hype or money"
+265,336,Minnesota,Mankato,"Minnesota\nMankato\nLeave opponent with no voters\nor collect 300 news, hype or money"
+266,332,Minnesota,North Mankato,"Minnesota\nNorth Mankato\nLeave opponent with no voters\nor collect 300 news, hype or money"
+267,328,Minnesota,Brainerd,"Minnesota\nBrainerd\nLeave opponent with no voters\nor collect 300 news, hype or money"
+268,324,Minnesota,Faribault,"Minnesota\nFaribault\nLeave opponent with no voters\nor collect 300 news, hype or money"
+269,320,Minnesota,Northfield,"Minnesota\nNorthfield\nLeave opponent with no voters\nor collect 300 news, hype or money"
+270,250,Mississippi,Jackson,"Mississippi\nJackson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+271,244,Mississippi,Gulfport,"Mississippi\nGulfport\nLeave opponent with no voters\nor collect 300 news, hype or money"
+272,238,Mississippi,Biloxi,"Mississippi\nBiloxi\nLeave opponent with no voters\nor collect 300 news, hype or money"
+273,232,Mississippi,Pascagoula,"Mississippi\nPascagoula\nLeave opponent with no voters\nor collect 300 news, hype or money"
+274,226,Mississippi,Hattiesburg,"Mississippi\nHattiesburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+275,220,Mississippi,Tupelo,"Mississippi\nTupelo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+276,355,Missouri,St. Louis,"Missouri\nSt. Louis\nLeave opponent with no voters\nor collect 300 news, hype or money"
+277,351,Missouri,Kansas City,"Missouri\nKansas City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+278,347,Missouri,Springdale,"Missouri\nSpringdale\nLeave opponent with no voters\nor collect 300 news, hype or money"
+279,343,Missouri,Rogers,"Missouri\nRogers\nLeave opponent with no voters\nor collect 300 news, hype or money"
+280,339,Missouri,Springfield,"Missouri\nSpringfield\nLeave opponent with no voters\nor collect 300 news, hype or money"
+281,335,Missouri,Joplin,"Missouri\nJoplin\nLeave opponent with no voters\nor collect 300 news, hype or money"
+282,331,Missouri,Columbia,"Missouri\nColumbia\nLeave opponent with no voters\nor collect 300 news, hype or money"
+283,327,Missouri,Jefferson City,"Missouri\nJefferson City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+284,323,Missouri,St. Joseph,"Missouri\nSt. Joseph\nLeave opponent with no voters\nor collect 300 news, hype or money"
+285,319,Missouri,Cape Girardeau,"Missouri\nCape Girardeau\nLeave opponent with no voters\nor collect 300 news, hype or money"
+286,179,Montana,Billings,"Montana\nBillings\nLeave opponent with no voters\nor collect 300 news, hype or money"
+287,171,Montana,Missoula,"Montana\nMissoula\nLeave opponent with no voters\nor collect 300 news, hype or money"
+288,163,Montana,Bozeman,"Montana\nBozeman\nLeave opponent with no voters\nor collect 300 news, hype or money"
+289,217,Nebraska,Omaha,"Nebraska\nOmaha\nLeave opponent with no voters\nor collect 300 news, hype or money"
+290,214,Nebraska,Lincoln,"Nebraska\nLincoln\nLeave opponent with no voters\nor collect 300 news, hype or money"
+291,211,Nebraska,Grand Island,"Nebraska\nGrand Island\nLeave opponent with no voters\nor collect 300 news, hype or money"
+292,208,Nebraska,Kearney,"Nebraska\nKearney\nLeave opponent with no voters\nor collect 300 news, hype or money"
+293,205,Nebraska,Norfolk,"Nebraska\nNorfolk\nLeave opponent with no voters\nor collect 300 news, hype or money"
+294,249,Nevada,Las Vegas,"Nevada\nLas Vegas\nLeave opponent with no voters\nor collect 300 news, hype or money"
+295,243,Nevada,Henderson,"Nevada\nHenderson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+296,237,Nevada,Paradise,"Nevada\nParadise\nLeave opponent with no voters\nor collect 300 news, hype or money"
+297,231,Nevada,Reno,"Nevada\nReno\nLeave opponent with no voters\nor collect 300 news, hype or money"
+298,225,Nevada,Carson City,"Nevada\nCarson City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+299,219,Nevada,Elko,"Nevada\nElko\nLeave opponent with no voters\nor collect 300 news, hype or money"
+300,199,New Hampshire,Manchester,"New Hampshire\nManchester\nLeave opponent with no voters\nor collect 300 news, hype or money"
+301,194,New Hampshire,Nashua,"New Hampshire\nNashua\nLeave opponent with no voters\nor collect 300 news, hype or money"
+302,189,New Hampshire,Claremont,"New Hampshire\nClaremont\nLeave opponent with no voters\nor collect 300 news, hype or money"
+303,184,New Hampshire,Concord,"New Hampshire\nConcord\nLeave opponent with no voters\nor collect 300 news, hype or money"
+304,404,New Jersey,Newark,"New Jersey\nNewark\nLeave opponent with no voters\nor collect 300 news, hype or money"
+305,154,New Jersey,Jersey City,"New Jersey\nJersey City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+306,147,New Jersey,Camden,"New Jersey\nCamden\nLeave opponent with no voters\nor collect 300 news, hype or money"
+307,140,New Jersey,Wilmington,"New Jersey\nWilmington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+308,133,New Jersey,Bethlehem,"New Jersey\nBethlehem\nLeave opponent with no voters\nor collect 300 news, hype or money"
+309,126,New Jersey,Easton,"New Jersey\nEaston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+310,119,New Jersey,Trenton,"New Jersey\nTrenton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+311,112,New Jersey,Atlantic City,"New Jersey\nAtlantic City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+312,105,New Jersey,Hammonton,"New Jersey\nHammonton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+313,98,New Jersey,Vineland,"New Jersey\nVineland\nLeave opponent with no voters\nor collect 100 news, hype or money"
+314,91,New Jersey,Bridgeton,"New Jersey\nBridgeton\nLeave opponent with no voters\nor collect 100 news, hype or money"
+315,84,New Jersey,Ocean City,"New Jersey\nOcean City\nLeave opponent with no voters\nor collect 100 news, hype or money"
+316,77,New Jersey,Princeton,"New Jersey\nPrinceton\nLeave opponent with no voters\nor collect 100 news, hype or money"
+317,71,New Jersey,Edison,"New Jersey\nEdison\nLeave opponent with no voters\nor collect 100 news, hype or money"
+318,216,New Mexico,Albuquerque,"New Mexico\nAlbuquerque\nLeave opponent with no voters\nor collect 300 news, hype or money"
+319,213,New Mexico,Santa Fe,"New Mexico\nSanta Fe\nLeave opponent with no voters\nor collect 300 news, hype or money"
+320,210,New Mexico,Alamogordo,"New Mexico\nAlamogordo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+321,207,New Mexico,Farmington,"New Mexico\nFarmington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+322,204,New Mexico,Los Alamos,"New Mexico\nLos Alamos\nLeave opponent with no voters\nor collect 300 news, hype or money"
+323,535,New York,New York,"New York\nNew York\nLeave opponent with no voters\nor collect 300 news, hype or money"
+324,533,New York,Buffalo,"New York\nBuffalo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+325,531,New York,Cheektowaga,"New York\nCheektowaga\nLeave opponent with no voters\nor collect 300 news, hype or money"
+326,529,New York,Niagara Falls,"New York\nNiagara Falls\nLeave opponent with no voters\nor collect 300 news, hype or money"
+327,527,New York,Rochester,"New York\nRochester\nLeave opponent with no voters\nor collect 300 news, hype or money"
+328,525,New York,Albany,"New York\nAlbany\nLeave opponent with no voters\nor collect 300 news, hype or money"
+329,523,New York,Schenectady,"New York\nSchenectady\nLeave opponent with no voters\nor collect 300 news, hype or money"
+330,521,New York,Troy,"New York\nTroy\nLeave opponent with no voters\nor collect 300 news, hype or money"
+331,519,New York,Syracuse,"New York\nSyracuse\nLeave opponent with no voters\nor collect 300 news, hype or money"
+332,517,New York,Utica,"New York\nUtica\nLeave opponent with no voters\nor collect 300 news, hype or money"
+333,515,New York,Rome,"New York\nRome\nLeave opponent with no voters\nor collect 300 news, hype or money"
+334,513,New York,Binghamton,"New York\nBinghamton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+335,511,New York,Kingston,"New York\nKingston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+336,509,New York,Jamestown,"New York\nJamestown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+337,507,New York,Dunkirk,"New York\nDunkirk\nLeave opponent with no voters\nor collect 300 news, hype or money"
+338,505,New York,Fredonia,"New York\nFredonia\nLeave opponent with no voters\nor collect 300 news, hype or money"
+339,503,New York,Glens Falls,"New York\nGlens Falls\nLeave opponent with no voters\nor collect 300 news, hype or money"
+340,501,New York,Watertown,"New York\nWatertown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+341,499,New York,Fort Drum,"New York\nFort Drum\nLeave opponent with no voters\nor collect 300 news, hype or money"
+342,497,New York,Ogdensburg,"New York\nOgdensburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+343,495,New York,Massena,"New York\nMassena\nLeave opponent with no voters\nor collect 300 news, hype or money"
+344,493,New York,Ithaca,"New York\nIthaca\nLeave opponent with no voters\nor collect 300 news, hype or money"
+345,491,New York,Corning,"New York\nCorning\nLeave opponent with no voters\nor collect 300 news, hype or money"
+346,489,New York,Elmira,"New York\nElmira\nLeave opponent with no voters\nor collect 300 news, hype or money"
+347,487,New York,Plattsburgh,"New York\nPlattsburgh\nLeave opponent with no voters\nor collect 300 news, hype or money"
+348,485,New York,Auburn,"New York\nAuburn\nLeave opponent with no voters\nor collect 300 news, hype or money"
+349,483,New York,Olean,"New York\nOlean\nLeave opponent with no voters\nor collect 300 news, hype or money"
+350,481,New York,Hudson,"New York\nHudson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+351,479,New York,Oneonta,"New York\nOneonta\nLeave opponent with no voters\nor collect 300 news, hype or money"
+352,405,North Carolina,Charlotte,"North Carolina\nCharlotte\nLeave opponent with no voters\nor collect 300 news, hype or money"
+353,155,North Carolina,Norfolk,"North Carolina\nNorfolk\nLeave opponent with no voters\nor collect 300 news, hype or money"
+354,148,North Carolina,Newport News,"North Carolina\nNewport News\nLeave opponent with no voters\nor collect 300 news, hype or money"
+355,141,North Carolina,Raleigh,"North Carolina\nRaleigh\nLeave opponent with no voters\nor collect 300 news, hype or money"
+356,134,North Carolina,Greensboro,"North Carolina\nGreensboro\nLeave opponent with no voters\nor collect 300 news, hype or money"
+357,127,North Carolina,High Point,"North Carolina\nHigh Point\nLeave opponent with no voters\nor collect 300 news, hype or money"
+358,120,North Carolina,Winston,"North Carolina\nWinston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+359,113,North Carolina,Salem,"North Carolina\nSalem\nLeave opponent with no voters\nor collect 300 news, hype or money"
+360,106,North Carolina,Durham,"North Carolina\nDurham\nLeave opponent with no voters\nor collect 300 news, hype or money"
+361,99,North Carolina,Chapel Hill,"North Carolina\nChapel Hill\nLeave opponent with no voters\nor collect 100 news, hype or money"
+362,92,North Carolina,Asheville,"North Carolina\nAsheville\nLeave opponent with no voters\nor collect 100 news, hype or money"
+363,85,North Carolina,Conway,"North Carolina\nConway\nLeave opponent with no voters\nor collect 100 news, hype or money"
+364,78,North Carolina,North Myrtle Beach,"North Carolina\nNorth Myrtle Beach\nLeave opponent with no voters\nor collect 100 news, hype or money"
+365,72,North Carolina,Fayetteville,"North Carolina\nFayetteville\nLeave opponent with no voters\nor collect 100 news, hype or money"
+366,67,North Carolina,Hickory,"North Carolina\nHickory\nLeave opponent with no voters\nor collect 100 news, hype or money"
+367,178,North Dakota,Fargo,"North Dakota\nFargo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+368,170,North Dakota,Bismarck,"North Dakota\nBismarck\nLeave opponent with no voters\nor collect 300 news, hype or money"
+369,162,North Dakota,Grand Forks,"North Dakota\nGrand Forks\nLeave opponent with no voters\nor collect 300 news, hype or money"
+370,438,Ohio,Cincinnati,"Ohio\nCincinnati\nLeave opponent with no voters\nor collect 300 news, hype or money"
+371,156,Ohio,Cleveland,"Ohio\nCleveland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+372,149,Ohio,Elyria,"Ohio\nElyria\nLeave opponent with no voters\nor collect 300 news, hype or money"
+373,142,Ohio,Columbus,"Ohio\nColumbus\nLeave opponent with no voters\nor collect 300 news, hype or money"
+374,135,Ohio,Dayton,"Ohio\nDayton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+375,128,Ohio,Akron,"Ohio\nAkron\nLeave opponent with no voters\nor collect 300 news, hype or money"
+376,121,Ohio,Toledo,"Ohio\nToledo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+377,114,Ohio,Youngstown,"Ohio\nYoungstown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+378,107,Ohio,Canton,"Ohio\nCanton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+379,100,Ohio,Massillon,"Ohio\nMassillon\nLeave opponent with no voters\nor collect 100 news, hype or money"
+380,93,Ohio,Springfield,"Ohio\nSpringfield\nLeave opponent with no voters\nor collect 100 news, hype or money"
+381,86,Ohio,Mansfield,"Ohio\nMansfield\nLeave opponent with no voters\nor collect 100 news, hype or money"
+382,79,Ohio,Steubenville,"Ohio\nSteubenville\nLeave opponent with no voters\nor collect 100 news, hype or money"
+383,73,Ohio,Wooster,"Ohio\nWooster\nLeave opponent with no voters\nor collect 100 news, hype or money"
+384,68,Ohio,Salem,"Ohio\nSalem\nLeave opponent with no voters\nor collect 100 news, hype or money"
+385,64,Ohio,Lima,"Ohio\nLima\nLeave opponent with no voters\nor collect 100 news, hype or money"
+386,61,Ohio,Ashtabula,"Ohio\nAshtabula\nLeave opponent with no voters\nor collect 100 news, hype or money"
+387,58,Ohio,Zanesville,"Ohio\nZanesville\nLeave opponent with no voters\nor collect 100 news, hype or money"
+388,273,Oklahoma,Oklahoma City,"Oklahoma\nOklahoma City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+389,270,Oklahoma,Tulsa,"Oklahoma\nTulsa\nLeave opponent with no voters\nor collect 300 news, hype or money"
+390,267,Oklahoma,Lawton,"Oklahoma\nLawton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+391,264,Oklahoma,Stillwater,"Oklahoma\nStillwater\nLeave opponent with no voters\nor collect 300 news, hype or money"
+392,261,Oklahoma,Shawnee,"Oklahoma\nShawnee\nLeave opponent with no voters\nor collect 300 news, hype or money"
+393,258,Oklahoma,Muskogee,"Oklahoma\nMuskogee\nLeave opponent with no voters\nor collect 300 news, hype or money"
+394,255,Oklahoma,Enid,"Oklahoma\nEnid\nLeave opponent with no voters\nor collect 300 news, hype or money"
+395,272,Oregon,Portland,"Oregon\nPortland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+396,269,Oregon,Salem,"Oregon\nSalem\nLeave opponent with no voters\nor collect 300 news, hype or money"
+397,266,Oregon,Eugene,"Oregon\nEugene\nLeave opponent with no voters\nor collect 300 news, hype or money"
+398,263,Oregon,Medford,"Oregon\nMedford\nLeave opponent with no voters\nor collect 300 news, hype or money"
+399,260,Oregon,Bend,"Oregon\nBend\nLeave opponent with no voters\nor collect 300 news, hype or money"
+400,257,Oregon,Redmond,"Oregon\nRedmond\nLeave opponent with no voters\nor collect 300 news, hype or money"
+401,254,Oregon,Albany,"Oregon\nAlbany\nLeave opponent with no voters\nor collect 300 news, hype or money"
+402,477,Pennsylvania,Philadelphia,"Pennsylvania\nPhiladelphia\nLeave opponent with no voters\nor collect 300 news, hype or money"
+403,475,Pennsylvania,Pittsburgh,"Pennsylvania\nPittsburgh\nLeave opponent with no voters\nor collect 300 news, hype or money"
+404,473,Pennsylvania,Allentown,"Pennsylvania\nAllentown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+405,471,Pennsylvania,Scranton,"Pennsylvania\nScranton\nLeave opponent with no voters\nor collect 300 news, hype or money"
+406,469,Pennsylvania,Barre,"Pennsylvania\nBarre\nLeave opponent with no voters\nor collect 300 news, hype or money"
+407,467,Pennsylvania,Warren,"Pennsylvania\nWarren\nLeave opponent with no voters\nor collect 300 news, hype or money"
+408,465,Pennsylvania,Boardman,"Pennsylvania\nBoardman\nLeave opponent with no voters\nor collect 300 news, hype or money"
+409,463,Pennsylvania,Harrisburg,"Pennsylvania\nHarrisburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+410,461,Pennsylvania,Carlisle,"Pennsylvania\nCarlisle\nLeave opponent with no voters\nor collect 300 news, hype or money"
+411,459,Pennsylvania,Lancaster,"Pennsylvania\nLancaster\nLeave opponent with no voters\nor collect 300 news, hype or money"
+412,457,Pennsylvania,York,"Pennsylvania\nYork\nLeave opponent with no voters\nor collect 300 news, hype or money"
+413,455,Pennsylvania,Hanover,"Pennsylvania\nHanover\nLeave opponent with no voters\nor collect 300 news, hype or money"
+414,453,Pennsylvania,Reading,"Pennsylvania\nReading\nLeave opponent with no voters\nor collect 300 news, hype or money"
+415,451,Pennsylvania,Erie,"Pennsylvania\nErie\nLeave opponent with no voters\nor collect 300 news, hype or money"
+416,449,Pennsylvania,East Stroudsburg,"Pennsylvania\nEast Stroudsburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+417,447,Pennsylvania,State College,"Pennsylvania\nState College\nLeave opponent with no voters\nor collect 300 news, hype or money"
+418,445,Pennsylvania,Chambersburg,"Pennsylvania\nChambersburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+419,443,Pennsylvania,Waynesboro,"Pennsylvania\nWaynesboro\nLeave opponent with no voters\nor collect 300 news, hype or money"
+420,441,Pennsylvania,Pottsville,"Pennsylvania\nPottsville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+421,439,Pennsylvania,Johnstown,"Pennsylvania\nJohnstown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+422,198,Rhode Island,Providence,"Rhode Island\nProvidence\nLeave opponent with no voters\nor collect 300 news, hype or money"
+423,193,Rhode Island,Warwick,"Rhode Island\nWarwick\nLeave opponent with no voters\nor collect 300 news, hype or money"
+424,188,Rhode Island,Cranston,"Rhode Island\nCranston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+425,183,Rhode Island,Pawtucket,"Rhode Island\nPawtucket\nLeave opponent with no voters\nor collect 300 news, hype or money"
+426,315,South Carolina,Concord,"South Carolina\nConcord\nLeave opponent with no voters\nor collect 300 news, hype or money"
+427,312,South Carolina,Gastonia,"South Carolina\nGastonia\nLeave opponent with no voters\nor collect 300 news, hype or money"
+428,309,South Carolina,Greenville,"South Carolina\nGreenville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+429,306,South Carolina,Anderson,"South Carolina\nAnderson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+430,303,South Carolina,Mauldin,"South Carolina\nMauldin\nLeave opponent with no voters\nor collect 300 news, hype or money"
+431,300,South Carolina,Columbia,"South Carolina\nColumbia\nLeave opponent with no voters\nor collect 300 news, hype or money"
+432,297,South Carolina,Charleston,"South Carolina\nCharleston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+433,294,South Carolina,North Charleston,"South Carolina\nNorth Charleston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+434,291,South Carolina,Richmond County,"South Carolina\nRichmond County\nLeave opponent with no voters\nor collect 300 news, hype or money"
+435,177,South Dakota,Sioux Falls,"South Dakota\nSioux Falls\nLeave opponent with no voters\nor collect 300 news, hype or money"
+436,169,South Dakota,Rapid City,"South Dakota\nRapid City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+437,161,South Dakota,Aberdeen,"South Dakota\nAberdeen\nLeave opponent with no voters\nor collect 300 news, hype or money"
+438,398,Tennessee,Nashville,"Tennessee\nNashville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+439,394,Tennessee,Davidson,"Tennessee\nDavidson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+440,390,Tennessee,Memphis,"Tennessee\nMemphis\nLeave opponent with no voters\nor collect 300 news, hype or money"
+441,386,Tennessee,Knoxville,"Tennessee\nKnoxville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+442,382,Tennessee,Chattanooga,"Tennessee\nChattanooga\nLeave opponent with no voters\nor collect 300 news, hype or money"
+443,378,Tennessee,Kingsport,"Tennessee\nKingsport\nLeave opponent with no voters\nor collect 300 news, hype or money"
+444,374,Tennessee,Clarksville,"Tennessee\nClarksville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+445,370,Tennessee,Johnson City,"Tennessee\nJohnson City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+446,366,Tennessee,Jackson,"Tennessee\nJackson\nLeave opponent with no voters\nor collect 300 news, hype or money"
+447,362,Tennessee,Cleveland,"Tennessee\nCleveland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+448,358,Tennessee,Morristown,"Tennessee\nMorristown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+449,537,Texas,Dallas,"Texas\nDallas\nLeave opponent with no voters\nor collect 300 news, hype or money"
+450,157,Texas,Fort Worth,"Texas\nFort Worth\nLeave opponent with no voters\nor collect 300 news, hype or money"
+451,150,Texas,Arlington,"Texas\nArlington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+452,143,Texas,Houston,"Texas\nHouston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+453,136,Texas,The Woodlands,"Texas\nThe Woodlands\nLeave opponent with no voters\nor collect 300 news, hype or money"
+454,129,Texas,Sugar Land,"Texas\nSugar Land\nLeave opponent with no voters\nor collect 300 news, hype or money"
+455,122,Texas,San Antonio,"Texas\nSan Antonio\nLeave opponent with no voters\nor collect 300 news, hype or money"
+456,115,Texas,New Braunfels,"Texas\nNew Braunfels\nLeave opponent with no voters\nor collect 300 news, hype or money"
+457,108,Texas,Austin,"Texas\nAustin\nLeave opponent with no voters\nor collect 300 news, hype or money"
+458,101,Texas,Round Rock,"Texas\nRound Rock\nLeave opponent with no voters\nor collect 100 news, hype or money"
+459,94,Texas,El Paso,"Texas\nEl Paso\nLeave opponent with no voters\nor collect 100 news, hype or money"
+460,87,Texas,McAllen,"Texas\nMcAllen\nLeave opponent with no voters\nor collect 100 news, hype or money"
+461,80,Texas,Edinburg,"Texas\nEdinburg\nLeave opponent with no voters\nor collect 100 news, hype or money"
+462,74,Texas,Mission,"Texas\nMission\nLeave opponent with no voters\nor collect 100 news, hype or money"
+463,69,Texas,Corpus Christi,"Texas\nCorpus Christi\nLeave opponent with no voters\nor collect 100 news, hype or money"
+464,65,Texas,Killeen,"Texas\nKilleen\nLeave opponent with no voters\nor collect 100 news, hype or money"
+465,62,Texas,Temple,"Texas\nTemple\nLeave opponent with no voters\nor collect 100 news, hype or money"
+466,59,Texas,Brownsville,"Texas\nBrownsville\nLeave opponent with no voters\nor collect 100 news, hype or money"
+467,56,Texas,Harlingen,"Texas\nHarlingen\nLeave opponent with no voters\nor collect 100 news, hype or money"
+468,54,Texas,Beaumont,"Texas\nBeaumont\nLeave opponent with no voters\nor collect 100 news, hype or money"
+469,52,Texas,Port Arthur,"Texas\nPort Arthur\nLeave opponent with no voters\nor collect 100 news, hype or money"
+470,50,Texas,Lubbock,"Texas\nLubbock\nLeave opponent with no voters\nor collect 100 news, hype or money"
+471,48,Texas,Laredo,"Texas\nLaredo\nLeave opponent with no voters\nor collect 100 news, hype or money"
+472,46,Texas,Amarillo,"Texas\nAmarillo\nLeave opponent with no voters\nor collect 100 news, hype or money"
+473,44,Texas,Waco,"Texas\nWaco\nLeave opponent with no voters\nor collect 100 news, hype or money"
+474,42,Texas,College Station,"Texas\nCollege Station\nLeave opponent with no voters\nor collect 100 news, hype or money"
+475,40,Texas,Bryan,"Texas\nBryan\nLeave opponent with no voters\nor collect 100 news, hype or money"
+476,38,Texas,Longview,"Texas\nLongview\nLeave opponent with no voters\nor collect 100 news, hype or money"
+477,36,Texas,Tyler,"Texas\nTyler\nLeave opponent with no voters\nor collect 100 news, hype or money"
+478,34,Texas,Abilene,"Texas\nAbilene\nLeave opponent with no voters\nor collect 100 news, hype or money"
+479,32,Texas,Midland,"Texas\nMidland\nLeave opponent with no voters\nor collect 100 news, hype or money"
+480,30,Texas,Wichita Falls,"Texas\nWichita Falls\nLeave opponent with no voters\nor collect 100 news, hype or money"
+481,28,Texas,Texarkana,"Texas\nTexarkana\nLeave opponent with no voters\nor collect 100 news, hype or money"
+482,26,Texas,Odessa,"Texas\nOdessa\nLeave opponent with no voters\nor collect 100 news, hype or money"
+483,24,Texas,Sherman,"Texas\nSherman\nLeave opponent with no voters\nor collect 100 news, hype or money"
+484,22,Texas,Denison,"Texas\nDenison\nLeave opponent with no voters\nor collect 100 news, hype or money"
+485,20,Texas,San Angelo,"Texas\nSan Angelo\nLeave opponent with no voters\nor collect 100 news, hype or money"
+486,18,Texas,Victoria,"Texas\nVictoria\nLeave opponent with no voters\nor collect 100 news, hype or money"
+487,248,Utah,Salt Lake City,"Utah\nSalt Lake City\nLeave opponent with no voters\nor collect 300 news, hype or money"
+488,242,Utah,Ogden,"Utah\nOgden\nLeave opponent with no voters\nor collect 300 news, hype or money"
+489,236,Utah,Clearfield,"Utah\nClearfield\nLeave opponent with no voters\nor collect 300 news, hype or money"
+490,230,Utah,Provo,"Utah\nProvo\nLeave opponent with no voters\nor collect 300 news, hype or money"
+491,224,Utah,Orem,"Utah\nOrem\nLeave opponent with no voters\nor collect 300 news, hype or money"
+492,218,Utah,Logan,"Utah\nLogan\nLeave opponent with no voters\nor collect 300 news, hype or money"
+493,176,Vermont,Lebanon,"Vermont\nBurlington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+494,168,Vermont,Burlington,"Vermont\nLebanon\nLeave opponent with no voters\nor collect 300 news, hype or money"
+495,160,Vermont,Rutland,"Vermont\nRutland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+496,403,Virginia,Alexandria,"Virginia\nAlexandria\nLeave opponent with no voters\nor collect 300 news, hype or money"
+497,153,Virginia,Virginia Beach,"Virginia\nVirginia Beach\nLeave opponent with no voters\nor collect 300 news, hype or money"
+498,146,Virginia,Richmond,"Virginia\nRichmond\nLeave opponent with no voters\nor collect 300 news, hype or money"
+499,139,Virginia,Roanoke,"Virginia\nRoanoke\nLeave opponent with no voters\nor collect 300 news, hype or money"
+500,132,Virginia,Bristol,"Virginia\nBristol\nLeave opponent with no voters\nor collect 300 news, hype or money"
+501,125,Virginia,Bristol,"Virginia\nBristol\nLeave opponent with no voters\nor collect 300 news, hype or money"
+502,118,Virginia,Lynchburg,"Virginia\nLynchburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+503,111,Virginia,Charlottesville,"Virginia\nCharlottesville\nLeave opponent with no voters\nor collect 300 news, hype or money"
+504,104,Virginia,Blacksburg,"Virginia\nBlacksburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+505,97,Virginia,Christiansburg,"Virginia\nChristiansburg\nLeave opponent with no voters\nor collect 100 news, hype or money"
+506,90,Virginia,Radford,"Virginia\nRadford\nLeave opponent with no voters\nor collect 100 news, hype or money"
+507,83,Virginia,Winchester,"Virginia\nWinchester\nLeave opponent with no voters\nor collect 100 news, hype or money"
+508,76,Virginia,Harrisonburg,"Virginia\nHarrisonburg\nLeave opponent with no voters\nor collect 100 news, hype or money"
+509,402,Washington,Seattle,"Washington\nSeattle\nLeave opponent with no voters\nor collect 300 news, hype or money"
+510,152,Washington,Tacoma,"Washington\nTacoma\nLeave opponent with no voters\nor collect 300 news, hype or money"
+511,145,Washington,Bellevue,"Washington\nBellevue\nLeave opponent with no voters\nor collect 300 news, hype or money"
+512,138,Washington,Vancouver,"Washington\nVancouver\nLeave opponent with no voters\nor collect 300 news, hype or money"
+513,131,Washington,Hillsboro,"Washington\nHillsboro\nLeave opponent with no voters\nor collect 300 news, hype or money"
+514,124,Washington,Spokane,"Washington\nSpokane\nLeave opponent with no voters\nor collect 300 news, hype or money"
+515,117,Washington,Spokane Valley,"Washington\nSpokane Valley\nLeave opponent with no voters\nor collect 300 news, hype or money"
+516,110,Washington,Kennewick,"Washington\nKennewick\nLeave opponent with no voters\nor collect 300 news, hype or money"
+517,103,Washington,Richland,"Washington\nRichland\nLeave opponent with no voters\nor collect 300 news, hype or money"
+518,96,Washington,Olympia,"Washington\nOlympia\nLeave opponent with no voters\nor collect 100 news, hype or money"
+519,89,Washington,Tumwater,"Washington\nTumwater\nLeave opponent with no voters\nor collect 100 news, hype or money"
+520,82,Washington,Bremerton,"Washington\nBremerton\nLeave opponent with no voters\nor collect 100 news, hype or money"
+521,215,West Virginia,Huntington,"West Virginia\nHuntington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+522,212,West Virginia,Martinsburg,"West Virginia\nMartinsburg\nLeave opponent with no voters\nor collect 300 news, hype or money"
+523,209,West Virginia,Charleston,"West Virginia\nCharleston\nLeave opponent with no voters\nor collect 300 news, hype or money"
+524,206,West Virginia,Wheeling,"West Virginia\nWheeling\nLeave opponent with no voters\nor collect 300 news, hype or money"
+525,203,West Virginia,Morgantown,"West Virginia\nMorgantown\nLeave opponent with no voters\nor collect 300 news, hype or money"
+526,354,Wisconsin,St. Paul,"Wisconsin\nSt. Paul\nLeave opponent with no voters\nor collect 300 news, hype or money"
+527,350,Wisconsin,Bloomington,"Wisconsin\nBloomington\nLeave opponent with no voters\nor collect 300 news, hype or money"
+528,346,Wisconsin,Milwaukee,"Wisconsin\nMilwaukee\nLeave opponent with no voters\nor collect 300 news, hype or money"
+529,342,Wisconsin,Waukesha,"Wisconsin\nWaukesha\nLeave opponent with no voters\nor collect 300 news, hype or money"
+530,338,Wisconsin,West Allis,"Wisconsin\nWest Allis\nLeave opponent with no voters\nor collect 300 news, hype or money"
+531,334,Wisconsin,Madison,"Wisconsin\nMadison\nLeave opponent with no voters\nor collect 300 news, hype or money"
+532,330,Wisconsin,Green Bay,"Wisconsin\nGreen Bay\nLeave opponent with no voters\nor collect 300 news, hype or money"
+533,326,Wisconsin,Appleton,"Wisconsin\nAppleton\nLeave opponent with no voters\nor collect 300 news, hype or money"

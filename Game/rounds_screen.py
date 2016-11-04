@@ -3,6 +3,7 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.properties import BoundedNumericProperty
 from kivy.uix.button import Button
 from base_screen import BaseScreen
+from kivy.uix.floatlayout import FloatLayout
 import elections_game
 import os
 import csv
@@ -159,6 +160,7 @@ class DistrictsScroll(ScrollView):
         self.update_widgets(self.states_db[0]['state'])
 
     def on_press(self, *args):
+        print(args[0])
         self.desc_scroll.update_widgets(args[0])
         for _, layout in self.layouts.items():
             for btn in layout.children[:]:
@@ -181,29 +183,28 @@ class DistrictsScroll(ScrollView):
 
 
 
-class DescriptionScroll(ScrollView):
+class DescriptionScroll(FloatLayout):
 
     def __init__(self, **kwargs):
         super(DescriptionScroll, self).__init__(**kwargs)
         self.layouts = None
 
     def update_widgets(self, area):
-        for child in self.children[:]:
-            self.remove_widget(child)
-        curr_area_layout = self.layouts[area[1]]
-
-        self.add_widget(curr_area_layout)
+        district_id = area[1]
+        self.label.text = self.states_db[district_id]['descr']
 
     def late_init(self, **kwargs):
         self.states_db = kwargs['states_db']
         self.pos_hint = kwargs['pos_hint']
         self.size_hint = kwargs['size_hint']
 
-        self.layouts = {i: GridLayout(cols=1, spacing=0, size_hint_y=None) for i in range(len(self.states_db))}
+        self.label = Label(text="azaza\nololo\nhahahha", font_size="12sp",
+                           pos_hint={"x": 0.15, "y": 0.4},
+                           size=(100, 200),
+                           size_hint_y=None)
 
-        for i, layout in self.layouts.items():
-            label = Label(text=str(self.states_db[i]['descr']), font_size='18 sp', text_size=(self.width, None), size_hint_y=None, background_color=[1,1,1,0.])
-            layout.add_widget(label)
+        self.add_widget(self.label)
+        self.label.text_size = (self.label.width, None)
 
         self.update_widgets((self.states_db[0]['district'], 0))
 
@@ -220,7 +221,7 @@ class RoundsScreen(BaseScreen):
     SIZES = {0: (730 / 2048.0, (1536 - 1340) / 1536.0)}
 
 
-    def __init__(self, sm, **kwargs): 
+    def __init__(self, sm, **kwargs):
         """Init start screen."""
         super(RoundsScreen, self).__init__(**kwargs)
         self.sm = sm
@@ -261,6 +262,7 @@ class RoundsScreen(BaseScreen):
             reader = csv.DictReader(states_file)
             for row in reader:
                 row_ = {k: v for k, v in row.iteritems()}
+                row_['descr'] = row_["descr"].replace("\\n", "\n")
                 states_db.append(row_)
                 if row_['state'] in dist_cnt.keys():
                     dist_cnt[row_['state']] += 1
