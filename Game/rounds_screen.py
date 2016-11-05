@@ -172,7 +172,7 @@ class DistrictsScroll(ScrollView):
 
     def set_default_btn(self, state):
         default_button = self.layouts[state].children[-1]
-        default_button.background_color = [255, 255, 255, 0.3]
+        #default_button.background_color = [255, 255, 255, 0.3]
         self.area_selected = default_button.text.split(']')[1]
         states = sorted(set([self.states_db[i]['state'] for i in range(len(self.states_db))]))
         self.round_selected = 1

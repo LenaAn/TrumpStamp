@@ -2,6 +2,9 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.button import Button
 from base_screen import BaseScreen
 from kivy.core.text import Label as CoreLabel
+from kivy.uix.scrollview import ScrollView
+
+from kivy.uix.label import Label
 from kivy.uix.gridlayout import GridLayout
 
 def restore_state(func):
@@ -37,6 +40,22 @@ class CreditIcon(Button):
         self.background_color = (0.5, 0.5, 0.5, 1)
 
 
+
+
+class CreditsScroll(ScrollView):
+
+    def __init__(self, **kwargs):
+        super(CreditsScroll, self).__init__(**kwargs)
+        self.layout = GridLayout(cols=1, spacing=0, size_hint_y=None)
+        self.layout.bind(minimum_height=self.layout.setter('height'))
+
+    def late_init(self, text, **kwargs):
+        self.add_widget(self.layout)
+        for line in text.splitlines():
+            print(line)
+            self.layout.add_widget(Label(text=line, size_hint_y=None, height=40))
+
+
 class CreditScreen(BaseScreen):
     POSITIONS_X = {0: 700 / 2048.0}
     POSITIONS_Y = {0: (1536. - 1400) / 1536.0}
@@ -59,9 +78,9 @@ class CreditScreen(BaseScreen):
         self.back_button.size_hint = self.SIZES[0]
         self.back_button.render()
 
-        self.credit_text =  self.ids['credit_text']
+        self.credits_scroll =  self.ids['credits_scroll']
         with open('assets/credits/credits_text.txt', 'r') as f:
-            self.credit_text.text = f.read()
+            self.credits_scroll.late_init(f.read())
 
 
 

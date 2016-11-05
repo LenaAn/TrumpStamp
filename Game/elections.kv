@@ -67,7 +67,7 @@
         size_hint: 0.65, 0.15
         # size_hint: (0.2, 0.2)
         text: "[ ] Quiet mode\nNo music of sound effects if checked"
-        font_size: '25 dp'
+        font_size: '18 dp'
         id: check_box_1
         font_hinting: "mono"
 
@@ -77,7 +77,7 @@
         size_hint: 0.65, 0.15
         # size_hint: (0.2, 0.2)
         text: "[ ] Open Play\nOpponent's cards are visible if checked"
-        font_size: '25 dp'
+        font_size: '18 dp'
         id: check_box_2
         font_hinting: "mono"
 
@@ -94,6 +94,15 @@
         Rectangle:
             pos: self.pos
             size: self.size
+
+<CreditsScroll>:
+    canvas:
+        Color:
+            rgba: 1, 1, 1, 0
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
 
 <RoundsScreen>:
     rotation: 90
@@ -156,12 +165,12 @@
         background_normal: 'assets/credits/btn_back_active.png'
         background_down: 'assets/credits/btn_back_active.png'
 
-    Label:
-        id: credit_text
-        pos_hint: {'x': 100. / 2048.0, 'y': (1536.0 - 1500.) / 1536.0}
-        halign: 'left'
-        valign: 'top'
-        bold: True
+    CreditsScroll:
+        id: credits_scroll
+        size_hint: (0.6, 0.4)
+        pos_hint: {"center_x": 0.5, "center_y": 0.45}
+
+
 
 
 <EndGameIcon>:
@@ -238,114 +247,114 @@
         id: trump_partisans
         pos_hint: {'x': 686.0/2048.0, 'y': 424.0/1536.0}
         size_hint: 0.025, 0.033
-        font_size: '21 sp'
-        bold: False
+        font_size: '18 sp'
+        bold: True
         text: str(trump_player.partisans)
     Label:
         id: trump_swing
         pos_hint: {'x': 1426.0/2048.0, 'y': 424.0/1536.0}
         size_hint: 0.025, 0.033
-        font_size: '21 sp'
-        bold: False
+        font_size: '18 sp'
+        bold: True
         text: str(trump_player.swing)
     Label:
         id: trump_news
         pos_hint: {'x': 0.18, 'y': 0.53}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(trump_player.news)
     Label:
         id: trump_hype
         pos_hint: {'x':370.0/2048.0, 'y':689.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(trump_player.hype)
     Label:
         id: trump_cash
         pos_hint: {'x':370.0/2048.0, 'y':564.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(trump_player.cash)
     Label:
         id: trump_media
         pos_hint: {'x': 95.0/2048.0, 'y': 814.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(trump_player.media)
     Label:
         id: trump_mojo
         pos_hint: {'x':95.0/2048.0, 'y':689.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(trump_player.mojo)
     Label:
         id: trump_money
         pos_hint: {'x':95.0/2048.0, 'y':564.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(trump_player.money)
     Label:
         id: hillary_partisans
         pos_hint: {'x':300.0/2048.0, 'y':955.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '21 sp'
-        bold: False
+        font_size: '18 sp'
+        bold: True
         text: str(hillary_player.partisans)
     Label:
         id: hillary_swing
         pos_hint: {'x':1050.0/2048.0, 'y':955.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '21 sp'
-        bold: False
+        font_size: '18 sp'
+        bold: True
         text: str(hillary_player.swing)
     Label:
         id: hillary_news
         pos_hint: {'x': 1790.0/2048.0, 'y': 814.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(hillary_player.news)
         # text: str('nw')
     Label:
         id: hillary_hype
         pos_hint: {'x':1790.0/2048.0, 'y':689.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(hillary_player.hype)
     Label:
         id: hillary_cash
         pos_hint: {'x':1790.0/2048.0, 'y':564.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(hillary_player.cash)
     Label:
         id: hillary_media
         pos_hint: {'x': 1515.0/2048.0, 'y': 814.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(hillary_player.media)
     Label:
         id: hillary_mojo
         pos_hint: {'x':1515.0/2048.0, 'y':689.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(hillary_player.mojo)
     Label:
         id: hillary_money
         pos_hint: {'x':1515.0/2048.0, 'y':564.0/1536.0}
         size_hint: (50.0/2048.0), (50.0/1536.0)
-        font_size: '15 sp'
-        bold: False
+        font_size: '12 sp'
+        bold: True
         text: str(hillary_player.money)
     Label:
         id: state_area
