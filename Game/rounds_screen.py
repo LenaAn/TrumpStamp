@@ -198,13 +198,12 @@ class DescriptionScroll(FloatLayout):
         self.pos_hint = kwargs['pos_hint']
         self.size_hint = kwargs['size_hint']
 
-        self.label = Label(text="azaza\nololo\nhahahha", font_size="12sp",
+        self.label = Label(text="azaza\nololo\nhahahha", font_size="10sp",
                            pos_hint={"x": 0.15, "y": 0.4},
-                           size=(100, 200),
                            size_hint_y=None)
 
         self.add_widget(self.label)
-        self.label.text_size = (self.label.width, None)
+        self.label.text_size = (self.width + 100, None)
 
         self.update_widgets((self.states_db[0]['district'], 0))
 
