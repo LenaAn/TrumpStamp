@@ -47,9 +47,9 @@ class Card(Button):
             self.background_normal = self.image
             self.background_down = self.image
         if self.owner_id == 0:
-            self.background_disabled_normal = 'assets/cards/trump/0000.png'
+            self.background_disabled_normal = 'assets/cards/0000.png'
         else:
-            self.background_disabled_normal = 'assets/cards/hillary/1000.png'
+            self.background_disabled_normal = 'assets/cards/1000.png'
         self.counter_for_expand = 0
         self.touch_moving = False
         self.touch_moving = False
@@ -384,8 +384,7 @@ class CardFactory(object):
         self.game = game
 
     def get_image_path_by_img_id(self, prefix, img_t_or_img_h):
-        normalized_image_id = str(int(img_t_or_img_h) - 100).zfill(4)
-        return os.path.join(prefix, normalized_image_id + ".png")
+        return os.path.join(prefix, str(img_t_or_img_h) + ".png")
 
     def get_card(self, card_id, owner_id):
         """Create card."""
