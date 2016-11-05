@@ -1,8 +1,8 @@
 #! /bin/bash
 [ "$#" -ne 5 ] && { echo "Usage: $0 <apk_version> <key_store> <key_name> <store_password> <key_password>"; exit -1; }
 
-#mkdir -p build/android/armeabi-v7a
-#mkdir -p build/android/x86
+mkdir -p build/android/armeabi-v7a
+mkdir -p build/android/x86
 #mkdir -p build/android/all
 
 echo "==================== BUILDING APK FOR armeabi-v7a ======================="
