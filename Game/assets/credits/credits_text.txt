@@ -1,66 +1,144 @@
+TRUMP STAMP
+ver.1.0
 
-asdkjalsd
-asdjalsdkjalsd
-asd
-as
-da
-sd
-askda;sdk;asldk
-askd
-;aslkd;alksd;laks;dlka;sd
+Based on classic Arcomage
 
-asdasd
-asd
-asdasdasd
-asdkjalsd
-asdjalsdkjalsd
-asd
-as
-da
-sd
-askda;sdk;asldk
-askd
-;aslkd;alksd;laks;dlka;sd
+DIRECTOR
+Yuri Ammosov
 
-asdasd
-asd
-asdasdasd
-asdkjalsd
-asdjalsdkjalsd
-asd
-as
-da
-sd
-askda;sdk;asldk
-askd
-;aslkd;alksd;laks;dlka;sd
+PRODUCER 
+Alex Tronin
 
-asdasd
-asd
-asdasdasd
-asdkjalsd
-asdjalsdkjalsd
-asd
-as
-da
-sd
-askda;sdk;asldk
-askd
-;aslkd;alksd;laks;dlka;sd
+STORY
+Yuri Ammosov, Vladimir Nikishkin, Alex Tronin
 
-asdasd
-asd
-asdasdasd
-asdkjalsd
-asdjalsdkjalsd
-asd
-as
-da
-sd
-askda;sdk;asldk
-askd
-;aslkd;alksd;laks;dlka;sd
+CAST
 
-asdasd
-asd
-asdasdasd
+Donald Trump as TRUMP
+Hillary Clinton as HILLARY
+
+Andrei Stepanov as DEVELOPER WARLORD
+Anastasia Torunova as DEVELOPER AMAZON
+Lena Anysheva as DEVELOPER HERO
+Tatiana Gaintseva as DEVELOPER FAIRY
+Sofia Potapova as DEVELOPER SORCERESS
+Miron Levkov as GAME LOGIC MAGE 
+Alexander Golovanov as AI WIZARD
+Anna Medvedeva as INTERFACE NINJA
+Aliaksei Semchankau as SOUND ARCHPRIEST
+Vadim Mazaev as GAME ENGINE PALADIN
+
+Special thanks to: 
+Arseny Tarasov, Adric Constantinou-Etheredge, Rustem Hasanov, Yury Kulakov, Alex Pisarev, Kirill Pankratov, Yuri Panchul, anton, artvdovenko, Alexey, Oleg Byakhov, Dmitry, L, Yegor Bykovsky, Gleb Tertychnyy, konstantin, Soshikan, Almir, salamence1996, Daria, GeorgeTaldom, Sergey Chernyak, Sabir Shaykhlislamov, Andrew Gershfeld, Denis Dyzhin, Alexander, Denis Remchukov, David Yang, Kims Kosmacevs, Dima Zubanov, Philip Ogulnik, Elena Rytsareva, Ilya Rudakov, Ilia, Andrew
+
+MUSIC
+
+"Hillary Anthem" (L'Internationale) by Eugene Pottier, Pierre De Geyter, performed by Alistair Hulett 
+"Trump March" (Die Fahne Hoch) by Horst Wessel, performed by SS Choir 
+
+ART / CAMERA
+Yuri Ammosov, Donkey Hotey
+
+IMAGES CREDITS
+
+https://c5.staticflickr.com/4/3263/2664465492_ced6f7349e_b.jpg
+https://commons.wikimedia.org/wiki/File:Trump_vs._Clinton_by_state.svg
+https://twitter.com/realDonaldTrump/status/728297587418247168/photo/1?ref_src=twsrc%5Etfw
+https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Donald_Trump_Signs_The_Pledge_21.jpg/1280px-Donald_Trump_Signs_The_Pledge_21.jpg
+https://twitter.com/realDonaldTrump/status/725501700933586946
+https://www.youtube.com/channel/UCAql2DyGU2un1Ei2nMYsqOA
+https://pixabay.com/en/soap-bubbles-green-farbenspiel-tree-1451092/
+https://twitter.com/realDonaldTrump/status/723957355495473152
+https://www.flickr.com/photos/evarinaldiphotography/15035240939/sizes/l/
+https://www.opensecrets.org/pres16/candidate.php?id=N00023864
+https://www.zerocensorship.com/uncensored/isis/islamic-state-execution-of-5-spies-in-salahuddin-iraq-254131
+https://www.flickr.com/photos/47725232@N06/5909340835/sizes/l/
+https://pixabay.com/en/crowd-of-people-crowd-football-fans-1488213/
+https://commons.wikimedia.org/wiki/File:Gop_debate.jpg
+http://assets.donaldjtrump.com/gallery/656/_rkg6372a.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Porco_de_batom.jpeg/617px-Porco_de_batom.jpeg
+https://www.youtube.com/watch?v=2Mgjqj8NrCI
+https://pixabay.com/en/marketing-online-social-media-online-1427787/
+https://pixabay.com/en/money-dollars-success-business-1428590/
+https://www.flickr.com/photos/119886413@N05/13056431824/sizes/l/
+https://www.greatamericapac.com/
+https://pixabay.com/en/trouser-pockets-empty-jeans-1439412/
+https://www.youtube.com/watch?v=2Mgjqj8NrCI
+https://www.facebook.com/NOLAPDOGMEDIA/photos/a.196192750423844.47401.196191323757320/1132310906812019/?type=3
+https://www.flickr.com/photos/22280677@N07/2522851312/sizes/l/
+https://www.flickr.com/photos/89355994@N05/8136434824/sizes/l/
+https://www.flickr.com/photos/janitors/10609587913/sizes/l/
+https://pixabay.com/en/niqab-religion-woman-muslim-girl-1621517/
+https://shop.donaldjtrump.com/products/official-donald-trump-make-america-great-again-cap-red
+https://pixabay.com/static/uploads/photo/2015/06/17/16/47/maps-812736_960_720.png
+https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D1%80%D0%B0%D0%B4_%D0%B2_%D1%87%D0%B5%D1%81%D1%82%D1%8C_70-%D0%BB%D0%B5%D1%82%D0%B8%D1%8F_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B9_%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B_-_40.jpg
+https://commons.wikimedia.org/wiki/File:President_Barack_Obama%27s_long_form_birth_certificate.jpg
+https://www.flickr.com/photos/italianembassy/8493192858/sizes/l/
+https://www.youtube.com/watch?v=XFPqsxgimWM
+https://pixabay.com/en/banner-header-man-silhouette-958944/
+https://www.youtube.com/watch?v=XEcH6cI2n4A
+https://www.flickr.com/photos/perspective/2431626005/sizes/l/
+https://www.flickr.com/photos/wonderlane/3370164315/sizes/l
+https://en.wikipedia.org/wiki/File:Second_Revolution_Flag_2x3.svg
+https://commons.wikimedia.org/wiki/File:UK_location_in_the_EU_2016.svg
+http://www.publicdomainpictures.net/view-image.php?image=114577&picture=atlantic-city
+https://commons.wikimedia.org/wiki/File:A_U.S._flag_hangs_in_front_of_a_burning_structure_in_Black_Forest,_Colo.,_June_12,_2013_130612-F-CD000-031.jpg
+https://www.flickr.com/photos/dmountain/516409288
+https://b0ltai.org/2016/07/
+https://pixabay.com/en/road-sign-attention-note-scam-464641/
+https://www.flickr.com/photos/stinkiepinkie_infinity/2660253489
+https://commons.wikimedia.org/wiki/File:Secretary_Clinton_Holds_a_Working_Lunch_With_Haitian_President-Elect_Martelly_(5639301974).jpg
+https://commons.wikimedia.org/wiki/File:Press_conference_at_the_GAVI_Alliance_pledging_event_(5828357407).jpg
+https://commons.wikimedia.org/wiki/File:Secretary_Clinton_and_Tamil_Nadu_Chief_Minister_Javalaithaa_Shake_Hands.jpg
+https://www.youtube.com/channel/UCLRYsOHrkk5qcIhtq033bLQ
+https://pixabay.com/en/hot-air-balloons-hot-air-ballooning-439331/
+https://m.hrc.onl/secretary/06-cta/join-the-campaign/hrc-bg-join-the-campaign-780x520.jpg
+https://www.flickr.com/photos/evarinaldiphotography/15035240939/sizes/l/
+https://www.opensecrets.org/pres16/candidate.php?id=N00000019
+https://www.zerocensorship.com/uncensored/isis/shooting-machine-guns-rifles-during-battle-in-syria-295373
+https://www.flickr.com/photos/47725232@N06/5909340835/sizes/l/
+https://www.instagram.com/p/BA0VNbREPrp/
+https://www.youtube.com/watch?v=gP_t1h9vblE
+https://commons.wikimedia.org/wiki/File:Hillary_Clinton_(24005922924).jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Porco_de_batom.jpeg/617px-Porco_de_batom.jpeg
+https://www.instagram.com/p/BIJiCkih3jB/
+https://pixabay.com/en/money-card-business-credit-card-256314/
+https://pixabay.com/en/money-finance-wealth-currency-163502/
+https://pixabay.com/en/yacht-boot-ship-powerboat-yachts-188901/
+http://prioritiesusaaction.org/
+http://www.olivertacke.de/wp-content/uploads/2010/12/wikileaks-information_wants_to_be_free-3_colors_transparent_white.svg
+https://commons.wikimedia.org/wiki/File:Hillary_Clinton_Testimony_to_House_Select_Committee_on_Benghazi.png
+https://www.facebook.com/NOLAPDOGMEDIA/photos/a.196192750423844.47401.196191323757320/1132310906812019/?type=3
+https://www.flickr.com/photos/perspective/16176253798/sizes/l/
+http://www.politifake.org/trump-the-future-back-future-donald-trump-biff-tannen-politics-64039.html
+http://www.breitbart.com/big-hollywood/2016/07/19/urban-outfitters-selling-anti-donald-trump-mugs-books-pro-hillary-clinton-t-shirts/
+https://www.hillaryclinton.com/feed/12-moments-from-the-2016-democratic-national-convention-youll-want-to-see-or-watch-again/
+https://www.flickr.com/photos/notionscapital/24754314283/sizes/o/
+https://www.instagram.com/p/BAa4WC6EPmq/
+https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D1%80%D0%B0%D0%B4_%D0%B2_%D1%87%D0%B5%D1%81%D1%82%D1%8C_70-%D0%BB%D0%B5%D1%82%D0%B8%D1%8F_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B9_%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B_-_40.jpg
+https://commons.wikimedia.org/wiki/File:President_Clinton%27s_Latino_Appointees.png
+https://twitter.com/juliaioffe/status/725755420153778176/photo/1
+https://commons.wikimedia.org/wiki/File:Emma_Sulkowicz,_Mattress_Performance,_19_May_2015_(cropped).JPG
+https://www.instagram.com/p/BIbmgDchFy1/
+https://commons.wikimedia.org/wiki/File:Gerrymander3-4.svg
+https://commons.wikimedia.org/wiki/File:May_Day_Immigration_March_LA07.jpg
+https://twitter.com/BernieSanders/status/757628566297276416
+https://plus.google.com/u/0/106632108068498605377/posts
+https://commons.wikimedia.org/wiki/File:Black_Lives_Matter_protest_against_St._Paul_police_brutality_(21552438456).jpg
+https://www.instagram.com/p/BB_IJs1EPsM/
+https://www.flickr.com/photos/dmountain/516409288
+https://www.youtube.com/watch?v=9yFDVjUDPxQ
+https://pixabay.com/en/road-sign-attention-note-scam-464641/
+https://www.flickr.com/photos/oter/3718720898/sizes/l
+https://www.flickr.com/photos/appledave/2814789540/sizes/l
+https://www.instagram.com/p/BKMtdN5Bam5/
+https://pixabay.com/en/lungs-organ-anatomy-bronchia-154282/
+http://static.businessinsider.com/image/53e13135ecad04626ed8b0e8/image.jpg
+https://www.instagram.com/p/BK46q9Yhr4u/
+https://www.instagram.com/p/BMCq8veAaii/?taken-by=ivankatrump&hl=en
+http://cdn.thedailybeast.com/content/dailybeast/articles/2016/05/26/how-pepe-the-frog-became-a-nazi-trump-supporter-and-alt-right-symbol/jcr:content/image.crop.800.500.jpg/48807968.cached.jpg
+
+
+All characters and persons are parodies created with a sole intent to express sarcasm, irony and humor
+
+(c) 2016  by Yuri Ammosov et al
