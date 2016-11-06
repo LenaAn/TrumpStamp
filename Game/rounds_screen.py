@@ -293,19 +293,20 @@ class RoundsScreen(BaseScreen):
                                      pos_hint={'x': 138 / 2048.0, 'y': 400.0 / 1536.0},
                                      states_db=states_db)
 
-        self.set_new_game()
+        # self.set_new_game()
 
     @restore_state
     def pressed_back(self, *args):
         self.sm.current = 'startscreen'
 
     def set_new_game(self):
-        self.game = elections_game.ElectionsGame(self.sm, name="electionsgame")
+        self.game = elections_game.ElectionsGame(self.sm, name="electionsgame", bot_name=self.bot_name)
         self.game.set_start_screen(self.menu_screen)
 
     def set_bot(self, bot_name):
         self.bot_name = bot_name
         print('reounds:set_bot: ', bot_name, self.bot_name)
+        # self.game.background = 'assets/hillary_main_field.png'
         # if self.game:
         #     self.game.set_bot(self.bot_name)
 
@@ -315,6 +316,7 @@ class RoundsScreen(BaseScreen):
         area = self.dist_scroll.area_selected
         round_id = self.dist_scroll.round_selected
         print('pressed_play: ', self.bot_name)
+        self.set_new_game()
         self.game.set_bot(self.bot_name)
         self.game.set_store(self.store)
         self.game.set_round(round_id, state, area)

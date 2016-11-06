@@ -33,6 +33,7 @@ class Card(Button):
         self.cost_value = kwargs.pop('cost_value')
         self.game = kwargs.pop('game')
         self.owner_id = kwargs.pop('owner_id')
+        self.is_bot = kwargs.pop('is_bot')
         self.actions = kwargs.pop('actions')
         self.image = kwargs.pop('image_path')
         self.background = kwargs.pop('background')
@@ -220,7 +221,7 @@ class Card(Button):
         #                            'center_y':  y_pos / 1536.0},
         #                       angle=rotate_angle,
         #                       duration=0.5) + Animation(duration=5)
-        if self.owner_id:
+        if self.is_bot:
             x_pos = 848.0
         else:
             x_pos = 1194.0
@@ -234,7 +235,7 @@ class Card(Button):
     def _build_drop_anim(self):
         """Build drop animation object."""
         y_key, y_val = self.get_y_key_val()
-        if self.owner_id:
+        if self.is_bot:
             return (Animation(pos_hint={y_key: y_val + 0.1}, duration=0.2) +
                     Animation(opacity=0, duration=0.2))
         else:
@@ -311,12 +312,12 @@ about y in pos_hint, possible key_value pairs: {}".format(key_values))
                         Card.current_zoomed_in_card.zoom_out()
                     self.zoom_in()
             if touch.pos[1] - self.orig_pos[1] > 20:
-                if self.owner_id:
+                if self.is_bot:
                     self.drop()
                 else:
                     self.use()
             if self.orig_pos[1] - touch.pos[1] > 20:
-                if self.owner_id:
+                if self.is_bot:
                     self.use()
                 else:
                     self.drop()
@@ -386,10 +387,11 @@ class CardFactory(object):
     def get_image_path_by_img_id(self, prefix, img_t_or_img_h):
         return os.path.join(prefix, str(img_t_or_img_h) + ".png")
 
-    def get_card(self, card_id, owner_id):
+    def get_card(self, card_id, owner_id, is_bot):
         """Create card."""
         card_data = dict(self.db[card_id - 1])
         card_data['owner_id'] = owner_id
+        card_data['is_bot'] = is_bot
         card_data['description'] = card_data['description'].replace('*', '; ')
         if owner_id == 0:
             card_data['title'] = card_data['t_title'].replace('*', ' ')

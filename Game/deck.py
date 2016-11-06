@@ -11,7 +11,7 @@ class Deck():
         """Init deck."""
         self.player = player
         self.num_deals = 0
-        self.cards = [card_factory.get_card(i, player.get_player_id()) for i in xrange(1, 54)]
+        self.cards = [card_factory.get_card(i, player.get_player_id(), player.bot) for i in xrange(1, 54)]
         self.returned_cards = []
 
     def get_owner(self):

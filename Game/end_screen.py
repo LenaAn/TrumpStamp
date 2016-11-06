@@ -107,7 +107,7 @@ class EndScreen(BaseScreen):
     def pressed_restart_game(self, *args):
         SoundManager.stop_audio(self.sound_tramp_path)
         SoundManager.stop_audio(self.sound_hillary_path)
-        self.game = elections_game.ElectionsGame(self.sm, name="electionsgame")
+        self.game = elections_game.ElectionsGame(self.sm, name="electionsgame", bot_name=self.bot_name)
         self.game.set_bot(self.bot_name)
         print('pressed_restart_game')
         self.game.set_store(self.store)

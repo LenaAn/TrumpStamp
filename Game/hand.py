@@ -39,8 +39,8 @@ class Hand():
                 card.show()
             else:
                 card.hide()
-            pos_hint = {'center_x': self.POSITIONS_X[self.player.player_id][i]}
-            if self.player.player_id == 1:
+            pos_hint = {'center_x': self.POSITIONS_X[self.player.bot][i]}
+            if self.player.bot:
                 pos_hint['top'] = self.POSITIONS_Y[1]
             else:
                 pos_hint['y'] = self.POSITIONS_Y[0]

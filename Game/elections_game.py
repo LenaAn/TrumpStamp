@@ -14,8 +14,10 @@ from kivy.animation import Animation
 from player import Player
 from base_screen import BaseScreen
 import end_screen
+from kivy.graphics import Rectangle
 import menu
 from kivy.uix.screenmanager import ScreenManager, Screen, FadeTransition
+
 from bots import *
 import tracker
 
@@ -26,7 +28,6 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 round_csv = os.path.join(SCRIPT_DIR, 'rounds538.csv')
 cards_csv = os.path.join(SCRIPT_DIR, 'cards.csv')
 
-
 class ElectionsGame(BaseScreen):
     """
        This class represents the game.
@@ -34,10 +35,33 @@ class ElectionsGame(BaseScreen):
     As a Kivy object it represents the game field and is a root for all other
     objects. As a general class it stores all the stuff in the game.
     """
+    LABEL_NAMES = ['partisans', 'swing', 'news', 'hype', 'cash', 'media', 'mojo', 'money']
+    LABEL_POSITIONS = {0: [{'x':686.0/2048.0, 'y':424.0/1536.0},
+                            {'x':1426.0/2048.0, 'y':424.0/1536.0},
+                            {'x':370.0/2048.0, 'y':814.0/1536.0},
+                            {'x':370.0/2048.0, 'y':689.0/1536.0},
+                            {'x':370.0/2048.0, 'y':564.0/1536.0},
+                            {'x':95.0/2048.0, 'y':814.0/1536.0},
+                            {'x':95.0/2048.0, 'y':689.0/1536.0},
+                            {'x':95.0/2048.0, 'y':564.0/1536.0}],
+                        1: [{'x':300.0/2048.0, 'y':955.0/1536.0},
+                            {'x':1050.0/2048.0, 'y':955.0/1536.0},
+                            {'x':1790.0/2048.0, 'y':814.0/1536.0},
+                            {'x':1790.0/2048.0, 'y':689.0/1536.0},
+                            {'x':1790.0/2048.0, 'y':564.0/1536.0},
+                            {'x':1515.0/2048.0, 'y':814.0/1536.0},
+                            {'x':1515.0/2048.0, 'y':689.0/1536.0},
+                            {'x':1515.0/2048.0, 'y':564.0/1536.0}]}
 
     def __init__(self, sm, **kwargs):
         """Init game."""
+        self.background_path = 'assets/{}_bot_main_field.png'.format(kwargs['bot_name'])
         super(ElectionsGame, self).__init__(**kwargs)
+        if kwargs['bot_name'] == 'trump':
+            self.LABEL_POSITIONS = {0 : self.LABEL_POSITIONS[1], 1 : self.LABEL_POSITIONS[0]}
+        for i, name in enumerate(['trump', 'hillary']):
+            for j, label in enumerate(self.LABEL_NAMES):
+                self.ids['{}_{}'.format(name, label)].pos_hint = self.LABEL_POSITIONS[i][j]
         self.card_factory = None
         self.sm = sm
         self.menu_icon = self.ids['Menu']
@@ -63,6 +87,7 @@ class ElectionsGame(BaseScreen):
         """Set bot player."""
         print(self.bot_name, bot_name)
         self.bot_name = bot_name
+
         if bot_name == 'trump':
             self.trump = RandomPressBot(self.ids['trump_player'])
             self.hillary = self.ids['hillary_player']
