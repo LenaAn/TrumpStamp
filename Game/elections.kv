@@ -219,7 +219,14 @@
         Ellipse:
             pos: self.pos
             size: self.size
-            source: 'assets/buttons/btn_menu_active.png'
+            source: 'assets/buttons/menu_btn_p.png'
+
+<HelpButton>:
+    canvas:
+        Ellipse:
+            pos: self.pos
+            size: self.size
+            source: 'assets/buttons/help_btn_p.png'
 
 <ElectionsGame>:
     rotation: 90
@@ -233,6 +240,10 @@
         id: Menu
         size_hint: 0.04, 0.05
         pos_hint: {'x':0.94, 'y':0.93}
+    HelpButton:
+        id: Help
+        size_hint: 0.04, 0.05
+        pos_hint: {'x':0.8, 'y':0.93}
     Player:
         id: trump_player
         pos_hint: {'x':.2, 'y':0.03}

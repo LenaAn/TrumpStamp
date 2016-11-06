@@ -16,6 +16,7 @@ from base_screen import BaseScreen
 import end_screen
 from kivy.graphics import Rectangle
 import menu
+import help
 from kivy.uix.screenmanager import ScreenManager, Screen, FadeTransition
 
 from bots import *
@@ -65,6 +66,7 @@ class ElectionsGame(BaseScreen):
         self.card_factory = None
         self.sm = sm
         self.menu_icon = self.ids['Menu']
+        self.help_icon = self.ids['Help']
         self.menu_screen = None
         self.trump = None
         self.hillary = None

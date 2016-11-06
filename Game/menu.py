@@ -31,7 +31,7 @@ class MenuButton(ButtonBehavior, Widget):
         for child in self.parent.children:
             child.disabled = False
         with self.canvas:
-            Ellipse(source='assets/buttons/btn_menu_inactive.png', pos=self.pos, size=self.size)
+            Ellipse(source='assets/buttons/menu_btn_p.png', pos=self.pos, size=self.size)
         print "continue game"
 
     def continue_game_from_restart(self, button):
@@ -42,7 +42,7 @@ class MenuButton(ButtonBehavior, Widget):
         for child in self.parent.children:
             child.disabled = False
         with self.canvas:
-            Ellipse(source='assets/buttons/btn_menu_inactive.png', pos=self.pos, size=self.size)
+            Ellipse(source='assets/buttons/menu_btn_p.png', pos=self.pos, size=self.size)
         print "continue game"
 
     def continue_game_from_end_game(self, button):
@@ -53,7 +53,7 @@ class MenuButton(ButtonBehavior, Widget):
         for child in self.parent.children:
             child.disabled = False
         with self.canvas:
-            Ellipse(source='assets/buttons/btn_menu_inactive.png', pos=self.pos, size=self.size)
+            Ellipse(source='assets/buttons/menu_btn_p.png', pos=self.pos, size=self.size)
         print "continue game"
 
     def start_new_game(self, *args):
@@ -110,10 +110,9 @@ class MenuButton(ButtonBehavior, Widget):
         self.end_game_button.pos_hint = {'x': 0.35, 'y': 0.39}
         self.end_game_button.bind(on_press=self.start_new_game)
 
-
     def on_press(self):
         with self.canvas:
-            Ellipse(source='assets/buttons/btn_menu_active.png', pos=self.pos, size=self.size)
+            Ellipse(source='assets/buttons/menu_btn_a.png', pos=self.pos, size=self.size)
 
         for child in self.parent.children:
             child.disabled = True
