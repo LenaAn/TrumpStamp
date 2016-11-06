@@ -36,8 +36,8 @@ class ElectionsGame(BaseScreen):
     objects. As a general class it stores all the stuff in the game.
     """
     LABEL_NAMES = ['partisans', 'swing', 'news', 'hype', 'cash', 'media', 'mojo', 'money']
-    LABEL_POSITIONS = {0: [{'x':686.0/2048.0, 'y':424.0/1536.0},
-                            {'x':1426.0/2048.0, 'y':424.0/1536.0},
+    LABEL_POSITIONS = {0: [{'x':686.0/2048.0, 'y':425.0/1536.0},
+                            {'x':1426.0/2048.0, 'y':425.0/1536.0},
                             {'x':370.0/2048.0, 'y':814.0/1536.0},
                             {'x':370.0/2048.0, 'y':689.0/1536.0},
                             {'x':370.0/2048.0, 'y':564.0/1536.0},
