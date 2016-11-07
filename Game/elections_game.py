@@ -210,6 +210,12 @@ class ElectionsGame(BaseScreen):
                 self.hillary.set_winner(True)
                 return True, 'Hillary'
             # No winner yet
+            elif self.trump.check_resources():
+                self.trump.set_winner(True)
+                return True, 'Trump'
+            elif self.hillary.check_resources():
+                self.hillary.set_winner(True)
+                return True, 'Hillary'
             else:
                 # print 'No winner yet'
                 return False, None

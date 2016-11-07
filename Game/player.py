@@ -148,3 +148,13 @@ class Player(Widget):
             resource_property = self.property(resource)
             resource_property_value = resource_property.get(self)
             resource_property.set(self, increment_property_value + resource_property_value)
+
+    def check_resources(self):
+        for i, resource in (('media', 'news'), ('mojo', 'hype'), ('money', 'cash')):
+            resource_property = self.property(resource)
+            resource_property_value = resource_property.get(self)
+            if resource_property_value >= 300:
+                return True
+        return False
+
+            
