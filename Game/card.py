@@ -379,7 +379,8 @@ class CardFactory(object):
                 self.db.append(row_)
         self.images_path = images_path or {'trump': 'assets/cards',
                                            'hillary': 'assets/cards'}
-        self.sound_path = sound_path or 'assets/stubs/Sounds/card.wav'
+        self.sound_path = sound_path or 'assets/sounds/card_move.wav'
+        self.sound_scream = 'assets/sounds/w_scream16.wav'
         #self.background_path = background_path or 'assets/card00.png'
         self.background_path = background_path or 'assets/' + str(game.get_bot()) + '000.png'
         self.game = game
@@ -410,6 +411,10 @@ class CardFactory(object):
                    [card_data['act3_value'], card_data['act3_type'], card_data['act3_side']]]
         card_data['actions'] = actions
         card_data['sound'] = self.sound_path
+
+        if card_data['img_h'] == '1054':
+            card_data['sound'] = self.sound_scream
+
         card_data['background'] = self.background_path
 
         card = Card(game=self.game, **card_data)

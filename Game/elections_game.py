@@ -22,6 +22,8 @@ from kivy.uix.screenmanager import ScreenManager, Screen, FadeTransition
 from bots import *
 import tracker
 
+from sound_manager import SoundManager
+
 kivy.require('1.7.2')
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -53,6 +55,8 @@ class ElectionsGame(BaseScreen):
                             {'x':1515.0/2048.0, 'y':814.0/1536.0},
                             {'x':1515.0/2048.0, 'y':689.0/1536.0},
                             {'x':1515.0/2048.0, 'y':564.0/1536.0}]}
+
+    sound_card_shuffle = 'assets/sounds/card_shuffle.wav'
 
     def __init__(self, sm, **kwargs):
         """Init game."""
@@ -104,6 +108,8 @@ class ElectionsGame(BaseScreen):
         return 1 if self.bot_name == 'hillary' else 0
 
     def set_round(self, round_id, state, area):
+        SoundManager.stop_all_audio()
+        SoundManager.play_audio(self.sound_card_shuffle, loop=False)
         self.round_id = round_id
         self.state = state
         self.area = area

@@ -45,7 +45,8 @@ class Icon(Button):
 class StartScreen(BaseScreen):
     """Start screen class."""
 
-    sound_start = 'assets/sounds/cnn_election.wav'
+    sound_hillary_lvl = 'assets/sounds/hillary_lvl.wav'
+    sound_trump_lvl = 'assets/sounds/trump_lvl.wav'
 
     POSITIONS_X = {0: 1128 / 2048.0,
                    1: 190 / 2048.0,
@@ -61,8 +62,6 @@ class StartScreen(BaseScreen):
     def __init__(self, sm, **kwargs):
         """Init start screen."""
         super(StartScreen, self).__init__(**kwargs)
-
-        SoundManager.play_audio(self.sound_start, loop=True)
 
         trump_data = {'name': 'Trump'}
         hillary_data = {'name': 'Hillary'}
@@ -100,7 +99,8 @@ class StartScreen(BaseScreen):
     @restore_state
     def pressed_trump(self, *args):
         """Trump choice callback."""
-        SoundManager.stop_audio(self.sound_start)
+        SoundManager.stop_all_audio()
+        SoundManager.play_audio(self.sound_trump_lvl, loop=True)
         # self.game.set_bot('hillary')
         # self.sm.switch_to(self.game)
         tracker.tracker.send(tracker.EventBuilder().set(ec="user action",
@@ -111,7 +111,8 @@ class StartScreen(BaseScreen):
     @restore_state
     def pressed_hillary(self, *args):
         """Hillary choice callback."""
-        SoundManager.stop_audio(self.sound_start)
+        SoundManager.stop_all_audio()
+        SoundManager.play_audio(self.sound_hillary_lvl, loop=True)
         #self.game.set_bot('trump')
         #self.sm.switch_to(self.game)
         tracker.tracker.send(tracker.EventBuilder().set(ec="user action",

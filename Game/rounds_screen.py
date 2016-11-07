@@ -18,6 +18,7 @@ from kivy.uix.label import Label
 from kivy.storage.jsonstore import JsonStore
 from os.path import join
 from kivy.core.text import Label as CoreLabel
+from sound_manager import SoundManager
 
 STORE_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -219,6 +220,7 @@ class RoundsScreen(BaseScreen):
     POSITIONS_Y = {0: (1536. - 1400) / 1536.0}
     SIZES = {0: (730 / 2048.0, (1536 - 1340) / 1536.0)}
 
+    sound_card_shuffle = 'assets/sounds/card_shuffle.wav'
 
     def __init__(self, sm, **kwargs):
         """Init start screen."""

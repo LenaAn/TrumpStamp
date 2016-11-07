@@ -20,6 +20,11 @@ class SoundManager(object):
             SoundManager.cache[url].stop()
 
     @staticmethod
+    def stop_all_audio():
+        for url in SoundManager.cache:
+            SoundManager.cache[url].stop()
+
+    @staticmethod
     def set_volume(new_volume):
         SoundManager.volume = new_volume
         for url, sound in SoundManager.cache.items():
