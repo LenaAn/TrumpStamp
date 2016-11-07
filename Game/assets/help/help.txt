@@ -1,9 +1,11 @@
 
-   To win a campaign, you need three M - Media, Money and Mojo. These are your ASSETS.
-   Every turn, Media generates red News, Mojo generates blue Hype and Money generate green Cash.
-   Spend News, Hype and Cash to get even more Media, Mojo and Money or to get more voters.
-   Partisans can only be damaged if no Swing Voters are left or if the card strikes at Partisans.
-   Otherwise, Swing Voters take damage first.
-   The player who loses Partisans and Swing Voters first, loses the game.
-   To play a card, slide it up.
-   To discard a card, slide it down.
+To win a campaign, you need three M - Media, Money and Mojo. 
+These are your ASSETS. Every turn, Media generates red News, 
+Mojo generates blue Hype and Money generate green Cash.
+Spend News, Hype and Cash to get even more Media, Mojo and Money 
+or to get more voters. Partisans can only be damaged if 
+no Swing Voters are left or if the card strikes at Partisans. 
+Otherwise, Swing Voters take damage first. The player who loses 
+Partisans and Swing Voters first, loses the game. 
+To play a card, slide it up.
+To discard a card, slide it down.

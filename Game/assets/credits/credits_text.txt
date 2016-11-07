@@ -9,32 +9,76 @@ Yuri Ammosov
 PRODUCER 
 Alex Tronin
 
+ASSISTANT PRODUCER
+Vladimir Nikishkin
+
 STORY
-Yuri Ammosov, Vladimir Nikishkin, Alex Tronin
+Yuri Ammosov, Vladimir Nikishkin
 
 CAST
 
 Donald Trump as TRUMP
+
 Hillary Clinton as HILLARY
 
-Andrei Stepanov as DEVELOPER WARLORD
-Anastasia Torunova as DEVELOPER AMAZON
-Lena Anysheva as DEVELOPER HERO
-Tatiana Gaintseva as DEVELOPER FAIRY
-Sofia Potapova as DEVELOPER SORCERESS
-Miron Levkov as GAME LOGIC MAGE 
-Alexander Golovanov as AI WIZARD
-Anna Medvedeva as INTERFACE NINJA
-Aliaksei Semchankau as SOUND ARCHPRIEST
-Vadim Mazaev as GAME ENGINE PALADIN
+
+Andrei Stepanov 
+as DEVELOPER WARLORD
+
+Anastasia Torunova 
+as DEVELOPER AMAZON
+
+Lena Anysheva 
+as DEVELOPER HERO
+
+Tatiana Gaintseva 
+as DEVELOPER FAIRY
+
+Sofia Potapova 
+as DEVELOPER SORCERESS
+
+Miron Levkov 
+as GAME LOGIC MAGE 
+
+Alexander Golovanov 
+as AI WIZARD
+
+Anna Medvedeva 
+as INTERFACE NINJA
+
+Aliaksei Semchankau 
+as SOUND ARCHPRIEST
+
+Vadim Mazaev 
+as GAME ENGINE PALADIN
 
 Special thanks to: 
-Arseny Tarasov, Adric Constantinou-Etheredge, Rustem Hasanov, Yury Kulakov, Alex Pisarev, Kirill Pankratov, Yuri Panchul, anton, artvdovenko, Alexey, Oleg Byakhov, Dmitry, L, Yegor Bykovsky, Gleb Tertychnyy, konstantin, Soshikan, Almir, salamence1996, Daria, GeorgeTaldom, Sergey Chernyak, Sabir Shaykhlislamov, Andrew Gershfeld, Denis Dyzhin, Alexander, Denis Remchukov, David Yang, Kims Kosmacevs, Dima Zubanov, Philip Ogulnik, Elena Rytsareva, Ilya Rudakov, Ilia, Andrew
+Arseny Tarasov, 
+Adric Constantinou-Etheredge, 
+Rustem Hasanov, Yury Kulakov, 
+Alex Pisarev, Kirill Pankratov, 
+Yuri Panchul, anton, artvdovenko, 
+Alexey, Oleg Byakhov, Dmitry, L, 
+Yegor Bykovsky, Gleb Tertychnyy, 
+konstantin, Soshikan, Almir, 
+salamence1996, Daria, GeorgeTaldom, 
+Sergey Chernyak, Sabir Shaykhlislamov, 
+Andrew Gershfeld, Denis Dyzhin, 
+Alexander, Denis Remchukov, 
+David Yang, Kims Kosmacevs, 
+Dima Zubanov, Philip Ogulnik, 
+Elena Rytsareva, Ilya Rudakov, 
+Ilia, Andrew
 
 MUSIC
 
-"Hillary Anthem" (L'Internationale) by Eugene Pottier, Pierre De Geyter, performed by Alistair Hulett 
-"Trump March" (Die Fahne Hoch) by Horst Wessel, performed by SS Choir 
+"Hillary Anthem" (L'Internationale) 
+by Eugene Pottier, Pierre De Geyter, 
+performed by Alistair Hulett 
+
+"Trump March" (Die Fahne Hoch) 
+by Horst Wessel, 
+performed by SS Choir 
 
 ART / CAMERA
 Yuri Ammosov, Donkey Hotey
